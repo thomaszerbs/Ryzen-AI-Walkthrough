@@ -1,0 +1,8 @@
+*~
+*.swp
+__pycache__
+*node_modules*
+*.yml
+*_Perf.log
+test.json
+benchmark_scripts
