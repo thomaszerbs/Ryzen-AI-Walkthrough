@@ -1,0 +1,2888 @@
+[
+  {
+    "group_name": "VAIP MyCustomOp::Compute_0",
+    "start": "790920812 ns",
+    "end": "853008240 ns",
+    "duration": "62087428 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "790965196 ns",
+        "end": "853007228 ns",
+        "duration": "62042032 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "790931152 ns",
+        "end": "790964935 ns",
+        "duration": "33783 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "790924499 ns",
+        "end": "790930701 ns",
+        "duration": "6202 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_1",
+    "start": "873250744 ns",
+    "end": "931228760 ns",
+    "duration": "57978016 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "873301660 ns",
+        "end": "931227408 ns",
+        "duration": "57925748 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "873266584 ns",
+        "end": "873301420 ns",
+        "duration": "34836 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "873256345 ns",
+        "end": "873266223 ns",
+        "duration": "9878 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_2",
+    "start": "931812612 ns",
+    "end": "992134970 ns",
+    "duration": "60322358 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "931839152 ns",
+        "end": "992133537 ns",
+        "duration": "60294385 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "931827299 ns",
+        "end": "931838921 ns",
+        "duration": "11622 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "931818823 ns",
+        "end": "931826949 ns",
+        "duration": "8126 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_3",
+    "start": "992715986 ns",
+    "end": "1054400824 ns",
+    "duration": "61684838 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "992740362 ns",
+        "end": "1054399802 ns",
+        "duration": "61659440 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "992728710 ns",
+        "end": "992740141 ns",
+        "duration": "11431 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "992720514 ns",
+        "end": "992728339 ns",
+        "duration": "7825 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_4",
+    "start": "1054979195 ns",
+    "end": "1116612797 ns",
+    "duration": "61633602 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "1055005705 ns",
+        "end": "1116611414 ns",
+        "duration": "61605709 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "1054994364 ns",
+        "end": "1055005485 ns",
+        "duration": "11121 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "1054986008 ns",
+        "end": "1054994023 ns",
+        "duration": "8015 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_5",
+    "start": "1117197360 ns",
+    "end": "1175132995 ns",
+    "duration": "57935635 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "1117222206 ns",
+        "end": "1175131813 ns",
+        "duration": "57909607 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "1117210605 ns",
+        "end": "1117221986 ns",
+        "duration": "11381 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "1117201618 ns",
+        "end": "1117210234 ns",
+        "duration": "8616 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_6",
+    "start": "1175713450 ns",
+    "end": "1233984970 ns",
+    "duration": "58271520 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "1175738197 ns",
+        "end": "1233983347 ns",
+        "duration": "58245150 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "1175726515 ns",
+        "end": "1175737977 ns",
+        "duration": "11462 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "1175718099 ns",
+        "end": "1175726164 ns",
+        "duration": "8065 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_7",
+    "start": "1234580834 ns",
+    "end": "1292857283 ns",
+    "duration": "58276449 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "1234605731 ns",
+        "end": "1292856041 ns",
+        "duration": "58250310 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "1234593919 ns",
+        "end": "1234605521 ns",
+        "duration": "11602 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "1234585423 ns",
+        "end": "1234593558 ns",
+        "duration": "8135 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_8",
+    "start": "1293439221 ns",
+    "end": "1357949469 ns",
+    "duration": "64510248 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "1293467214 ns",
+        "end": "1357948257 ns",
+        "duration": "64481043 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "1293455652 ns",
+        "end": "1293466993 ns",
+        "duration": "11341 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "1293446705 ns",
+        "end": "1293455291 ns",
+        "duration": "8586 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_9",
+    "start": "1358529233 ns",
+    "end": "1418812628 ns",
+    "duration": "60283395 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "1358555612 ns",
+        "end": "1418811355 ns",
+        "duration": "60255743 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "1358542568 ns",
+        "end": "1358555412 ns",
+        "duration": "12844 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "1358534182 ns",
+        "end": "1358542217 ns",
+        "duration": "8035 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_10",
+    "start": "1419399064 ns",
+    "end": "1477825365 ns",
+    "duration": "58426301 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "1419425123 ns",
+        "end": "1477824253 ns",
+        "duration": "58399130 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "1419413050 ns",
+        "end": "1419424923 ns",
+        "duration": "11873 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "1419403963 ns",
+        "end": "1419412689 ns",
+        "duration": "8726 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_11",
+    "start": "1478420398 ns",
+    "end": "1541075336 ns",
+    "duration": "62654938 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "1478445675 ns",
+        "end": "1541074054 ns",
+        "duration": "62628379 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "1478433362 ns",
+        "end": "1478445465 ns",
+        "duration": "12103 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "1478424896 ns",
+        "end": "1478433012 ns",
+        "duration": "8116 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_12",
+    "start": "1541657825 ns",
+    "end": "1602207011 ns",
+    "duration": "60549186 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "1541686459 ns",
+        "end": "1602205879 ns",
+        "duration": "60519420 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "1541670759 ns",
+        "end": "1541686249 ns",
+        "duration": "15490 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "1541662384 ns",
+        "end": "1541670419 ns",
+        "duration": "8035 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_13",
+    "start": "1602798346 ns",
+    "end": "1662295427 ns",
+    "duration": "59497081 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "1602824135 ns",
+        "end": "1662294065 ns",
+        "duration": "59469930 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "1602812022 ns",
+        "end": "1602823734 ns",
+        "duration": "11712 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "1602802805 ns",
+        "end": "1602811681 ns",
+        "duration": "8876 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_14",
+    "start": "1662937068 ns",
+    "end": "1724788971 ns",
+    "duration": "61851903 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "1662963558 ns",
+        "end": "1724787568 ns",
+        "duration": "61824010 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "1662950944 ns",
+        "end": "1662963317 ns",
+        "duration": "12373 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "1662941366 ns",
+        "end": "1662950543 ns",
+        "duration": "9177 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_15",
+    "start": "1725432886 ns",
+    "end": "1784607750 ns",
+    "duration": "59174864 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "1725459185 ns",
+        "end": "1784606467 ns",
+        "duration": "59147282 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "1725447203 ns",
+        "end": "1725458935 ns",
+        "duration": "11732 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "1725437945 ns",
+        "end": "1725446762 ns",
+        "duration": "8817 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_16",
+    "start": "1785273075 ns",
+    "end": "1844791336 ns",
+    "duration": "59518261 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "1785304714 ns",
+        "end": "1844790024 ns",
+        "duration": "59485310 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "1785291569 ns",
+        "end": "1785304414 ns",
+        "duration": "12845 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "1785281731 ns",
+        "end": "1785291089 ns",
+        "duration": "9358 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_17",
+    "start": "1845458965 ns",
+    "end": "1905155132 ns",
+    "duration": "59696167 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "1845489243 ns",
+        "end": "1905153650 ns",
+        "duration": "59664407 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "1845474324 ns",
+        "end": "1845488952 ns",
+        "duration": "14628 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "1845464446 ns",
+        "end": "1845473834 ns",
+        "duration": "9388 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_18",
+    "start": "1905826789 ns",
+    "end": "1966168193 ns",
+    "duration": "60341404 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "1905854321 ns",
+        "end": "1966167001 ns",
+        "duration": "60312680 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "1905841487 ns",
+        "end": "1905854031 ns",
+        "duration": "12544 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "1905831669 ns",
+        "end": "1905840996 ns",
+        "duration": "9327 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_19",
+    "start": "1966835953 ns",
+    "end": "2026421952 ns",
+    "duration": "59585999 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "1966863946 ns",
+        "end": "2026420730 ns",
+        "duration": "59556784 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "1966850561 ns",
+        "end": "1966863655 ns",
+        "duration": "13094 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "1966840902 ns",
+        "end": "1966850080 ns",
+        "duration": "9178 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_20",
+    "start": "2027094100 ns",
+    "end": "2087642034 ns",
+    "duration": "60547934 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "2027121311 ns",
+        "end": "2087640441 ns",
+        "duration": "60519130 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "2027108136 ns",
+        "end": "2027121021 ns",
+        "duration": "12885 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "2027098959 ns",
+        "end": "2027107666 ns",
+        "duration": "8707 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_21",
+    "start": "2088312278 ns",
+    "end": "2146197519 ns",
+    "duration": "57885241 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "2088342826 ns",
+        "end": "2146196417 ns",
+        "duration": "57853591 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "2088327557 ns",
+        "end": "2088342535 ns",
+        "duration": "14978 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "2088317318 ns",
+        "end": "2088327066 ns",
+        "duration": "9748 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_22",
+    "start": "2146861592 ns",
+    "end": "2204348201 ns",
+    "duration": "57486609 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "2146889274 ns",
+        "end": "2204347049 ns",
+        "duration": "57457775 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "2146875538 ns",
+        "end": "2146888983 ns",
+        "duration": "13445 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "2146866221 ns",
+        "end": "2146875057 ns",
+        "duration": "8836 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_23",
+    "start": "2205014878 ns",
+    "end": "2263440629 ns",
+    "duration": "58425751 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "2205042801 ns",
+        "end": "2263438896 ns",
+        "duration": "58396095 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "2205029436 ns",
+        "end": "2205042501 ns",
+        "duration": "13065 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "2205019988 ns",
+        "end": "2205028955 ns",
+        "duration": "8967 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_24",
+    "start": "2264111725 ns",
+    "end": "2324261598 ns",
+    "duration": "60149873 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "2264140499 ns",
+        "end": "2324260456 ns",
+        "duration": "60119957 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "2264127264 ns",
+        "end": "2264140199 ns",
+        "duration": "12935 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "2264117205 ns",
+        "end": "2264126793 ns",
+        "duration": "9588 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_25",
+    "start": "2324936050 ns",
+    "end": "2389495862 ns",
+    "duration": "64559812 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "2324965045 ns",
+        "end": "2389494680 ns",
+        "duration": "64529635 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "2324951369 ns",
+        "end": "2324964754 ns",
+        "duration": "13385 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "2324941350 ns",
+        "end": "2324950898 ns",
+        "duration": "9548 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_26",
+    "start": "2390166808 ns",
+    "end": "2448567741 ns",
+    "duration": "58400933 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "2390195572 ns",
+        "end": "2448566268 ns",
+        "duration": "58370696 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "2390181736 ns",
+        "end": "2390195281 ns",
+        "duration": "13545 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "2390172188 ns",
+        "end": "2390181245 ns",
+        "duration": "9057 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_27",
+    "start": "2449235802 ns",
+    "end": "2510175635 ns",
+    "duration": "60939833 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "2449265087 ns",
+        "end": "2510174082 ns",
+        "duration": "60908995 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "2449250419 ns",
+        "end": "2449264796 ns",
+        "duration": "14377 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "2449241112 ns",
+        "end": "2449249948 ns",
+        "duration": "8836 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_28",
+    "start": "2510852131 ns",
+    "end": "2576810530 ns",
+    "duration": "65958399 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "2510880113 ns",
+        "end": "2576809348 ns",
+        "duration": "65929235 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "2510867089 ns",
+        "end": "2510879803 ns",
+        "duration": "12714 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "2510857310 ns",
+        "end": "2510866608 ns",
+        "duration": "9298 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_29",
+    "start": "2577480665 ns",
+    "end": "2636010121 ns",
+    "duration": "58529456 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "2577518326 ns",
+        "end": "2636008568 ns",
+        "duration": "58490242 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "2577504920 ns",
+        "end": "2577517985 ns",
+        "duration": "13065 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "2577486796 ns",
+        "end": "2577504299 ns",
+        "duration": "17503 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_30",
+    "start": "2636682719 ns",
+    "end": "2698453991 ns",
+    "duration": "61771272 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "2636710632 ns",
+        "end": "2698452639 ns",
+        "duration": "61742007 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "2636696956 ns",
+        "end": "2636710331 ns",
+        "duration": "13375 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "2636687508 ns",
+        "end": "2636696465 ns",
+        "duration": "8957 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_31",
+    "start": "2699129255 ns",
+    "end": "2758324647 ns",
+    "duration": "59195392 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "2699157117 ns",
+        "end": "2758323395 ns",
+        "duration": "59166278 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "2699143983 ns",
+        "end": "2699156827 ns",
+        "duration": "12844 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "2699134154 ns",
+        "end": "2699143492 ns",
+        "duration": "9338 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_32",
+    "start": "2759031972 ns",
+    "end": "2818336109 ns",
+    "duration": "59304137 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "2759064293 ns",
+        "end": "2818334796 ns",
+        "duration": "59270503 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "2759051138 ns",
+        "end": "2759064002 ns",
+        "duration": "12864 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "2759041199 ns",
+        "end": "2759050647 ns",
+        "duration": "9448 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_33",
+    "start": "2819012224 ns",
+    "end": "2881153844 ns",
+    "duration": "62141620 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "2819040778 ns",
+        "end": "2881152702 ns",
+        "duration": "62111924 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "2819026912 ns",
+        "end": "2819040487 ns",
+        "duration": "13575 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "2819017715 ns",
+        "end": "2819026431 ns",
+        "duration": "8716 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_34",
+    "start": "2881823187 ns",
+    "end": "2945737441 ns",
+    "duration": "63914254 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "2881851620 ns",
+        "end": "2945735818 ns",
+        "duration": "63884198 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "2881838065 ns",
+        "end": "2881851320 ns",
+        "duration": "13255 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "2881828146 ns",
+        "end": "2881837584 ns",
+        "duration": "9438 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_35",
+    "start": "2946410731 ns",
+    "end": "3011405493 ns",
+    "duration": "64994762 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "2946438714 ns",
+        "end": "3011404280 ns",
+        "duration": "64965566 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "2946425078 ns",
+        "end": "2946438413 ns",
+        "duration": "13335 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "2946415470 ns",
+        "end": "2946424587 ns",
+        "duration": "9117 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_36",
+    "start": "3012075216 ns",
+    "end": "3075530353 ns",
+    "duration": "63455137 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "3012103820 ns",
+        "end": "3075528650 ns",
+        "duration": "63424830 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "3012089934 ns",
+        "end": "3012103519 ns",
+        "duration": "13585 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "3012080596 ns",
+        "end": "3012089453 ns",
+        "duration": "8857 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_37",
+    "start": "3076220485 ns",
+    "end": "3141023936 ns",
+    "duration": "64803451 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "3076248628 ns",
+        "end": "3141022594 ns",
+        "duration": "64773966 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "3076235213 ns",
+        "end": "3076248328 ns",
+        "duration": "13115 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "3076225124 ns",
+        "end": "3076234702 ns",
+        "duration": "9578 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_38",
+    "start": "3141696294 ns",
+    "end": "3201429742 ns",
+    "duration": "59733448 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "3141724918 ns",
+        "end": "3201428590 ns",
+        "duration": "59703672 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "3141710772 ns",
+        "end": "3141724628 ns",
+        "duration": "13856 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "3141701053 ns",
+        "end": "3141710271 ns",
+        "duration": "9218 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_39",
+    "start": "3202107430 ns",
+    "end": "3261647122 ns",
+    "duration": "59539692 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "3202135142 ns",
+        "end": "3261645900 ns",
+        "duration": "59510758 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "3202121577 ns",
+        "end": "3202134842 ns",
+        "duration": "13265 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "3202112189 ns",
+        "end": "3202121096 ns",
+        "duration": "8907 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_40",
+    "start": "3262313409 ns",
+    "end": "3320733298 ns",
+    "duration": "58419889 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "3262341342 ns",
+        "end": "3320732417 ns",
+        "duration": "58391075 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "3262327906 ns",
+        "end": "3262341041 ns",
+        "duration": "13135 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "3262318278 ns",
+        "end": "3262327415 ns",
+        "duration": "9137 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_41",
+    "start": "3321424081 ns",
+    "end": "3385801669 ns",
+    "duration": "64377588 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "3321452124 ns",
+        "end": "3385800146 ns",
+        "duration": "64348022 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "3321438458 ns",
+        "end": "3321451844 ns",
+        "duration": "13386 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "3321428850 ns",
+        "end": "3321437988 ns",
+        "duration": "9138 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_42",
+    "start": "3386474328 ns",
+    "end": "3447017042 ns",
+    "duration": "60542714 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "3386508362 ns",
+        "end": "3447015700 ns",
+        "duration": "60507338 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "3386490388 ns",
+        "end": "3386508062 ns",
+        "duration": "17674 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "3386479658 ns",
+        "end": "3386489897 ns",
+        "duration": "10239 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_43",
+    "start": "3447689471 ns",
+    "end": "3510517856 ns",
+    "duration": "62828385 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "3447717684 ns",
+        "end": "3510516574 ns",
+        "duration": "62798890 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "3447704238 ns",
+        "end": "3447717383 ns",
+        "duration": "13145 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "3447694821 ns",
+        "end": "3447703768 ns",
+        "duration": "8947 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_44",
+    "start": "3511185185 ns",
+    "end": "3574384480 ns",
+    "duration": "63199295 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "3511212947 ns",
+        "end": "3574382987 ns",
+        "duration": "63170040 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "3511199963 ns",
+        "end": "3511212657 ns",
+        "duration": "12694 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "3511189934 ns",
+        "end": "3511199452 ns",
+        "duration": "9518 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_45",
+    "start": "3575057269 ns",
+    "end": "3634913859 ns",
+    "duration": "59856590 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "3575086785 ns",
+        "end": "3634912817 ns",
+        "duration": "59826032 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "3575072718 ns",
+        "end": "3575086494 ns",
+        "duration": "13776 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "3575062499 ns",
+        "end": "3575072217 ns",
+        "duration": "9718 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_46",
+    "start": "3635602307 ns",
+    "end": "3694322624 ns",
+    "duration": "58720317 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "3635630170 ns",
+        "end": "3694321301 ns",
+        "duration": "58691131 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "3635616544 ns",
+        "end": "3635629879 ns",
+        "duration": "13335 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "3635607317 ns",
+        "end": "3635616063 ns",
+        "duration": "8746 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_47",
+    "start": "3694995313 ns",
+    "end": "3753669472 ns",
+    "duration": "58674159 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "3695023756 ns",
+        "end": "3753668139 ns",
+        "duration": "58644383 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "3695010241 ns",
+        "end": "3695023466 ns",
+        "duration": "13225 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "3695000502 ns",
+        "end": "3695009760 ns",
+        "duration": "9258 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_48",
+    "start": "3754337402 ns",
+    "end": "3817225290 ns",
+    "duration": "62887888 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "3754365755 ns",
+        "end": "3817223957 ns",
+        "duration": "62858202 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "3754351919 ns",
+        "end": "3754365455 ns",
+        "duration": "13536 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "3754342411 ns",
+        "end": "3754351438 ns",
+        "duration": "9027 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_49",
+    "start": "3817901245 ns",
+    "end": "3879808663 ns",
+    "duration": "61907418 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "3817929167 ns",
+        "end": "3879807220 ns",
+        "duration": "61878053 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "3817916303 ns",
+        "end": "3817928867 ns",
+        "duration": "12564 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "3817906264 ns",
+        "end": "3817915802 ns",
+        "duration": "9538 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_50",
+    "start": "3880474178 ns",
+    "end": "3940679947 ns",
+    "duration": "60205769 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "3880507211 ns",
+        "end": "3940678093 ns",
+        "duration": "60170882 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "3880493485 ns",
+        "end": "3880506920 ns",
+        "duration": "13435 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "3880479408 ns",
+        "end": "3880492984 ns",
+        "duration": "13576 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_51",
+    "start": "3941355381 ns",
+    "end": "4002782925 ns",
+    "duration": "61427544 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "3941384466 ns",
+        "end": "4002781622 ns",
+        "duration": "61397156 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "3941370490 ns",
+        "end": "3941384175 ns",
+        "duration": "13685 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "3941361162 ns",
+        "end": "3941370019 ns",
+        "duration": "8857 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_52",
+    "start": "4003454071 ns",
+    "end": "4066158432 ns",
+    "duration": "62704361 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "4003482644 ns",
+        "end": "4066157090 ns",
+        "duration": "62674446 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "4003468628 ns",
+        "end": "4003482354 ns",
+        "duration": "13726 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "4003459010 ns",
+        "end": "4003468137 ns",
+        "duration": "9127 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_53",
+    "start": "4066836742 ns",
+    "end": "4126918596 ns",
+    "duration": "60081854 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "4066865356 ns",
+        "end": "4126917274 ns",
+        "duration": "60051918 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "4066851479 ns",
+        "end": "4066865055 ns",
+        "duration": "13576 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "4066841741 ns",
+        "end": "4066850999 ns",
+        "duration": "9258 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_54",
+    "start": "4127596675 ns",
+    "end": "4185847095 ns",
+    "duration": "58250420 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "4127625309 ns",
+        "end": "4185845813 ns",
+        "duration": "58220504 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "4127611623 ns",
+        "end": "4127625029 ns",
+        "duration": "13406 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "4127601815 ns",
+        "end": "4127611133 ns",
+        "duration": "9318 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_55",
+    "start": "4186529482 ns",
+    "end": "4244421155 ns",
+    "duration": "57891673 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "4186557926 ns",
+        "end": "4244419873 ns",
+        "duration": "57861947 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "4186543789 ns",
+        "end": "4186557625 ns",
+        "duration": "13836 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "4186534381 ns",
+        "end": "4186543318 ns",
+        "duration": "8937 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_56",
+    "start": "4245089446 ns",
+    "end": "4302634345 ns",
+    "duration": "57544899 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "4245120034 ns",
+        "end": "4302633153 ns",
+        "duration": "57513119 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "4245103322 ns",
+        "end": "4245119743 ns",
+        "duration": "16421 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "4245094475 ns",
+        "end": "4245102841 ns",
+        "duration": "8366 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_57",
+    "start": "4303302405 ns",
+    "end": "4361921460 ns",
+    "duration": "58619055 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "4303328965 ns",
+        "end": "4361920038 ns",
+        "duration": "58591073 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "4303315760 ns",
+        "end": "4303328665 ns",
+        "duration": "12905 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "4303306894 ns",
+        "end": "4303315290 ns",
+        "duration": "8396 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_58",
+    "start": "4362601143 ns",
+    "end": "4421207484 ns",
+    "duration": "58606341 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "4362629396 ns",
+        "end": "4421206202 ns",
+        "duration": "58576806 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "4362615941 ns",
+        "end": "4362629105 ns",
+        "duration": "13164 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "4362606433 ns",
+        "end": "4362615470 ns",
+        "duration": "9037 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_59",
+    "start": "4421872378 ns",
+    "end": "4480784486 ns",
+    "duration": "58912108 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "4421900782 ns",
+        "end": "4480783074 ns",
+        "duration": "58882292 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "4421886926 ns",
+        "end": "4421900321 ns",
+        "duration": "13395 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "4421877267 ns",
+        "end": "4421886455 ns",
+        "duration": "9188 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_60",
+    "start": "4481447387 ns",
+    "end": "4543516500 ns",
+    "duration": "62069113 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "4481475991 ns",
+        "end": "4543515208 ns",
+        "duration": "62039217 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "4481462726 ns",
+        "end": "4481475690 ns",
+        "duration": "12964 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "4481452807 ns",
+        "end": "4481462235 ns",
+        "duration": "9428 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_61",
+    "start": "4544186314 ns",
+    "end": "4607882466 ns",
+    "duration": "63696152 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "4544214246 ns",
+        "end": "4607881193 ns",
+        "duration": "63666947 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "4544200310 ns",
+        "end": "4544213956 ns",
+        "duration": "13646 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "4544191103 ns",
+        "end": "4544199839 ns",
+        "duration": "8736 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_62",
+    "start": "4608555636 ns",
+    "end": "4669547166 ns",
+    "duration": "60991530 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "4608583799 ns",
+        "end": "4669545763 ns",
+        "duration": "60961964 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "4608570333 ns",
+        "end": "4608583338 ns",
+        "duration": "13005 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "4608560926 ns",
+        "end": "4608569843 ns",
+        "duration": "8917 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_63",
+    "start": "4670209656 ns",
+    "end": "4732094732 ns",
+    "duration": "61885076 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "4670238069 ns",
+        "end": "4732093469 ns",
+        "duration": "61855400 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "4670224574 ns",
+        "end": "4670237769 ns",
+        "duration": "13195 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "4670214495 ns",
+        "end": "4670224113 ns",
+        "duration": "9618 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_64",
+    "start": "4732773342 ns",
+    "end": "4791861091 ns",
+    "duration": "59087749 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "4732807126 ns",
+        "end": "4791859628 ns",
+        "duration": "59052502 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "4732794782 ns",
+        "end": "4732806835 ns",
+        "duration": "12053 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "4732784954 ns",
+        "end": "4732794291 ns",
+        "duration": "9337 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_65",
+    "start": "4792541966 ns",
+    "end": "4853073669 ns",
+    "duration": "60531703 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "4792570730 ns",
+        "end": "4853072406 ns",
+        "duration": "60501676 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "4792557645 ns",
+        "end": "4792570449 ns",
+        "duration": "12804 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "4792547947 ns",
+        "end": "4792557164 ns",
+        "duration": "9217 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_66",
+    "start": "4853748732 ns",
+    "end": "4915575127 ns",
+    "duration": "61826395 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "4853780181 ns",
+        "end": "4915573925 ns",
+        "duration": "61793744 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "4853766816 ns",
+        "end": "4853779911 ns",
+        "duration": "13095 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "4853754813 ns",
+        "end": "4853766345 ns",
+        "duration": "11532 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_67",
+    "start": "4916241865 ns",
+    "end": "4976024335 ns",
+    "duration": "59782470 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "4916269778 ns",
+        "end": "4976023073 ns",
+        "duration": "59753295 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "4916256543 ns",
+        "end": "4916269497 ns",
+        "duration": "12954 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "4916247035 ns",
+        "end": "4916256072 ns",
+        "duration": "9037 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_68",
+    "start": "4976700941 ns",
+    "end": "5038577712 ns",
+    "duration": "61876771 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "4976729706 ns",
+        "end": "5038576570 ns",
+        "duration": "61846864 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "4976716651 ns",
+        "end": "4976729415 ns",
+        "duration": "12764 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "4976706311 ns",
+        "end": "4976716170 ns",
+        "duration": "9859 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_69",
+    "start": "5039241153 ns",
+    "end": "5099973405 ns",
+    "duration": "60732252 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "5039274206 ns",
+        "end": "5099971982 ns",
+        "duration": "60697776 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "5039255811 ns",
+        "end": "5039273905 ns",
+        "duration": "18094 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "5039246082 ns",
+        "end": "5039255320 ns",
+        "duration": "9238 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_70",
+    "start": "5100642136 ns",
+    "end": "5164688198 ns",
+    "duration": "64046062 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "5100669808 ns",
+        "end": "5164686896 ns",
+        "duration": "64017088 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "5100656283 ns",
+        "end": "5100669518 ns",
+        "duration": "13235 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "5100647025 ns",
+        "end": "5100655792 ns",
+        "duration": "8767 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_71",
+    "start": "5165358182 ns",
+    "end": "5224812072 ns",
+    "duration": "59453890 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "5165385564 ns",
+        "end": "5224810750 ns",
+        "duration": "59425186 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "5165372259 ns",
+        "end": "5165385283 ns",
+        "duration": "13024 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "5165363051 ns",
+        "end": "5165371788 ns",
+        "duration": "8737 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_72",
+    "start": "5225493377 ns",
+    "end": "5284047059 ns",
+    "duration": "58553682 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "5225527883 ns",
+        "end": "5284045757 ns",
+        "duration": "58517874 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "5225514407 ns",
+        "end": "5225527442 ns",
+        "duration": "13035 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "5225503767 ns",
+        "end": "5225513916 ns",
+        "duration": "10149 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_73",
+    "start": "5284729978 ns",
+    "end": "5344609060 ns",
+    "duration": "59879082 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "5284758121 ns",
+        "end": "5344607627 ns",
+        "duration": "59849506 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "5284744776 ns",
+        "end": "5284757830 ns",
+        "duration": "13054 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "5284734717 ns",
+        "end": "5284744305 ns",
+        "duration": "9588 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_74",
+    "start": "5345283452 ns",
+    "end": "5407861405 ns",
+    "duration": "62577953 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "5345311615 ns",
+        "end": "5407860213 ns",
+        "duration": "62548598 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "5345298110 ns",
+        "end": "5345311325 ns",
+        "duration": "13215 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "5345288431 ns",
+        "end": "5345297639 ns",
+        "duration": "9208 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_75",
+    "start": "5408539865 ns",
+    "end": "5468113911 ns",
+    "duration": "59574046 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "5408567838 ns",
+        "end": "5468112749 ns",
+        "duration": "59544911 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "5408554292 ns",
+        "end": "5408567557 ns",
+        "duration": "13265 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "5408544804 ns",
+        "end": "5408553811 ns",
+        "duration": "9007 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_76",
+    "start": "5468787011 ns",
+    "end": "5531404539 ns",
+    "duration": "62617528 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "5468815314 ns",
+        "end": "5531403186 ns",
+        "duration": "62587872 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "5468802069 ns",
+        "end": "5468815014 ns",
+        "duration": "12945 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "5468792311 ns",
+        "end": "5468801619 ns",
+        "duration": "9308 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_77",
+    "start": "5532092056 ns",
+    "end": "5594483087 ns",
+    "duration": "62391031 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "5532119588 ns",
+        "end": "5594481774 ns",
+        "duration": "62362186 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "5532106533 ns",
+        "end": "5532119307 ns",
+        "duration": "12774 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "5532097195 ns",
+        "end": "5532106052 ns",
+        "duration": "8857 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_78",
+    "start": "5595157789 ns",
+    "end": "5655063221 ns",
+    "duration": "59905432 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "5595185742 ns",
+        "end": "5655061758 ns",
+        "duration": "59876016 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "5595172547 ns",
+        "end": "5595185461 ns",
+        "duration": "12914 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "5595162859 ns",
+        "end": "5595172086 ns",
+        "duration": "9227 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_79",
+    "start": "5655741410 ns",
+    "end": "5714332172 ns",
+    "duration": "58590762 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "5655769624 ns",
+        "end": "5714330900 ns",
+        "duration": "58561276 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "5655755838 ns",
+        "end": "5655769323 ns",
+        "duration": "13485 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "5655746039 ns",
+        "end": "5655755357 ns",
+        "duration": "9318 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_80",
+    "start": "5714999391 ns",
+    "end": "5773238650 ns",
+    "duration": "58239259 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "5715027374 ns",
+        "end": "5773236856 ns",
+        "duration": "58209482 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "5715013728 ns",
+        "end": "5715027083 ns",
+        "duration": "13355 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "5715004090 ns",
+        "end": "5715013257 ns",
+        "duration": "9167 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_81",
+    "start": "5773919725 ns",
+    "end": "5836146515 ns",
+    "duration": "62226790 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "5773947307 ns",
+        "end": "5836145042 ns",
+        "duration": "62197735 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "5773934072 ns",
+        "end": "5773947026 ns",
+        "duration": "12954 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "5773924764 ns",
+        "end": "5773933591 ns",
+        "duration": "8827 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_82",
+    "start": "5836818493 ns",
+    "end": "5901410084 ns",
+    "duration": "64591591 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "5836846275 ns",
+        "end": "5901408762 ns",
+        "duration": "64562487 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "5836833341 ns",
+        "end": "5836845985 ns",
+        "duration": "12644 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "5836823482 ns",
+        "end": "5836832880 ns",
+        "duration": "9398 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_83",
+    "start": "5902085598 ns",
+    "end": "5963233414 ns",
+    "duration": "61147816 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "5902113401 ns",
+        "end": "5963232001 ns",
+        "duration": "61118600 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "5902100336 ns",
+        "end": "5902113100 ns",
+        "duration": "12764 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "5902091119 ns",
+        "end": "5902099855 ns",
+        "duration": "8736 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_84",
+    "start": "5963915941 ns",
+    "end": "6026623278 ns",
+    "duration": "62707337 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "5963943503 ns",
+        "end": "6026621966 ns",
+        "duration": "62678463 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "5963930248 ns",
+        "end": "5963943213 ns",
+        "duration": "12965 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "5963920760 ns",
+        "end": "5963929767 ns",
+        "duration": "9007 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_85",
+    "start": "6027292300 ns",
+    "end": "6088344024 ns",
+    "duration": "61051724 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "6027319561 ns",
+        "end": "6088342822 ns",
+        "duration": "61023261 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "6027306837 ns",
+        "end": "6027319281 ns",
+        "duration": "12444 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "6027297039 ns",
+        "end": "6027306357 ns",
+        "duration": "9318 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_86",
+    "start": "6089022614 ns",
+    "end": "6151147803 ns",
+    "duration": "62125189 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "6089051078 ns",
+        "end": "6151146631 ns",
+        "duration": "62095553 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "6089037572 ns",
+        "end": "6089050777 ns",
+        "duration": "13205 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "6089027574 ns",
+        "end": "6089037091 ns",
+        "duration": "9517 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_87",
+    "start": "6151817997 ns",
+    "end": "6212034666 ns",
+    "duration": "60216669 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "6151845950 ns",
+        "end": "6212033374 ns",
+        "duration": "60187424 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "6151832625 ns",
+        "end": "6151845670 ns",
+        "duration": "13045 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "6151823147 ns",
+        "end": "6151832154 ns",
+        "duration": "9007 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_88",
+    "start": "6212715250 ns",
+    "end": "6273610399 ns",
+    "duration": "60895149 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "6212743443 ns",
+        "end": "6273608996 ns",
+        "duration": "60865553 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "6212729998 ns",
+        "end": "6212743143 ns",
+        "duration": "13145 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "6212720199 ns",
+        "end": "6212729527 ns",
+        "duration": "9328 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_89",
+    "start": "6274272788 ns",
+    "end": "6332676096 ns",
+    "duration": "58403308 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "6274301292 ns",
+        "end": "6332674333 ns",
+        "duration": "58373041 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "6274288287 ns",
+        "end": "6274301011 ns",
+        "duration": "12724 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "6274278379 ns",
+        "end": "6274287796 ns",
+        "duration": "9417 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_90",
+    "start": "6333508116 ns",
+    "end": "6391143155 ns",
+    "duration": "57635039 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "6333535458 ns",
+        "end": "6391142143 ns",
+        "duration": "57606685 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "6333522804 ns",
+        "end": "6333535027 ns",
+        "duration": "12223 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "6333512965 ns",
+        "end": "6333522303 ns",
+        "duration": "9338 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_91",
+    "start": "6391798982 ns",
+    "end": "6449267186 ns",
+    "duration": "57468204 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "6391826324 ns",
+        "end": "6449266024 ns",
+        "duration": "57439700 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "6391813269 ns",
+        "end": "6391826033 ns",
+        "duration": "12764 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "6391803971 ns",
+        "end": "6391812788 ns",
+        "duration": "8817 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_92",
+    "start": "6449942069 ns",
+    "end": "6508113530 ns",
+    "duration": "58171461 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "6449970443 ns",
+        "end": "6508112248 ns",
+        "duration": "58141805 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "6449956917 ns",
+        "end": "6449970172 ns",
+        "duration": "13255 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "6449947259 ns",
+        "end": "6449956477 ns",
+        "duration": "9218 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_93",
+    "start": "6508781921 ns",
+    "end": "6569755999 ns",
+    "duration": "60974078 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "6508809714 ns",
+        "end": "6569754516 ns",
+        "duration": "60944802 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "6508796699 ns",
+        "end": "6508809423 ns",
+        "duration": "12724 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "6508787111 ns",
+        "end": "6508796218 ns",
+        "duration": "9107 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_94",
+    "start": "6570422646 ns",
+    "end": "6633909574 ns",
+    "duration": "63486928 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "6570450338 ns",
+        "end": "6633908212 ns",
+        "duration": "63457874 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "6570437414 ns",
+        "end": "6570450038 ns",
+        "duration": "12624 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "6570427636 ns",
+        "end": "6570436923 ns",
+        "duration": "9287 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_95",
+    "start": "6634581572 ns",
+    "end": "6693418508 ns",
+    "duration": "58836936 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "6634609695 ns",
+        "end": "6693417235 ns",
+        "duration": "58807540 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "6634596269 ns",
+        "end": "6634609394 ns",
+        "duration": "13125 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "6634586721 ns",
+        "end": "6634595779 ns",
+        "duration": "9058 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_96",
+    "start": "6694090545 ns",
+    "end": "6752732834 ns",
+    "duration": "58642289 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "6694118498 ns",
+        "end": "6752731382 ns",
+        "duration": "58612884 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "6694105203 ns",
+        "end": "6694118198 ns",
+        "duration": "12995 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "6694095174 ns",
+        "end": "6694104722 ns",
+        "duration": "9548 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_97",
+    "start": "6753404562 ns",
+    "end": "6814423073 ns",
+    "duration": "61018511 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "6753432113 ns",
+        "end": "6814422061 ns",
+        "duration": "60989948 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "6753418999 ns",
+        "end": "6753431823 ns",
+        "duration": "12824 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "6753409922 ns",
+        "end": "6753418518 ns",
+        "duration": "8596 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_98",
+    "start": "6815093738 ns",
+    "end": "6877126974 ns",
+    "duration": "62033236 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "6815120839 ns",
+        "end": "6877125861 ns",
+        "duration": "62005022 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "6815107985 ns",
+        "end": "6815120539 ns",
+        "duration": "12554 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "6815098377 ns",
+        "end": "6815107484 ns",
+        "duration": "9107 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_99",
+    "start": "6877801676 ns",
+    "end": "6940879793 ns",
+    "duration": "63078117 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "6877828647 ns",
+        "end": "6940878159 ns",
+        "duration": "63049512 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "6877816053 ns",
+        "end": "6877828337 ns",
+        "duration": "12284 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "6877806305 ns",
+        "end": "6877815552 ns",
+        "duration": "9247 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_100",
+    "start": "6941552051 ns",
+    "end": "7006917071 ns",
+    "duration": "65365020 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "6941580033 ns",
+        "end": "7006915137 ns",
+        "duration": "65335104 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "6941566869 ns",
+        "end": "6941579733 ns",
+        "duration": "12864 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "6941557341 ns",
+        "end": "6941566388 ns",
+        "duration": "9047 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_101",
+    "start": "7007710077 ns",
+    "end": "7071254583 ns",
+    "duration": "63544506 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "7007737869 ns",
+        "end": "7071253241 ns",
+        "duration": "63515372 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "7007724815 ns",
+        "end": "7007737559 ns",
+        "duration": "12744 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "7007715217 ns",
+        "end": "7007724324 ns",
+        "duration": "9107 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_102",
+    "start": "7071928414 ns",
+    "end": "7140368686 ns",
+    "duration": "68440272 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "7071955285 ns",
+        "end": "7140367764 ns",
+        "duration": "68412479 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "7071942862 ns",
+        "end": "7071955005 ns",
+        "duration": "12143 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "7071933294 ns",
+        "end": "7071942361 ns",
+        "duration": "9067 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_103",
+    "start": "7141035433 ns",
+    "end": "7202911102 ns",
+    "duration": "61875669 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "7141064238 ns",
+        "end": "7202909820 ns",
+        "duration": "61845582 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "7141050852 ns",
+        "end": "7141063927 ns",
+        "duration": "13075 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "7141040844 ns",
+        "end": "7141050361 ns",
+        "duration": "9517 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_104",
+    "start": "7203582629 ns",
+    "end": "7262060317 ns",
+    "duration": "58477688 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "7203609880 ns",
+        "end": "7262058844 ns",
+        "duration": "58448964 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "7203596846 ns",
+        "end": "7203609590 ns",
+        "duration": "12744 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "7203587588 ns",
+        "end": "7203596375 ns",
+        "duration": "8787 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_105",
+    "start": "7262734218 ns",
+    "end": "7323710560 ns",
+    "duration": "60976342 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "7262762512 ns",
+        "end": "7323708887 ns",
+        "duration": "60946375 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "7262749287 ns",
+        "end": "7262762231 ns",
+        "duration": "12944 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "7262739599 ns",
+        "end": "7262748806 ns",
+        "duration": "9207 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_106",
+    "start": "7324371968 ns",
+    "end": "7388092777 ns",
+    "duration": "63720809 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "7324399500 ns",
+        "end": "7388091464 ns",
+        "duration": "63691964 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "7324386345 ns",
+        "end": "7324399209 ns",
+        "duration": "12864 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "7324377328 ns",
+        "end": "7324385854 ns",
+        "duration": "8526 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_107",
+    "start": "7388762410 ns",
+    "end": "7450745711 ns",
+    "duration": "61983301 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "7388790483 ns",
+        "end": "7450744579 ns",
+        "duration": "61954096 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "7388777108 ns",
+        "end": "7388790192 ns",
+        "duration": "13084 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "7388767259 ns",
+        "end": "7388776617 ns",
+        "duration": "9358 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_108",
+    "start": "7451419612 ns",
+    "end": "7511410656 ns",
+    "duration": "59991044 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "7451446573 ns",
+        "end": "7511409493 ns",
+        "duration": "59962920 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "7451433789 ns",
+        "end": "7451446283 ns",
+        "duration": "12494 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "7451424452 ns",
+        "end": "7451433308 ns",
+        "duration": "8856 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_109",
+    "start": "7512083625 ns",
+    "end": "7570973311 ns",
+    "duration": "58889686 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "7512112519 ns",
+        "end": "7570972058 ns",
+        "duration": "58859539 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "7512098152 ns",
+        "end": "7512112229 ns",
+        "duration": "14077 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "7512088745 ns",
+        "end": "7512097682 ns",
+        "duration": "8937 ns"
+      }
+    ]
+  },
+  {
+    "group_name": "VAIP MyCustomOp::Compute_110",
+    "start": "7571646801 ns",
+    "end": "7636602419 ns",
+    "duration": "64955618 ns",
+    "sections": [
+      {
+        "name": "VAIP MyCustomOp::forwardUnified forward Impl",
+        "start": "7571675075 ns",
+        "end": "7636601267 ns",
+        "duration": "64926192 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep OFM for batch 0",
+        "start": "7571661659 ns",
+        "end": "7571674774 ns",
+        "duration": "13115 ns"
+      },
+      {
+        "name": "VAIP MyCustomOp::forwardUnified prep IFM for batch 0",
+        "start": "7571652081 ns",
+        "end": "7571661178 ns",
+        "duration": "9097 ns"
+      }
+    ]
+  }
+]

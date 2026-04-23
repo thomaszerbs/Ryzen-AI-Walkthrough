@@ -1,0 +1,67 @@
+{
+    "run": {
+        "command": "performance_benchmark.py --model_path ../CNN-examples/getting_started_resnet/bf16/models/resnet_trained_for_cifar10.onnx --execution_provider CPU --num 100 --timelimit 30 --infinite 0 --config /scratch/thozerbs/git/RyzenAI-SW/CNN-examples/getting_started_resnet/bf16/vitisai_config.json",
+        "benchmark_release": 22,
+        "model": "../CNN-examples/getting_started_resnet/bf16/models/resnet_trained_for_cifar10_BS1.onnx",
+        "execution_provider": "CPU"
+    },
+    "results": {
+        "performance": {
+            "total_throughput": 418.5018743053656,
+            "average_latency": 2.36219524173066,
+            "images_requested": 100,
+            "images_preloaded": 100,
+            "images_processed": 100
+        },
+        "efficency perf/W": {
+            "apu_perf_pow": "N/A"
+        },
+        "energy mJ/frame": {
+            "apu": "N/A",
+            "cpu": "N/A",
+            "npu": "N/A",
+            "mem": "N/A"
+        }
+    },
+    "model": "../CNN-examples/getting_started_resnet/bf16/models/resnet_trained_for_cifar10_BS1.onnx",
+    "vitisai": {
+        "all": 0,
+        "CPU": 0
+    },
+    "system": {
+        "frequency": {
+            "MPNPUCLK": 0,
+            "NPUHCLK": 0,
+            "FCLK": 0,
+            "LCLK": 0
+        },
+        "voltages": {
+            "CORE0": 0,
+            "CORE1": 0,
+            "CORE2": 0,
+            "CORE3": 0,
+            "CORE4": 0,
+            "CORE5": 0,
+            "CORE6": 0,
+            "CORE7": 0
+        },
+        "hw": {
+            "processor": "x86_64",
+            "num_cores": 32
+        },
+        "os": {
+            "os_version": "Linux-6.17.0-19-generic-x86_64-with-glibc2.39"
+        },
+        "resources": {
+            "CPU_usage": "3.7%",
+            "Memory": "85.3076057434082 GB",
+            "Swap_Memory": "6.34466552734375 GB"
+        },
+        "driver": {
+            "npu": "Unknown"
+        }
+    },
+    "environment": {
+        "packages": {}
+    }
+}

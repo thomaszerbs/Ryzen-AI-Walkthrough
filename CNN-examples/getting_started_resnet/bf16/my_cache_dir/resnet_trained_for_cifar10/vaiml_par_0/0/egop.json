@@ -1,0 +1,1309 @@
+{
+    "Conv2d" : [
+        {
+            "wts_Shape" : [
+                7,
+                7,
+                4,
+                16
+            ],
+            "ifm1_L1_Shape" : [
+                38,
+                10,
+                4,
+                1
+            ],
+            "kernel_iter" : 24
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                64,
+                16
+            ],
+            "ifm1_L1_Shape" : [
+                16,
+                1,
+                64,
+                1
+            ],
+            "kernel_iter" : 24
+        },
+        {
+            "wts_Shape" : [
+                3,
+                3,
+                32,
+                16
+            ],
+            "ifm1_L1_Shape" : [
+                18,
+                3,
+                32,
+                1
+            ],
+            "kernel_iter" : 24
+        },
+        {
+            "wts_Shape" : [
+                3,
+                3,
+                32,
+                16
+            ],
+            "ifm1_L1_Shape" : [
+                18,
+                3,
+                32,
+                1
+            ],
+            "kernel_iter" : 24
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                64,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                8,
+                1,
+                64,
+                1
+            ],
+            "kernel_iter" : 24
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                64,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                8,
+                1,
+                64,
+                1
+            ],
+            "kernel_iter" : 24
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                16
+            ],
+            "ifm1_L1_Shape" : [
+                16,
+                1,
+                128,
+                1
+            ],
+            "kernel_iter" : 24
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                16
+            ],
+            "ifm1_L1_Shape" : [
+                16,
+                1,
+                128,
+                1
+            ],
+            "kernel_iter" : 24
+        },
+        {
+            "wts_Shape" : [
+                3,
+                3,
+                32,
+                16
+            ],
+            "ifm1_L1_Shape" : [
+                10,
+                4,
+                32,
+                1
+            ],
+            "kernel_iter" : 24
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                16
+            ],
+            "ifm1_L1_Shape" : [
+                16,
+                1,
+                128,
+                1
+            ],
+            "kernel_iter" : 24
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                16
+            ],
+            "ifm1_L1_Shape" : [
+                16,
+                1,
+                128,
+                1
+            ],
+            "kernel_iter" : 24
+        },
+        {
+            "wts_Shape" : [
+                3,
+                3,
+                32,
+                16
+            ],
+            "ifm1_L1_Shape" : [
+                10,
+                4,
+                32,
+                1
+            ],
+            "kernel_iter" : 24
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                8,
+                1,
+                128,
+                1
+            ],
+            "kernel_iter" : 24
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                8,
+                1,
+                128,
+                1
+            ],
+            "kernel_iter" : 24
+        },
+        {
+            "wts_Shape" : [
+                3,
+                3,
+                16,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                18,
+                4,
+                16,
+                1
+            ],
+            "kernel_iter" : 96
+        },
+        {
+            "wts_Shape" : [
+                3,
+                3,
+                16,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                18,
+                4,
+                16,
+                1
+            ],
+            "kernel_iter" : 96
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                8,
+                1,
+                128,
+                1
+            ],
+            "kernel_iter" : 96
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                8,
+                1,
+                128,
+                1
+            ],
+            "kernel_iter" : 96
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                8,
+                1,
+                128,
+                1
+            ],
+            "kernel_iter" : 48
+        },
+        {
+            "wts_Shape" : [
+                3,
+                3,
+                32,
+                16
+            ],
+            "ifm1_L1_Shape" : [
+                18,
+                3,
+                32,
+                1
+            ],
+            "kernel_iter" : 96
+        },
+        {
+            "wts_Shape" : [
+                3,
+                3,
+                32,
+                16
+            ],
+            "ifm1_L1_Shape" : [
+                18,
+                3,
+                32,
+                1
+            ],
+            "kernel_iter" : 96
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                8,
+                1,
+                128,
+                1
+            ],
+            "kernel_iter" : 48
+        },
+        {
+            "wts_Shape" : [
+                3,
+                3,
+                32,
+                16
+            ],
+            "ifm1_L1_Shape" : [
+                18,
+                3,
+                32,
+                1
+            ],
+            "kernel_iter" : 96
+        },
+        {
+            "wts_Shape" : [
+                3,
+                3,
+                32,
+                16
+            ],
+            "ifm1_L1_Shape" : [
+                18,
+                3,
+                32,
+                1
+            ],
+            "kernel_iter" : 96
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                8,
+                1,
+                128,
+                1
+            ],
+            "kernel_iter" : 48
+        },
+        {
+            "wts_Shape" : [
+                3,
+                3,
+                32,
+                16
+            ],
+            "ifm1_L1_Shape" : [
+                18,
+                3,
+                32,
+                1
+            ],
+            "kernel_iter" : 96
+        },
+        {
+            "wts_Shape" : [
+                3,
+                3,
+                32,
+                16
+            ],
+            "ifm1_L1_Shape" : [
+                18,
+                3,
+                32,
+                1
+            ],
+            "kernel_iter" : 96
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                8,
+                1,
+                128,
+                1
+            ],
+            "kernel_iter" : 96
+        },
+        {
+            "wts_Shape" : [
+                3,
+                3,
+                16,
+                16
+            ],
+            "ifm1_L1_Shape" : [
+                34,
+                4,
+                16,
+                1
+            ],
+            "kernel_iter" : 768
+        },
+        {
+            "wts_Shape" : [
+                3,
+                3,
+                16,
+                16
+            ],
+            "ifm1_L1_Shape" : [
+                34,
+                4,
+                16,
+                1
+            ],
+            "kernel_iter" : 768
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                8,
+                1,
+                128,
+                1
+            ],
+            "kernel_iter" : 384
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                8,
+                1,
+                128,
+                1
+            ],
+            "kernel_iter" : 384
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                8,
+                1,
+                128,
+                1
+            ],
+            "kernel_iter" : 192
+        },
+        {
+            "wts_Shape" : [
+                3,
+                3,
+                32,
+                16
+            ],
+            "ifm1_L1_Shape" : [
+                18,
+                3,
+                32,
+                1
+            ],
+            "kernel_iter" : 384
+        },
+        {
+            "wts_Shape" : [
+                3,
+                3,
+                32,
+                16
+            ],
+            "ifm1_L1_Shape" : [
+                18,
+                3,
+                32,
+                1
+            ],
+            "kernel_iter" : 384
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                8,
+                1,
+                128,
+                1
+            ],
+            "kernel_iter" : 192
+        },
+        {
+            "wts_Shape" : [
+                3,
+                3,
+                32,
+                16
+            ],
+            "ifm1_L1_Shape" : [
+                18,
+                3,
+                32,
+                1
+            ],
+            "kernel_iter" : 384
+        },
+        {
+            "wts_Shape" : [
+                3,
+                3,
+                32,
+                16
+            ],
+            "ifm1_L1_Shape" : [
+                18,
+                3,
+                32,
+                1
+            ],
+            "kernel_iter" : 384
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                8,
+                1,
+                128,
+                1
+            ],
+            "kernel_iter" : 192
+        },
+        {
+            "wts_Shape" : [
+                3,
+                3,
+                32,
+                16
+            ],
+            "ifm1_L1_Shape" : [
+                18,
+                3,
+                32,
+                1
+            ],
+            "kernel_iter" : 384
+        },
+        {
+            "wts_Shape" : [
+                3,
+                3,
+                32,
+                16
+            ],
+            "ifm1_L1_Shape" : [
+                18,
+                3,
+                32,
+                1
+            ],
+            "kernel_iter" : 384
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                8,
+                1,
+                128,
+                1
+            ],
+            "kernel_iter" : 192
+        },
+        {
+            "wts_Shape" : [
+                3,
+                3,
+                32,
+                16
+            ],
+            "ifm1_L1_Shape" : [
+                18,
+                3,
+                32,
+                1
+            ],
+            "kernel_iter" : 384
+        },
+        {
+            "wts_Shape" : [
+                3,
+                3,
+                32,
+                16
+            ],
+            "ifm1_L1_Shape" : [
+                18,
+                3,
+                32,
+                1
+            ],
+            "kernel_iter" : 384
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                8,
+                1,
+                128,
+                1
+            ],
+            "kernel_iter" : 192
+        },
+        {
+            "wts_Shape" : [
+                3,
+                3,
+                32,
+                16
+            ],
+            "ifm1_L1_Shape" : [
+                18,
+                3,
+                32,
+                1
+            ],
+            "kernel_iter" : 384
+        },
+        {
+            "wts_Shape" : [
+                3,
+                3,
+                32,
+                16
+            ],
+            "ifm1_L1_Shape" : [
+                18,
+                3,
+                32,
+                1
+            ],
+            "kernel_iter" : 384
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                8,
+                1,
+                128,
+                1
+            ],
+            "kernel_iter" : 384
+        },
+        {
+            "wts_Shape" : [
+                3,
+                3,
+                16,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                18,
+                4,
+                16,
+                1
+            ],
+            "kernel_iter" : 1536
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                8,
+                1,
+                128,
+                1
+            ],
+            "kernel_iter" : 1536
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                192,
+                16
+            ],
+            "ifm1_L1_Shape" : [
+                16,
+                1,
+                192,
+                1
+            ],
+            "kernel_iter" : 1056
+        },
+        {
+            "wts_Shape" : [
+                3,
+                3,
+                24,
+                8
+            ],
+            "ifm1_L1_Shape" : [
+                34,
+                4,
+                24,
+                1
+            ],
+            "kernel_iter" : 4224
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                192,
+                16
+            ],
+            "ifm1_L1_Shape" : [
+                16,
+                1,
+                192,
+                1
+            ],
+            "kernel_iter" : 1056
+        },
+        {
+            "wts_Shape" : [
+                3,
+                3,
+                24,
+                8
+            ],
+            "ifm1_L1_Shape" : [
+                34,
+                4,
+                24,
+                1
+            ],
+            "kernel_iter" : 4224
+        }
+    ],
+    "Conv2dElementwiseBinary" : [
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                64,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                16,
+                1,
+                64,
+                1
+            ],
+            "ifm2_L1_Shape" : [
+                16,
+                1,
+                32,
+                1
+            ],
+            "kernel_iter" : 24
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                64,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                16,
+                1,
+                64,
+                1
+            ],
+            "ifm2_L1_Shape" : [
+                16,
+                1,
+                32,
+                1
+            ],
+            "kernel_iter" : 24
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                64,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                16,
+                1,
+                64,
+                1
+            ],
+            "ifm2_L1_Shape" : [
+                16,
+                1,
+                32,
+                1
+            ],
+            "kernel_iter" : 24
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                64,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                16,
+                1,
+                64,
+                1
+            ],
+            "ifm2_L1_Shape" : [
+                16,
+                1,
+                32,
+                1
+            ],
+            "kernel_iter" : 24
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                64,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                16,
+                1,
+                64,
+                1
+            ],
+            "ifm2_L1_Shape" : [
+                16,
+                1,
+                32,
+                1
+            ],
+            "kernel_iter" : 24
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                64,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                16,
+                1,
+                64,
+                1
+            ],
+            "ifm2_L1_Shape" : [
+                16,
+                1,
+                32,
+                1
+            ],
+            "kernel_iter" : 24
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                16,
+                1,
+                128,
+                1
+            ],
+            "ifm2_L1_Shape" : [
+                16,
+                1,
+                32,
+                1
+            ],
+            "kernel_iter" : 48
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                16,
+                1,
+                128,
+                1
+            ],
+            "ifm2_L1_Shape" : [
+                16,
+                1,
+                32,
+                1
+            ],
+            "kernel_iter" : 48
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                16,
+                1,
+                128,
+                1
+            ],
+            "ifm2_L1_Shape" : [
+                16,
+                1,
+                32,
+                1
+            ],
+            "kernel_iter" : 48
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                16,
+                1,
+                128,
+                1
+            ],
+            "ifm2_L1_Shape" : [
+                16,
+                1,
+                32,
+                1
+            ],
+            "kernel_iter" : 48
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                16,
+                1,
+                128,
+                1
+            ],
+            "ifm2_L1_Shape" : [
+                16,
+                1,
+                32,
+                1
+            ],
+            "kernel_iter" : 48
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                16,
+                1,
+                128,
+                1
+            ],
+            "ifm2_L1_Shape" : [
+                16,
+                1,
+                32,
+                1
+            ],
+            "kernel_iter" : 192
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                16,
+                1,
+                128,
+                1
+            ],
+            "ifm2_L1_Shape" : [
+                16,
+                1,
+                32,
+                1
+            ],
+            "kernel_iter" : 192
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                16,
+                1,
+                128,
+                1
+            ],
+            "ifm2_L1_Shape" : [
+                16,
+                1,
+                32,
+                1
+            ],
+            "kernel_iter" : 192
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                16,
+                1,
+                128,
+                1
+            ],
+            "ifm2_L1_Shape" : [
+                16,
+                1,
+                32,
+                1
+            ],
+            "kernel_iter" : 192
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                16,
+                1,
+                128,
+                1
+            ],
+            "ifm2_L1_Shape" : [
+                16,
+                1,
+                32,
+                1
+            ],
+            "kernel_iter" : 192
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                16,
+                1,
+                128,
+                1
+            ],
+            "ifm2_L1_Shape" : [
+                16,
+                1,
+                32,
+                1
+            ],
+            "kernel_iter" : 192
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                16,
+                1,
+                128,
+                1
+            ],
+            "ifm2_L1_Shape" : [
+                16,
+                1,
+                32,
+                1
+            ],
+            "kernel_iter" : 192
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                16,
+                1,
+                128,
+                1
+            ],
+            "ifm2_L1_Shape" : [
+                16,
+                1,
+                32,
+                1
+            ],
+            "kernel_iter" : 768
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                16,
+                1,
+                128,
+                1
+            ],
+            "ifm2_L1_Shape" : [
+                16,
+                1,
+                32,
+                1
+            ],
+            "kernel_iter" : 768
+        },
+        {
+            "wts_Shape" : [
+                1,
+                1,
+                128,
+                32
+            ],
+            "ifm1_L1_Shape" : [
+                16,
+                1,
+                128,
+                1
+            ],
+            "ifm2_L1_Shape" : [
+                16,
+                1,
+                32,
+                1
+            ],
+            "kernel_iter" : 768
+        }
+    ],
+    "Gemm" : [
+        {
+            "wts_Shape" : [
+                64,
+                64,
+                1
+            ],
+            "ifm1_L1_Shape" : [
+                64,
+                8,
+                1
+            ],
+            "kernel_iter" : 12
+        }
+    ],
+    "GemmBfp16ElementwiseUnary" : [
+        {
+            "wts_Shape" : [
+                64,
+                64,
+                1
+            ],
+            "ifm1_L1_Shape" : [
+                64,
+                8,
+                1
+            ],
+            "kernel_iter" : 384
+        }
+    ],
+    "MaxPool2d" : [
+        {
+            "ifm1_L1_Shape" : [
+                20,
+                5,
+                8,
+                1
+            ],
+            "kernel_iter" : 24
+        }
+    ],
+    "Reduce" : [
+        {
+            "ifm1_L1_Shape" : [
+                8,
+                1,
+                256,
+                1
+            ],
+            "kernel_iter" : 24
+        }
+    ]
+}

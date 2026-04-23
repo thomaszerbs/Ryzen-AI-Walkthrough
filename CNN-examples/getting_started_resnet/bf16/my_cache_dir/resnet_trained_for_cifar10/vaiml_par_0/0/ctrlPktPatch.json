@@ -1,0 +1,3438 @@
+{
+    "offset_unit": "byte",
+    "size_unit": "byte",
+    "control_packet_patch": {
+        "patch0": {
+            "offset": 573764,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.ifm_ddr"
+        },
+        "patch1": {
+            "offset": 573824,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.ifm_ddr"
+        },
+        "patch2": {
+            "offset": 573884,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_1_wts_ddr"
+        },
+        "patch3": {
+            "offset": 573944,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_1_wts_ddr"
+        },
+        "patch4": {
+            "offset": 574004,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_1_wts_ddr"
+        },
+        "patch5": {
+            "offset": 574064,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_1_wts_ddr"
+        },
+        "patch6": {
+            "offset": 583532,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_2"
+        },
+        "patch7": {
+            "offset": 583592,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_2"
+        },
+        "patch8": {
+            "offset": 593732,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_2"
+        },
+        "patch9": {
+            "offset": 593792,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_2"
+        },
+        "patch10": {
+            "offset": 593852,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_3_wts_ddr"
+        },
+        "patch11": {
+            "offset": 593912,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_3_wts_ddr"
+        },
+        "patch12": {
+            "offset": 593972,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_3_wts_ddr"
+        },
+        "patch13": {
+            "offset": 594032,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_3_wts_ddr"
+        },
+        "patch14": {
+            "offset": 595340,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_3"
+        },
+        "patch15": {
+            "offset": 595400,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_3"
+        },
+        "patch16": {
+            "offset": 615428,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_3"
+        },
+        "patch17": {
+            "offset": 615488,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_3"
+        },
+        "patch18": {
+            "offset": 615548,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_4_wts_ddr"
+        },
+        "patch19": {
+            "offset": 615608,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_4_wts_ddr"
+        },
+        "patch20": {
+            "offset": 615668,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_4_wts_ddr"
+        },
+        "patch21": {
+            "offset": 615728,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_4_wts_ddr"
+        },
+        "patch22": {
+            "offset": 616148,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_3"
+        },
+        "patch23": {
+            "offset": 616208,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_3"
+        },
+        "patch24": {
+            "offset": 616268,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_4_wts_ddr"
+        },
+        "patch25": {
+            "offset": 616328,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_4_wts_ddr"
+        },
+        "patch26": {
+            "offset": 616388,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_4_wts_ddr"
+        },
+        "patch27": {
+            "offset": 616448,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_4_wts_ddr"
+        },
+        "patch28": {
+            "offset": 618596,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_4"
+        },
+        "patch29": {
+            "offset": 618656,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_4"
+        },
+        "patch30": {
+            "offset": 618860,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_4"
+        },
+        "patch31": {
+            "offset": 618920,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_4"
+        },
+        "patch32": {
+            "offset": 638996,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_2"
+        },
+        "patch33": {
+            "offset": 639056,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_2"
+        },
+        "patch34": {
+            "offset": 639116,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_5_wts_ddr"
+        },
+        "patch35": {
+            "offset": 639176,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_5_wts_ddr"
+        },
+        "patch36": {
+            "offset": 639236,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_5_wts_ddr"
+        },
+        "patch37": {
+            "offset": 639296,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_5_wts_ddr"
+        },
+        "patch38": {
+            "offset": 639692,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_2"
+        },
+        "patch39": {
+            "offset": 639752,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_2"
+        },
+        "patch40": {
+            "offset": 639812,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_5_wts_ddr"
+        },
+        "patch41": {
+            "offset": 639872,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_5_wts_ddr"
+        },
+        "patch42": {
+            "offset": 639932,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_5_wts_ddr"
+        },
+        "patch43": {
+            "offset": 639992,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_5_wts_ddr"
+        },
+        "patch44": {
+            "offset": 642932,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_5"
+        },
+        "patch45": {
+            "offset": 642992,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_5"
+        },
+        "patch46": {
+            "offset": 643196,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_5"
+        },
+        "patch47": {
+            "offset": 643256,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_5"
+        },
+        "patch48": {
+            "offset": 669524,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_5"
+        },
+        "patch49": {
+            "offset": 669584,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_5"
+        },
+        "patch50": {
+            "offset": 669644,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_6_wts_ddr"
+        },
+        "patch51": {
+            "offset": 669704,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_6_wts_ddr"
+        },
+        "patch52": {
+            "offset": 669764,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_6_wts_ddr"
+        },
+        "patch53": {
+            "offset": 669824,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_6_wts_ddr"
+        },
+        "patch54": {
+            "offset": 670004,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_4"
+        },
+        "patch55": {
+            "offset": 670064,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_4"
+        },
+        "patch56": {
+            "offset": 670124,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_6_wts_ddr"
+        },
+        "patch57": {
+            "offset": 670184,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_6_wts_ddr"
+        },
+        "patch58": {
+            "offset": 670244,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_6_wts_ddr"
+        },
+        "patch59": {
+            "offset": 670304,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_6_wts_ddr"
+        },
+        "patch60": {
+            "offset": 671396,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_4"
+        },
+        "patch61": {
+            "offset": 671456,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_4"
+        },
+        "patch62": {
+            "offset": 671636,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_5"
+        },
+        "patch63": {
+            "offset": 671696,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_5"
+        },
+        "patch64": {
+            "offset": 674372,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_6"
+        },
+        "patch65": {
+            "offset": 674432,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_6"
+        },
+        "patch66": {
+            "offset": 674636,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_6"
+        },
+        "patch67": {
+            "offset": 674696,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_6"
+        },
+        "patch68": {
+            "offset": 694724,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_6"
+        },
+        "patch69": {
+            "offset": 694784,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_6"
+        },
+        "patch70": {
+            "offset": 694844,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_7_wts_ddr"
+        },
+        "patch71": {
+            "offset": 694904,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_7_wts_ddr"
+        },
+        "patch72": {
+            "offset": 694964,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_7_wts_ddr"
+        },
+        "patch73": {
+            "offset": 695024,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_7_wts_ddr"
+        },
+        "patch74": {
+            "offset": 695444,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_6"
+        },
+        "patch75": {
+            "offset": 695504,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_6"
+        },
+        "patch76": {
+            "offset": 695564,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_7_wts_ddr"
+        },
+        "patch77": {
+            "offset": 695624,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_7_wts_ddr"
+        },
+        "patch78": {
+            "offset": 695684,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_7_wts_ddr"
+        },
+        "patch79": {
+            "offset": 695744,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_7_wts_ddr"
+        },
+        "patch80": {
+            "offset": 697892,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_7"
+        },
+        "patch81": {
+            "offset": 697952,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_7"
+        },
+        "patch82": {
+            "offset": 698156,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_7"
+        },
+        "patch83": {
+            "offset": 698216,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_7"
+        },
+        "patch84": {
+            "offset": 708356,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_7"
+        },
+        "patch85": {
+            "offset": 708416,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_7"
+        },
+        "patch86": {
+            "offset": 708476,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_8_wts_ddr"
+        },
+        "patch87": {
+            "offset": 708536,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_8_wts_ddr"
+        },
+        "patch88": {
+            "offset": 708596,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_8_wts_ddr"
+        },
+        "patch89": {
+            "offset": 708656,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_8_wts_ddr"
+        },
+        "patch90": {
+            "offset": 709964,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_8"
+        },
+        "patch91": {
+            "offset": 710024,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_8"
+        },
+        "patch92": {
+            "offset": 736292,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_8"
+        },
+        "patch93": {
+            "offset": 736352,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_8"
+        },
+        "patch94": {
+            "offset": 736412,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_9_wts_ddr"
+        },
+        "patch95": {
+            "offset": 736472,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_9_wts_ddr"
+        },
+        "patch96": {
+            "offset": 736532,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_9_wts_ddr"
+        },
+        "patch97": {
+            "offset": 736592,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_9_wts_ddr"
+        },
+        "patch98": {
+            "offset": 737204,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_6"
+        },
+        "patch99": {
+            "offset": 737264,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_6"
+        },
+        "patch100": {
+            "offset": 737324,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_9_wts_ddr"
+        },
+        "patch101": {
+            "offset": 737384,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_9_wts_ddr"
+        },
+        "patch102": {
+            "offset": 737444,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_9_wts_ddr"
+        },
+        "patch103": {
+            "offset": 737504,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_9_wts_ddr"
+        },
+        "patch104": {
+            "offset": 738164,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_6"
+        },
+        "patch105": {
+            "offset": 738224,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_6"
+        },
+        "patch106": {
+            "offset": 738404,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_8"
+        },
+        "patch107": {
+            "offset": 738464,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_8"
+        },
+        "patch108": {
+            "offset": 741140,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_9"
+        },
+        "patch109": {
+            "offset": 741200,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_9"
+        },
+        "patch110": {
+            "offset": 741260,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_9"
+        },
+        "patch111": {
+            "offset": 741320,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_9"
+        },
+        "patch112": {
+            "offset": 761492,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_9"
+        },
+        "patch113": {
+            "offset": 761552,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_9"
+        },
+        "patch114": {
+            "offset": 761612,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_10_wts_ddr"
+        },
+        "patch115": {
+            "offset": 761672,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_10_wts_ddr"
+        },
+        "patch116": {
+            "offset": 761732,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_9"
+        },
+        "patch117": {
+            "offset": 761792,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_9"
+        },
+        "patch118": {
+            "offset": 761852,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_10_wts_ddr"
+        },
+        "patch119": {
+            "offset": 761912,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_10_wts_ddr"
+        },
+        "patch120": {
+            "offset": 761972,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_10_wts_ddr"
+        },
+        "patch121": {
+            "offset": 762032,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_10_wts_ddr"
+        },
+        "patch122": {
+            "offset": 762092,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_10_wts_ddr"
+        },
+        "patch123": {
+            "offset": 762152,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_10_wts_ddr"
+        },
+        "patch124": {
+            "offset": 764660,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_10"
+        },
+        "patch125": {
+            "offset": 764720,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_10"
+        },
+        "patch126": {
+            "offset": 764924,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_10"
+        },
+        "patch127": {
+            "offset": 764984,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_10"
+        },
+        "patch128": {
+            "offset": 775124,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_10"
+        },
+        "patch129": {
+            "offset": 775184,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_10"
+        },
+        "patch130": {
+            "offset": 775244,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_11_wts_ddr"
+        },
+        "patch131": {
+            "offset": 775304,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_11_wts_ddr"
+        },
+        "patch132": {
+            "offset": 775364,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_11_wts_ddr"
+        },
+        "patch133": {
+            "offset": 775424,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_11_wts_ddr"
+        },
+        "patch134": {
+            "offset": 776732,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_11"
+        },
+        "patch135": {
+            "offset": 776792,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_11"
+        },
+        "patch136": {
+            "offset": 803060,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_11"
+        },
+        "patch137": {
+            "offset": 803120,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_11"
+        },
+        "patch138": {
+            "offset": 803180,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_12_wts_ddr"
+        },
+        "patch139": {
+            "offset": 803240,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_12_wts_ddr"
+        },
+        "patch140": {
+            "offset": 803300,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_12_wts_ddr"
+        },
+        "patch141": {
+            "offset": 803360,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_12_wts_ddr"
+        },
+        "patch142": {
+            "offset": 803972,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_9"
+        },
+        "patch143": {
+            "offset": 804032,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_9"
+        },
+        "patch144": {
+            "offset": 804092,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_12_wts_ddr"
+        },
+        "patch145": {
+            "offset": 804152,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_12_wts_ddr"
+        },
+        "patch146": {
+            "offset": 804212,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_12_wts_ddr"
+        },
+        "patch147": {
+            "offset": 804272,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_12_wts_ddr"
+        },
+        "patch148": {
+            "offset": 804932,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_9"
+        },
+        "patch149": {
+            "offset": 804992,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_9"
+        },
+        "patch150": {
+            "offset": 805052,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_11"
+        },
+        "patch151": {
+            "offset": 805112,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_11"
+        },
+        "patch152": {
+            "offset": 807908,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_12"
+        },
+        "patch153": {
+            "offset": 807968,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_12"
+        },
+        "patch154": {
+            "offset": 808172,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_12"
+        },
+        "patch155": {
+            "offset": 808232,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_12"
+        },
+        "patch156": {
+            "offset": 828260,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_12"
+        },
+        "patch157": {
+            "offset": 828320,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_12"
+        },
+        "patch158": {
+            "offset": 828380,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_13_wts_ddr"
+        },
+        "patch159": {
+            "offset": 828440,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_13_wts_ddr"
+        },
+        "patch160": {
+            "offset": 828500,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_13_wts_ddr"
+        },
+        "patch161": {
+            "offset": 828560,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_13_wts_ddr"
+        },
+        "patch162": {
+            "offset": 828740,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_12"
+        },
+        "patch163": {
+            "offset": 828800,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_12"
+        },
+        "patch164": {
+            "offset": 828860,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_13_wts_ddr"
+        },
+        "patch165": {
+            "offset": 828920,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_13_wts_ddr"
+        },
+        "patch166": {
+            "offset": 828980,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_13_wts_ddr"
+        },
+        "patch167": {
+            "offset": 829040,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_13_wts_ddr"
+        },
+        "patch168": {
+            "offset": 831428,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_13"
+        },
+        "patch169": {
+            "offset": 831488,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_13"
+        },
+        "patch170": {
+            "offset": 831692,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_13"
+        },
+        "patch171": {
+            "offset": 831752,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_13"
+        },
+        "patch172": {
+            "offset": 851780,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_13"
+        },
+        "patch173": {
+            "offset": 851840,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_13"
+        },
+        "patch174": {
+            "offset": 851900,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_14_wts_ddr"
+        },
+        "patch175": {
+            "offset": 851960,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_14_wts_ddr"
+        },
+        "patch176": {
+            "offset": 852020,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_14_wts_ddr"
+        },
+        "patch177": {
+            "offset": 852080,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_14_wts_ddr"
+        },
+        "patch178": {
+            "offset": 852140,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_13"
+        },
+        "patch179": {
+            "offset": 852200,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_13"
+        },
+        "patch180": {
+            "offset": 852260,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_14_wts_ddr"
+        },
+        "patch181": {
+            "offset": 852320,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_14_wts_ddr"
+        },
+        "patch182": {
+            "offset": 852380,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_14_wts_ddr"
+        },
+        "patch183": {
+            "offset": 852440,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_14_wts_ddr"
+        },
+        "patch184": {
+            "offset": 854948,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_14"
+        },
+        "patch185": {
+            "offset": 855008,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_14"
+        },
+        "patch186": {
+            "offset": 855068,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_14"
+        },
+        "patch187": {
+            "offset": 855128,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_14"
+        },
+        "patch188": {
+            "offset": 875348,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_12"
+        },
+        "patch189": {
+            "offset": 875408,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_12"
+        },
+        "patch190": {
+            "offset": 875468,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_15_wts_ddr"
+        },
+        "patch191": {
+            "offset": 875528,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_15_wts_ddr"
+        },
+        "patch192": {
+            "offset": 875588,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_12"
+        },
+        "patch193": {
+            "offset": 875648,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_12"
+        },
+        "patch194": {
+            "offset": 875708,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_15_wts_ddr"
+        },
+        "patch195": {
+            "offset": 875768,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_15_wts_ddr"
+        },
+        "patch196": {
+            "offset": 875828,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_15_wts_ddr"
+        },
+        "patch197": {
+            "offset": 875888,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_15_wts_ddr"
+        },
+        "patch198": {
+            "offset": 876884,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_15_wts_ddr"
+        },
+        "patch199": {
+            "offset": 876944,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_15_wts_ddr"
+        },
+        "patch200": {
+            "offset": 880820,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_15"
+        },
+        "patch201": {
+            "offset": 880880,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_15"
+        },
+        "patch202": {
+            "offset": 881084,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_15"
+        },
+        "patch203": {
+            "offset": 881144,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_15"
+        },
+        "patch204": {
+            "offset": 907412,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_15"
+        },
+        "patch205": {
+            "offset": 907472,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_15"
+        },
+        "patch206": {
+            "offset": 907532,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_14"
+        },
+        "patch207": {
+            "offset": 907592,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_14"
+        },
+        "patch208": {
+            "offset": 907652,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_16_wts_ddr"
+        },
+        "patch209": {
+            "offset": 907712,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_16_wts_ddr"
+        },
+        "patch210": {
+            "offset": 907772,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_16_wts_ddr"
+        },
+        "patch211": {
+            "offset": 907832,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_16_wts_ddr"
+        },
+        "patch212": {
+            "offset": 908828,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_16_wts_ddr"
+        },
+        "patch213": {
+            "offset": 908888,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_16_wts_ddr"
+        },
+        "patch214": {
+            "offset": 908948,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_16_wts_ddr"
+        },
+        "patch215": {
+            "offset": 909008,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_16_wts_ddr"
+        },
+        "patch216": {
+            "offset": 910052,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_14"
+        },
+        "patch217": {
+            "offset": 910112,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_14"
+        },
+        "patch218": {
+            "offset": 910292,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_15"
+        },
+        "patch219": {
+            "offset": 910352,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_15"
+        },
+        "patch220": {
+            "offset": 913796,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_16"
+        },
+        "patch221": {
+            "offset": 913856,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_16"
+        },
+        "patch222": {
+            "offset": 914060,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_16"
+        },
+        "patch223": {
+            "offset": 914120,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_16"
+        },
+        "patch224": {
+            "offset": 924260,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_16"
+        },
+        "patch225": {
+            "offset": 924320,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_16"
+        },
+        "patch226": {
+            "offset": 924380,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_17_wts_ddr"
+        },
+        "patch227": {
+            "offset": 924440,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_17_wts_ddr"
+        },
+        "patch228": {
+            "offset": 924500,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_17_wts_ddr"
+        },
+        "patch229": {
+            "offset": 924560,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_17_wts_ddr"
+        },
+        "patch230": {
+            "offset": 925868,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_17"
+        },
+        "patch231": {
+            "offset": 925928,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_17"
+        },
+        "patch232": {
+            "offset": 946004,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_17"
+        },
+        "patch233": {
+            "offset": 946064,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_17"
+        },
+        "patch234": {
+            "offset": 946124,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_18_wts_ddr"
+        },
+        "patch235": {
+            "offset": 946184,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_18_wts_ddr"
+        },
+        "patch236": {
+            "offset": 946244,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_18_wts_ddr"
+        },
+        "patch237": {
+            "offset": 946304,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_18_wts_ddr"
+        },
+        "patch238": {
+            "offset": 946484,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_17"
+        },
+        "patch239": {
+            "offset": 946544,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_17"
+        },
+        "patch240": {
+            "offset": 946604,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_18_wts_ddr"
+        },
+        "patch241": {
+            "offset": 946664,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_18_wts_ddr"
+        },
+        "patch242": {
+            "offset": 946724,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_18_wts_ddr"
+        },
+        "patch243": {
+            "offset": 946784,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_18_wts_ddr"
+        },
+        "patch244": {
+            "offset": 949940,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_18"
+        },
+        "patch245": {
+            "offset": 950000,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_18"
+        },
+        "patch246": {
+            "offset": 950204,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_18"
+        },
+        "patch247": {
+            "offset": 950264,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_18"
+        },
+        "patch248": {
+            "offset": 963500,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_18"
+        },
+        "patch249": {
+            "offset": 963560,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_18"
+        },
+        "patch250": {
+            "offset": 963620,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_19_wts_ddr"
+        },
+        "patch251": {
+            "offset": 963680,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_19_wts_ddr"
+        },
+        "patch252": {
+            "offset": 963740,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_19_wts_ddr"
+        },
+        "patch253": {
+            "offset": 963800,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_19_wts_ddr"
+        },
+        "patch254": {
+            "offset": 964868,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_16"
+        },
+        "patch255": {
+            "offset": 964928,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_16"
+        },
+        "patch256": {
+            "offset": 976580,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_20_wts_ddr"
+        },
+        "patch257": {
+            "offset": 976640,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_20_wts_ddr"
+        },
+        "patch258": {
+            "offset": 976700,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_20_wts_ddr"
+        },
+        "patch259": {
+            "offset": 976760,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_20_wts_ddr"
+        },
+        "patch260": {
+            "offset": 977972,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_20"
+        },
+        "patch261": {
+            "offset": 978032,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_20"
+        },
+        "patch262": {
+            "offset": 998108,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_20"
+        },
+        "patch263": {
+            "offset": 998168,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_20"
+        },
+        "patch264": {
+            "offset": 998228,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_21_wts_ddr"
+        },
+        "patch265": {
+            "offset": 998288,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_21_wts_ddr"
+        },
+        "patch266": {
+            "offset": 998348,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_21_wts_ddr"
+        },
+        "patch267": {
+            "offset": 998408,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_21_wts_ddr"
+        },
+        "patch268": {
+            "offset": 998468,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_20"
+        },
+        "patch269": {
+            "offset": 998528,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_20"
+        },
+        "patch270": {
+            "offset": 998588,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_21_wts_ddr"
+        },
+        "patch271": {
+            "offset": 998648,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_21_wts_ddr"
+        },
+        "patch272": {
+            "offset": 998708,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_21_wts_ddr"
+        },
+        "patch273": {
+            "offset": 998768,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_21_wts_ddr"
+        },
+        "patch274": {
+            "offset": 1002044,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_21"
+        },
+        "patch275": {
+            "offset": 1002104,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_21"
+        },
+        "patch276": {
+            "offset": 1002164,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_21"
+        },
+        "patch277": {
+            "offset": 1002224,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_21"
+        },
+        "patch278": {
+            "offset": 1015604,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_21"
+        },
+        "patch279": {
+            "offset": 1015664,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_21"
+        },
+        "patch280": {
+            "offset": 1015724,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_22_wts_ddr"
+        },
+        "patch281": {
+            "offset": 1015784,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_22_wts_ddr"
+        },
+        "patch282": {
+            "offset": 1015844,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_22_wts_ddr"
+        },
+        "patch283": {
+            "offset": 1015904,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_22_wts_ddr"
+        },
+        "patch284": {
+            "offset": 1028372,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_23_wts_ddr"
+        },
+        "patch285": {
+            "offset": 1028432,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_23_wts_ddr"
+        },
+        "patch286": {
+            "offset": 1028492,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_23_wts_ddr"
+        },
+        "patch287": {
+            "offset": 1028552,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_23_wts_ddr"
+        },
+        "patch288": {
+            "offset": 1029764,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_23"
+        },
+        "patch289": {
+            "offset": 1029824,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_23"
+        },
+        "patch290": {
+            "offset": 1049900,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_23"
+        },
+        "patch291": {
+            "offset": 1049960,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_23"
+        },
+        "patch292": {
+            "offset": 1050020,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_24_wts_ddr"
+        },
+        "patch293": {
+            "offset": 1050080,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_24_wts_ddr"
+        },
+        "patch294": {
+            "offset": 1050140,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_24_wts_ddr"
+        },
+        "patch295": {
+            "offset": 1050200,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_24_wts_ddr"
+        },
+        "patch296": {
+            "offset": 1050812,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_23"
+        },
+        "patch297": {
+            "offset": 1050872,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_23"
+        },
+        "patch298": {
+            "offset": 1050932,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_24_wts_ddr"
+        },
+        "patch299": {
+            "offset": 1050992,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_24_wts_ddr"
+        },
+        "patch300": {
+            "offset": 1051052,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_24_wts_ddr"
+        },
+        "patch301": {
+            "offset": 1051112,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_24_wts_ddr"
+        },
+        "patch302": {
+            "offset": 1053836,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_24"
+        },
+        "patch303": {
+            "offset": 1053896,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_24"
+        },
+        "patch304": {
+            "offset": 1054100,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_24"
+        },
+        "patch305": {
+            "offset": 1054160,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_24"
+        },
+        "patch306": {
+            "offset": 1067396,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_24"
+        },
+        "patch307": {
+            "offset": 1067456,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_24"
+        },
+        "patch308": {
+            "offset": 1067516,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_25_wts_ddr"
+        },
+        "patch309": {
+            "offset": 1067576,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_25_wts_ddr"
+        },
+        "patch310": {
+            "offset": 1067636,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_25_wts_ddr"
+        },
+        "patch311": {
+            "offset": 1067696,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_25_wts_ddr"
+        },
+        "patch312": {
+            "offset": 1070348,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_25"
+        },
+        "patch313": {
+            "offset": 1070408,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_25"
+        },
+        "patch314": {
+            "offset": 1080572,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_25"
+        },
+        "patch315": {
+            "offset": 1080632,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_25"
+        },
+        "patch316": {
+            "offset": 1080692,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_26_wts_ddr"
+        },
+        "patch317": {
+            "offset": 1080752,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_26_wts_ddr"
+        },
+        "patch318": {
+            "offset": 1080812,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_26_wts_ddr"
+        },
+        "patch319": {
+            "offset": 1080872,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_26_wts_ddr"
+        },
+        "patch320": {
+            "offset": 1082564,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_26"
+        },
+        "patch321": {
+            "offset": 1082624,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_26"
+        },
+        "patch322": {
+            "offset": 1102700,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_26"
+        },
+        "patch323": {
+            "offset": 1102760,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_26"
+        },
+        "patch324": {
+            "offset": 1102820,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_27_wts_ddr"
+        },
+        "patch325": {
+            "offset": 1102880,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_27_wts_ddr"
+        },
+        "patch326": {
+            "offset": 1102940,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_27_wts_ddr"
+        },
+        "patch327": {
+            "offset": 1103000,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_27_wts_ddr"
+        },
+        "patch328": {
+            "offset": 1103060,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_26"
+        },
+        "patch329": {
+            "offset": 1103120,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_26"
+        },
+        "patch330": {
+            "offset": 1103180,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_27_wts_ddr"
+        },
+        "patch331": {
+            "offset": 1103240,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_27_wts_ddr"
+        },
+        "patch332": {
+            "offset": 1103300,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_27_wts_ddr"
+        },
+        "patch333": {
+            "offset": 1103360,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_27_wts_ddr"
+        },
+        "patch334": {
+            "offset": 1108172,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_27"
+        },
+        "patch335": {
+            "offset": 1108232,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_27"
+        },
+        "patch336": {
+            "offset": 1108292,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_27"
+        },
+        "patch337": {
+            "offset": 1108352,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_27"
+        },
+        "patch338": {
+            "offset": 1128572,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_25"
+        },
+        "patch339": {
+            "offset": 1128632,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_25"
+        },
+        "patch340": {
+            "offset": 1128692,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_28_wts_ddr"
+        },
+        "patch341": {
+            "offset": 1128752,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_28_wts_ddr"
+        },
+        "patch342": {
+            "offset": 1128812,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_25"
+        },
+        "patch343": {
+            "offset": 1128872,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_25"
+        },
+        "patch344": {
+            "offset": 1128932,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_28_wts_ddr"
+        },
+        "patch345": {
+            "offset": 1128992,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_28_wts_ddr"
+        },
+        "patch346": {
+            "offset": 1129052,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_28_wts_ddr"
+        },
+        "patch347": {
+            "offset": 1129112,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_28_wts_ddr"
+        },
+        "patch348": {
+            "offset": 1130108,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_28_wts_ddr"
+        },
+        "patch349": {
+            "offset": 1130168,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_28_wts_ddr"
+        },
+        "patch350": {
+            "offset": 1134044,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_28"
+        },
+        "patch351": {
+            "offset": 1134104,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_28"
+        },
+        "patch352": {
+            "offset": 1134308,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_28"
+        },
+        "patch353": {
+            "offset": 1134368,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_28"
+        },
+        "patch354": {
+            "offset": 1162940,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_28"
+        },
+        "patch355": {
+            "offset": 1163000,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_28"
+        },
+        "patch356": {
+            "offset": 1163060,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_27"
+        },
+        "patch357": {
+            "offset": 1163120,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_27"
+        },
+        "patch358": {
+            "offset": 1163180,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_29_wts_ddr"
+        },
+        "patch359": {
+            "offset": 1163240,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_29_wts_ddr"
+        },
+        "patch360": {
+            "offset": 1163300,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_29_wts_ddr"
+        },
+        "patch361": {
+            "offset": 1163360,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_29_wts_ddr"
+        },
+        "patch362": {
+            "offset": 1163948,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_29_wts_ddr"
+        },
+        "patch363": {
+            "offset": 1164008,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_29_wts_ddr"
+        },
+        "patch364": {
+            "offset": 1164068,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_29_wts_ddr"
+        },
+        "patch365": {
+            "offset": 1164128,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_29_wts_ddr"
+        },
+        "patch366": {
+            "offset": 1165580,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_27"
+        },
+        "patch367": {
+            "offset": 1165640,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_27"
+        },
+        "patch368": {
+            "offset": 1165820,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_28"
+        },
+        "patch369": {
+            "offset": 1165880,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_28"
+        },
+        "patch370": {
+            "offset": 1169324,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_29"
+        },
+        "patch371": {
+            "offset": 1169384,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_29"
+        },
+        "patch372": {
+            "offset": 1169588,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_29"
+        },
+        "patch373": {
+            "offset": 1169648,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_29"
+        },
+        "patch374": {
+            "offset": 1179812,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_29"
+        },
+        "patch375": {
+            "offset": 1179872,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_29"
+        },
+        "patch376": {
+            "offset": 1179932,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_30_wts_ddr"
+        },
+        "patch377": {
+            "offset": 1179992,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_30_wts_ddr"
+        },
+        "patch378": {
+            "offset": 1180052,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_30_wts_ddr"
+        },
+        "patch379": {
+            "offset": 1180112,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_30_wts_ddr"
+        },
+        "patch380": {
+            "offset": 1181804,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_30"
+        },
+        "patch381": {
+            "offset": 1181864,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_30"
+        },
+        "patch382": {
+            "offset": 1201940,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_30"
+        },
+        "patch383": {
+            "offset": 1202000,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_30"
+        },
+        "patch384": {
+            "offset": 1202060,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_31_wts_ddr"
+        },
+        "patch385": {
+            "offset": 1202120,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_31_wts_ddr"
+        },
+        "patch386": {
+            "offset": 1202180,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_31_wts_ddr"
+        },
+        "patch387": {
+            "offset": 1202240,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_31_wts_ddr"
+        },
+        "patch388": {
+            "offset": 1202420,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_30"
+        },
+        "patch389": {
+            "offset": 1202480,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_30"
+        },
+        "patch390": {
+            "offset": 1202540,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_31_wts_ddr"
+        },
+        "patch391": {
+            "offset": 1202600,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_31_wts_ddr"
+        },
+        "patch392": {
+            "offset": 1202660,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_31_wts_ddr"
+        },
+        "patch393": {
+            "offset": 1202720,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_31_wts_ddr"
+        },
+        "patch394": {
+            "offset": 1207412,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_31"
+        },
+        "patch395": {
+            "offset": 1207472,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_31"
+        },
+        "patch396": {
+            "offset": 1207676,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_31"
+        },
+        "patch397": {
+            "offset": 1207736,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_31"
+        },
+        "patch398": {
+            "offset": 1222124,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_31"
+        },
+        "patch399": {
+            "offset": 1222184,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_31"
+        },
+        "patch400": {
+            "offset": 1222244,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_32_wts_ddr"
+        },
+        "patch401": {
+            "offset": 1222304,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_32_wts_ddr"
+        },
+        "patch402": {
+            "offset": 1222364,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_32_wts_ddr"
+        },
+        "patch403": {
+            "offset": 1222424,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_32_wts_ddr"
+        },
+        "patch404": {
+            "offset": 1223492,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_29"
+        },
+        "patch405": {
+            "offset": 1223552,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_29"
+        },
+        "patch406": {
+            "offset": 1235276,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_33_wts_ddr"
+        },
+        "patch407": {
+            "offset": 1235336,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_33_wts_ddr"
+        },
+        "patch408": {
+            "offset": 1235396,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_33_wts_ddr"
+        },
+        "patch409": {
+            "offset": 1235456,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_33_wts_ddr"
+        },
+        "patch410": {
+            "offset": 1237004,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_33"
+        },
+        "patch411": {
+            "offset": 1237064,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_33"
+        },
+        "patch412": {
+            "offset": 1257140,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_33"
+        },
+        "patch413": {
+            "offset": 1257200,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_33"
+        },
+        "patch414": {
+            "offset": 1257260,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_34_wts_ddr"
+        },
+        "patch415": {
+            "offset": 1257320,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_34_wts_ddr"
+        },
+        "patch416": {
+            "offset": 1257380,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_34_wts_ddr"
+        },
+        "patch417": {
+            "offset": 1257440,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_34_wts_ddr"
+        },
+        "patch418": {
+            "offset": 1257620,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_33"
+        },
+        "patch419": {
+            "offset": 1257680,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_33"
+        },
+        "patch420": {
+            "offset": 1257740,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_34_wts_ddr"
+        },
+        "patch421": {
+            "offset": 1257800,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_34_wts_ddr"
+        },
+        "patch422": {
+            "offset": 1257860,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_34_wts_ddr"
+        },
+        "patch423": {
+            "offset": 1257920,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_34_wts_ddr"
+        },
+        "patch424": {
+            "offset": 1262612,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_34"
+        },
+        "patch425": {
+            "offset": 1262672,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_34"
+        },
+        "patch426": {
+            "offset": 1262876,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_34"
+        },
+        "patch427": {
+            "offset": 1262936,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_34"
+        },
+        "patch428": {
+            "offset": 1277324,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_34"
+        },
+        "patch429": {
+            "offset": 1277384,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_34"
+        },
+        "patch430": {
+            "offset": 1277444,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_35_wts_ddr"
+        },
+        "patch431": {
+            "offset": 1277504,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_35_wts_ddr"
+        },
+        "patch432": {
+            "offset": 1277564,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_35_wts_ddr"
+        },
+        "patch433": {
+            "offset": 1277624,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_35_wts_ddr"
+        },
+        "patch434": {
+            "offset": 1290164,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_36_wts_ddr"
+        },
+        "patch435": {
+            "offset": 1290224,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_36_wts_ddr"
+        },
+        "patch436": {
+            "offset": 1290284,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_36_wts_ddr"
+        },
+        "patch437": {
+            "offset": 1290344,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_36_wts_ddr"
+        },
+        "patch438": {
+            "offset": 1291892,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_36"
+        },
+        "patch439": {
+            "offset": 1291952,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_36"
+        },
+        "patch440": {
+            "offset": 1312028,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_36"
+        },
+        "patch441": {
+            "offset": 1312088,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_36"
+        },
+        "patch442": {
+            "offset": 1312148,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_37_wts_ddr"
+        },
+        "patch443": {
+            "offset": 1312208,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_37_wts_ddr"
+        },
+        "patch444": {
+            "offset": 1312268,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_37_wts_ddr"
+        },
+        "patch445": {
+            "offset": 1312328,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_37_wts_ddr"
+        },
+        "patch446": {
+            "offset": 1313324,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_36"
+        },
+        "patch447": {
+            "offset": 1313384,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_36"
+        },
+        "patch448": {
+            "offset": 1313444,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_37_wts_ddr"
+        },
+        "patch449": {
+            "offset": 1313504,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_37_wts_ddr"
+        },
+        "patch450": {
+            "offset": 1313564,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_37_wts_ddr"
+        },
+        "patch451": {
+            "offset": 1313624,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_37_wts_ddr"
+        },
+        "patch452": {
+            "offset": 1317500,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_37"
+        },
+        "patch453": {
+            "offset": 1317560,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_37"
+        },
+        "patch454": {
+            "offset": 1317764,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_37"
+        },
+        "patch455": {
+            "offset": 1317824,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_37"
+        },
+        "patch456": {
+            "offset": 1332212,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_37"
+        },
+        "patch457": {
+            "offset": 1332272,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_37"
+        },
+        "patch458": {
+            "offset": 1332332,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_38_wts_ddr"
+        },
+        "patch459": {
+            "offset": 1332392,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_38_wts_ddr"
+        },
+        "patch460": {
+            "offset": 1332452,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_38_wts_ddr"
+        },
+        "patch461": {
+            "offset": 1332512,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_38_wts_ddr"
+        },
+        "patch462": {
+            "offset": 1345052,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_39_wts_ddr"
+        },
+        "patch463": {
+            "offset": 1345112,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_39_wts_ddr"
+        },
+        "patch464": {
+            "offset": 1345172,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_39_wts_ddr"
+        },
+        "patch465": {
+            "offset": 1345232,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_39_wts_ddr"
+        },
+        "patch466": {
+            "offset": 1346780,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_39"
+        },
+        "patch467": {
+            "offset": 1346840,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_39"
+        },
+        "patch468": {
+            "offset": 1366916,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_39"
+        },
+        "patch469": {
+            "offset": 1366976,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_39"
+        },
+        "patch470": {
+            "offset": 1367036,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_40_wts_ddr"
+        },
+        "patch471": {
+            "offset": 1367096,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_40_wts_ddr"
+        },
+        "patch472": {
+            "offset": 1367156,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_40_wts_ddr"
+        },
+        "patch473": {
+            "offset": 1367216,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_40_wts_ddr"
+        },
+        "patch474": {
+            "offset": 1367396,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_39"
+        },
+        "patch475": {
+            "offset": 1367456,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_39"
+        },
+        "patch476": {
+            "offset": 1367516,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_40_wts_ddr"
+        },
+        "patch477": {
+            "offset": 1367576,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_40_wts_ddr"
+        },
+        "patch478": {
+            "offset": 1367636,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_40_wts_ddr"
+        },
+        "patch479": {
+            "offset": 1367696,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_40_wts_ddr"
+        },
+        "patch480": {
+            "offset": 1372388,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_40"
+        },
+        "patch481": {
+            "offset": 1372448,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_40"
+        },
+        "patch482": {
+            "offset": 1372652,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_40"
+        },
+        "patch483": {
+            "offset": 1372712,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_40"
+        },
+        "patch484": {
+            "offset": 1387100,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_40"
+        },
+        "patch485": {
+            "offset": 1387160,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_40"
+        },
+        "patch486": {
+            "offset": 1387220,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_41_wts_ddr"
+        },
+        "patch487": {
+            "offset": 1387280,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_41_wts_ddr"
+        },
+        "patch488": {
+            "offset": 1387340,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_41_wts_ddr"
+        },
+        "patch489": {
+            "offset": 1387400,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_41_wts_ddr"
+        },
+        "patch490": {
+            "offset": 1399940,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_42_wts_ddr"
+        },
+        "patch491": {
+            "offset": 1400000,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_42_wts_ddr"
+        },
+        "patch492": {
+            "offset": 1400060,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_42_wts_ddr"
+        },
+        "patch493": {
+            "offset": 1400120,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_42_wts_ddr"
+        },
+        "patch494": {
+            "offset": 1401668,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_42"
+        },
+        "patch495": {
+            "offset": 1401728,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_42"
+        },
+        "patch496": {
+            "offset": 1421804,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_42"
+        },
+        "patch497": {
+            "offset": 1421864,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_42"
+        },
+        "patch498": {
+            "offset": 1421924,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_43_wts_ddr"
+        },
+        "patch499": {
+            "offset": 1421984,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_43_wts_ddr"
+        },
+        "patch500": {
+            "offset": 1422044,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_43_wts_ddr"
+        },
+        "patch501": {
+            "offset": 1422104,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_43_wts_ddr"
+        },
+        "patch502": {
+            "offset": 1423100,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_42"
+        },
+        "patch503": {
+            "offset": 1423160,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_42"
+        },
+        "patch504": {
+            "offset": 1423220,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_43_wts_ddr"
+        },
+        "patch505": {
+            "offset": 1423280,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_43_wts_ddr"
+        },
+        "patch506": {
+            "offset": 1423340,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_43_wts_ddr"
+        },
+        "patch507": {
+            "offset": 1423400,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_43_wts_ddr"
+        },
+        "patch508": {
+            "offset": 1427276,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_43"
+        },
+        "patch509": {
+            "offset": 1427336,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_43"
+        },
+        "patch510": {
+            "offset": 1427540,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_43"
+        },
+        "patch511": {
+            "offset": 1427600,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_43"
+        },
+        "patch512": {
+            "offset": 1441988,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_43"
+        },
+        "patch513": {
+            "offset": 1442048,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_OFM_Buffer_spill_layer_43"
+        },
+        "patch514": {
+            "offset": 1442108,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_44_wts_ddr"
+        },
+        "patch515": {
+            "offset": 1442168,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_44_wts_ddr"
+        },
+        "patch516": {
+            "offset": 1442228,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_44_wts_ddr"
+        },
+        "patch517": {
+            "offset": 1442288,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_44_wts_ddr"
+        },
+        "patch518": {
+            "offset": 1454828,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_45_wts_ddr"
+        },
+        "patch519": {
+            "offset": 1454888,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_45_wts_ddr"
+        },
+        "patch520": {
+            "offset": 1454948,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_45_wts_ddr"
+        },
+        "patch521": {
+            "offset": 1455008,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_45_wts_ddr"
+        },
+        "patch522": {
+            "offset": 1467212,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_46_wts_ddr"
+        },
+        "patch523": {
+            "offset": 1467272,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_46_wts_ddr"
+        },
+        "patch524": {
+            "offset": 1467332,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_46_wts_ddr"
+        },
+        "patch525": {
+            "offset": 1467392,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_46_wts_ddr"
+        },
+        "patch526": {
+            "offset": 1479572,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_47_wts_ddr"
+        },
+        "patch527": {
+            "offset": 1479632,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_47_wts_ddr"
+        },
+        "patch528": {
+            "offset": 1479692,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_47_wts_ddr"
+        },
+        "patch529": {
+            "offset": 1479752,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_47_wts_ddr"
+        },
+        "patch530": {
+            "offset": 1498508,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_48_wts_ddr"
+        },
+        "patch531": {
+            "offset": 1498568,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_48_wts_ddr"
+        },
+        "patch532": {
+            "offset": 1498628,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_48_wts_ddr"
+        },
+        "patch533": {
+            "offset": 1498688,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_48_wts_ddr"
+        },
+        "patch534": {
+            "offset": 1511084,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_49_wts_ddr"
+        },
+        "patch535": {
+            "offset": 1511144,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_49_wts_ddr"
+        },
+        "patch536": {
+            "offset": 1511204,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_49_wts_ddr"
+        },
+        "patch537": {
+            "offset": 1511264,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_49_wts_ddr"
+        },
+        "patch538": {
+            "offset": 1524044,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_50_wts_ddr"
+        },
+        "patch539": {
+            "offset": 1524104,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_50_wts_ddr"
+        },
+        "patch540": {
+            "offset": 1524164,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_50_wts_ddr"
+        },
+        "patch541": {
+            "offset": 1524224,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_50_wts_ddr"
+        },
+        "patch542": {
+            "offset": 1543004,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_51_wts_ddr"
+        },
+        "patch543": {
+            "offset": 1543064,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_51_wts_ddr"
+        },
+        "patch544": {
+            "offset": 1543124,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_51_wts_ddr"
+        },
+        "patch545": {
+            "offset": 1543184,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_51_wts_ddr"
+        },
+        "patch546": {
+            "offset": 1555580,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_52_wts_ddr"
+        },
+        "patch547": {
+            "offset": 1555640,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_52_wts_ddr"
+        },
+        "patch548": {
+            "offset": 1555700,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_52_wts_ddr"
+        },
+        "patch549": {
+            "offset": 1555760,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_52_wts_ddr"
+        },
+        "patch550": {
+            "offset": 1568540,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_53_wts_ddr"
+        },
+        "patch551": {
+            "offset": 1568600,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_53_wts_ddr"
+        },
+        "patch552": {
+            "offset": 1568660,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_53_wts_ddr"
+        },
+        "patch553": {
+            "offset": 1568720,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_53_wts_ddr"
+        },
+        "patch554": {
+            "offset": 1587500,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_54_wts_ddr"
+        },
+        "patch555": {
+            "offset": 1587560,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_54_wts_ddr"
+        },
+        "patch556": {
+            "offset": 1587620,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_54_wts_ddr"
+        },
+        "patch557": {
+            "offset": 1587680,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_54_wts_ddr"
+        },
+        "patch558": {
+            "offset": 1937876,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_56_pseudo_op_from_layer_55_port_0"
+        },
+        "patch559": {
+            "offset": 1937936,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_56_pseudo_op_from_layer_55_port_0"
+        },
+        "patch560": {
+            "offset": 1948508,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_56_pseudo_op_from_layer_55_port_0"
+        },
+        "patch561": {
+            "offset": 1948568,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.L3_56_pseudo_op_from_layer_55_port_0"
+        },
+        "patch562": {
+            "offset": 1948628,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_57_wts_ddr"
+        },
+        "patch563": {
+            "offset": 1948688,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_57_wts_ddr"
+        },
+        "patch564": {
+            "offset": 1948748,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_57_wts_ddr"
+        },
+        "patch565": {
+            "offset": 1948808,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_57_wts_ddr"
+        },
+        "patch566": {
+            "offset": 1960196,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_58_wts_ddr"
+        },
+        "patch567": {
+            "offset": 1960256,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_58_wts_ddr"
+        },
+        "patch568": {
+            "offset": 1960316,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_58_wts_ddr"
+        },
+        "patch569": {
+            "offset": 1960376,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.Layer_58_wts_ddr"
+        },
+        "patch570": {
+            "offset": 1961564,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.ofm_ddr_0"
+        },
+        "patch571": {
+            "offset": 1961624,
+            "size": 6,
+            "operation": "read_add_write",
+            "name": "compute_graph.ofm_ddr_0"
+        }
+    }
+}

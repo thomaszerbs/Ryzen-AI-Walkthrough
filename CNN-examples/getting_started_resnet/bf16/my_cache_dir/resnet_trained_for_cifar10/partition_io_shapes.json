@@ -1,0 +1,15 @@
+{
+    "-1": {
+        "vaiml_par_0": {
+            "inputs": {
+                "input": "1 3 32 32 "
+            },
+            "outputs": {
+                "output": "1 10 "
+            },
+            "outputs_order": {
+                "0": "output"
+            }
+        }
+    }
+}

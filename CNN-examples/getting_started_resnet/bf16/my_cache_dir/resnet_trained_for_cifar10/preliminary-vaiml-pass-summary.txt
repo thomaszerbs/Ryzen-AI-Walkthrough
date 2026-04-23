@@ -1,0 +1,16 @@
+----- Preliminary Summary of RAI EP VAIML Pass ------
+VAIP commit: 002c301a507c49dec1074e4bba957c9bbbbba84b
+Model: /scratch/thozerbs/git/RyzenAI-SW/CNN-examples/getting_started_resnet/bf16/models/resnet_trained_for_cifar10.onnx
+Model data type: float32
+Device data type: bfloat16
+Number of operators in the model: 124
+GOPs of the model: 0.168
+Number of operators supported by VAIML: 124(100.000%)
+GOPs supported by VAIML: 0.168 (100.000%)
+Number of subgraphs supported by VAIML: 1
+
+Number of identified subgraphs: 1
+Stats for identified subgraphs
+vaiml_par_0 stats:
+    Operators: 124 (100.000%)
+    GOPs: 0.168(100.000%)  OPs: 167,999,964

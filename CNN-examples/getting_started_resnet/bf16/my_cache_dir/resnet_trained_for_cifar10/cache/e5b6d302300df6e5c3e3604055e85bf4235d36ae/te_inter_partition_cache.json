@@ -1,0 +1,3342 @@
+{
+  "metadata": {
+    "stats": {"conflicts": 0, "hits": 19, "misses": 36}
+  },
+  "solutions": {
+    "109430117039560946": {
+      "hits": 0,
+      "key": {"activeBuffersHash": 0, "backendInputsHash": 17197733907588325635, "blockHash": 7760077683124423781, "bufferViewHash": 14894741493519129447, "inCoreChainHash": 15299998651586276130, "interMemtileCopyRequirementHash": 9042741235277617659, "kernelParametersHash": 7035796228102485587, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 13881989896144176753},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [12]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [4],
+                "R": [1]
+              },
+              "OW": {
+                "C": [1],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [128],
+              "OC": [32],
+              "OH": [1],
+              "OW": [8]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [1]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [512],
+              "ICW": [512],
+              "OC": [128],
+              "OCW": [128],
+              "OH": [4],
+              "OW": [4]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 2209,
+        "metadata": {
+          "averageBranches": 9.106796116504855E0,
+          "blockKernels": ["Conv2DBf16"],
+          "constrainedSpaceSize": {"l1": 1.1352E4, "l2": 4.2E1, "total": 1.40592E5},
+          "initialSpaceSize": {"l1": 3.145728E6, "l2": 9E1, "total": 9.437184E7},
+          "l1BlockDims": {"B": 1, "IC": 512, "OC": 128, "OH": 4, "OW": 4},
+          "l2BlockDims": {"B": 1, "IC": 512, "ICW": 512, "OC": 128, "OCW": 128, "OH": 4, "OW": 4},
+          "maxBranches": 17,
+          "perfDpCovered": 2.90871E5,
+          "perfEstCalls": {"conflicts": 0, "hits": 9131, "misses": 7637},
+          "steps": 103
+        }
+      }
+    },
+    "11053458322768060445": {
+      "hits": 0,
+      "key": {"activeBuffersHash": 6156272763181950944, "backendInputsHash": 14614234884937261583, "blockHash": 8818947356329338629, "bufferViewHash": 4142339099808762564, "inCoreChainHash": 15299998651586276130, "interMemtileCopyRequirementHash": 0, "kernelParametersHash": 9605449779554027927, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 13881989896144176753},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [0]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [1],
+                "R": [1]
+              },
+              "OW": {
+                "C": [4],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [128],
+              "OC": [32],
+              "OH": [1],
+              "OW": [16]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [1]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [512],
+              "ICW": [512],
+              "OC": [2048],
+              "OCW": [128],
+              "OH": [1],
+              "OW": [1]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 5863,
+        "metadata": {
+          "averageBranches": 1.660546875E1,
+          "blockKernels": ["Conv2DBf16", "AddBf16"],
+          "constrainedSpaceSize": {"l1": 1.936E4, "l2": 2.6E1, "total": 1.55712E5},
+          "initialSpaceSize": {"l1": 7.077888E7, "l2": 5.4E1, "total": 1.27401984E9},
+          "l1BlockDims": {"B": 1, "IC": 512, "OC": 2048, "OH": 1, "OW": 1},
+          "l2BlockDims": {"B": 1, "IC": 512, "ICW": 512, "OC": 2048, "OCW": 2048, "OH": 1, "OW": 1},
+          "maxBranches": 43,
+          "perfDpCovered": 2.62731E5,
+          "perfEstCalls": {"conflicts": 0, "hits": 13145, "misses": 6769},
+          "steps": 256
+        }
+      }
+    },
+    "11853399210520090127": {
+      "hits": 0,
+      "key": {"activeBuffersHash": 9567848309578233221, "backendInputsHash": 17197733907588325635, "blockHash": 13472995607106891197, "bufferViewHash": 14894741493519129447, "inCoreChainHash": 15299998651586276130, "interMemtileCopyRequirementHash": 4801047119709249371, "kernelParametersHash": 7035796228102485587, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 13881989896144176753},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [12]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [4],
+                "R": [1]
+              },
+              "OW": {
+                "C": [1],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [128],
+              "OC": [32],
+              "OH": [1],
+              "OW": [8]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [1]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [1024],
+              "ICW": [1024],
+              "OC": [512],
+              "OCW": [128],
+              "OH": [2],
+              "OW": [2]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 2903,
+        "metadata": {
+          "averageBranches": 1.5423357664233576E1,
+          "blockKernels": ["Conv2DBf16"],
+          "constrainedSpaceSize": {"l1": 6.04E3, "l2": 4E1, "total": 7.5392E4},
+          "initialSpaceSize": {"l1": 2.94912E6, "l2": 8.4E1, "total": 8.257536E7},
+          "l1BlockDims": {"B": 1, "IC": 1024, "OC": 512, "OH": 2, "OW": 2},
+          "l2BlockDims": {"B": 1, "IC": 1024, "ICW": 1024, "OC": 512, "OCW": 512, "OH": 2, "OW": 2},
+          "maxBranches": 38,
+          "perfDpCovered": 1.54435E5,
+          "perfEstCalls": {"conflicts": 0, "hits": 13088, "misses": 7334},
+          "steps": 274
+        }
+      }
+    },
+    "11903366040626374637": {
+      "hits": 3,
+      "key": {"activeBuffersHash": 9567848309578233221, "backendInputsHash": 17197733907588325635, "blockHash": 14631588744265147929, "bufferViewHash": 14894741493519129447, "inCoreChainHash": 15299998651586276130, "interMemtileCopyRequirementHash": 136985590918281810, "kernelParametersHash": 7035796228102485587, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 13881989896144176753},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [12]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [4],
+                "R": [1]
+              },
+              "OW": {
+                "C": [1],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [128],
+              "OC": [32],
+              "OH": [1],
+              "OW": [8]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [1]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [1024],
+              "ICW": [1024],
+              "OC": [256],
+              "OCW": [128],
+              "OH": [2],
+              "OW": [2]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 3397,
+        "metadata": {
+          "averageBranches": 1.6208029197080293E1,
+          "blockKernels": ["Conv2DBf16"],
+          "constrainedSpaceSize": {"l1": 6.04E3, "l2": 4E1, "total": 7.5392E4},
+          "initialSpaceSize": {"l1": 2.94912E6, "l2": 7.2E1, "total": 7.077888E7},
+          "l1BlockDims": {"B": 1, "IC": 1024, "OC": 256, "OH": 2, "OW": 2},
+          "l2BlockDims": {"B": 1, "IC": 1024, "ICW": 1024, "OC": 256, "OCW": 256, "OH": 2, "OW": 2},
+          "maxBranches": 43,
+          "perfDpCovered": 2.26983E5,
+          "perfEstCalls": {"conflicts": 0, "hits": 18695, "misses": 9303},
+          "steps": 274
+        }
+      }
+    },
+    "12540248900053178828": {
+      "hits": 0,
+      "key": {"activeBuffersHash": 0, "backendInputsHash": 17197733907588325635, "blockHash": 6626859043403922868, "bufferViewHash": 14894741493519129447, "inCoreChainHash": 15299998651586276130, "interMemtileCopyRequirementHash": 14697860403200271398, "kernelParametersHash": 7035796228102485587, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 13881989896144176753},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [12]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [4],
+                "R": [1]
+              },
+              "OW": {
+                "C": [1],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [128],
+              "OC": [32],
+              "OH": [1],
+              "OW": [8]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [2]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [256],
+              "ICW": [256],
+              "OC": [128],
+              "OCW": [128],
+              "OH": [4],
+              "OW": [8]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 1998,
+        "metadata": {
+          "averageBranches": 5.839285714285714E0,
+          "blockKernels": ["Conv2DBf16"],
+          "constrainedSpaceSize": {"l1": 1.9608E4, "l2": 5.6E1, "total": 3.19552E5},
+          "initialSpaceSize": {"l1": 3.145728E6, "l2": 1.2E2, "total": 1.2582912E8},
+          "l1BlockDims": {"B": 1, "IC": 256, "OC": 128, "OH": 8, "OW": 8},
+          "l2BlockDims": {"B": 1, "IC": 256, "ICW": 256, "OC": 128, "OCW": 128, "OH": 8, "OW": 8},
+          "maxBranches": 17,
+          "perfDpCovered": 4.20635E5,
+          "perfEstCalls": {"conflicts": 0, "hits": 7912, "misses": 8112},
+          "steps": 56
+        }
+      }
+    },
+    "1255541672982266813": {
+      "hits": 0,
+      "key": {"activeBuffersHash": 0, "backendInputsHash": 16002368796936669685, "blockHash": 7481094172641714681, "bufferViewHash": 1587030013961683453, "inCoreChainHash": 14978736368004617439, "interMemtileCopyRequirementHash": 0, "kernelParametersHash": 14961694192939710145, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 14895788821609847515},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {},
+            "permutation": ["OW", "OC", "OH", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [4],
+                "R": [1]
+              },
+              "OW": {
+                "C": [1],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "OC": [8],
+              "OH": [2],
+              "OW": [8]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [1]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "OC": [64],
+              "OH": [8],
+              "OW": [8]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 53,
+        "metadata": {
+          "averageBranches": 1.9E0,
+          "blockKernels": ["MaxPool2dBf16"],
+          "constrainedSpaceSize": {"l1": 1.6E2, "l2": 1.6E1, "total": 2.56E3},
+          "initialSpaceSize": {"l1": 5.12E2, "l2": 1.6E1, "total": 8.192E3},
+          "l1BlockDims": {"B": 1, "OC": 64, "OH": 8, "OW": 8},
+          "l2BlockDims": {"B": 1, "OC": 64, "OH": 8, "OW": 8},
+          "maxBranches": 3,
+          "perfDpCovered": 9.193E3,
+          "perfEstCalls": {"conflicts": 0, "hits": 504, "misses": 392},
+          "steps": 10
+        }
+      }
+    },
+    "14100499524229011818": {
+      "hits": 0,
+      "key": {"activeBuffersHash": 156402466267021989, "backendInputsHash": 17197733907588325635, "blockHash": 7383069231258753297, "bufferViewHash": 14894741493519129447, "inCoreChainHash": 15299998651586276130, "interMemtileCopyRequirementHash": 0, "kernelParametersHash": 7035796228102485587, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 13881989896144176753},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [12]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [1],
+                "R": [1]
+              },
+              "OW": {
+                "C": [4],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [128],
+              "OC": [32],
+              "OH": [1],
+              "OW": [8]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [2]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [512],
+              "ICW": [512],
+              "OC": [1024],
+              "OCW": [128],
+              "OH": [1],
+              "OW": [2]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 3466,
+        "metadata": {
+          "averageBranches": 1.96775956284153E1,
+          "blockKernels": ["Conv2DBf16"],
+          "constrainedSpaceSize": {"l1": 6.04E3, "l2": 5.2E1, "total": 9.9552E4},
+          "initialSpaceSize": {"l1": 2.94912E6, "l2": 9.6E1, "total": 9.437184E7},
+          "l1BlockDims": {"B": 1, "IC": 512, "OC": 1024, "OH": 2, "OW": 2},
+          "l2BlockDims": {"B": 1, "IC": 512, "ICW": 512, "OC": 1024, "OCW": 1024, "OH": 2, "OW": 2},
+          "maxBranches": 38,
+          "perfDpCovered": 2.13555E5,
+          "perfEstCalls": {"conflicts": 0, "hits": 14143, "misses": 7193},
+          "steps": 366
+        }
+      }
+    },
+    "1472184568222213408": {
+      "hits": 0,
+      "key": {"activeBuffersHash": 6156272763181950944, "backendInputsHash": 14614234884937261583, "blockHash": 8818947356329338629, "bufferViewHash": 4142339099808762564, "inCoreChainHash": 5311929384989278685, "interMemtileCopyRequirementHash": 0, "kernelParametersHash": 9605449779554027927, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 13881989896144176753},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [0]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [1],
+                "R": [1]
+              },
+              "OW": {
+                "C": [4],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [128],
+              "OC": [32],
+              "OH": [1],
+              "OW": [16]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [1]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [512],
+              "ICW": [512],
+              "OC": [2048],
+              "OCW": [128],
+              "OH": [1],
+              "OW": [1]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 5742,
+        "metadata": {
+          "averageBranches": 1.660546875E1,
+          "blockKernels": ["Conv2DBf16", "AddBf16"],
+          "constrainedSpaceSize": {"l1": 1.936E4, "l2": 2.6E1, "total": 1.55712E5},
+          "initialSpaceSize": {"l1": 7.077888E7, "l2": 5.4E1, "total": 1.27401984E9},
+          "l1BlockDims": {"B": 1, "IC": 512, "OC": 2048, "OH": 1, "OW": 1},
+          "l2BlockDims": {"B": 1, "IC": 512, "ICW": 512, "OC": 2048, "OCW": 2048, "OH": 1, "OW": 1},
+          "maxBranches": 43,
+          "perfDpCovered": 2.62731E5,
+          "perfEstCalls": {"conflicts": 0, "hits": 13145, "misses": 6769},
+          "steps": 256
+        }
+      }
+    },
+    "14744769126916822985": {
+      "hits": 0,
+      "key": {"activeBuffersHash": 0, "backendInputsHash": 5083457201580913277, "blockHash": 17003968903506319671, "bufferViewHash": 9732714155268771949, "inCoreChainHash": 14978736368004617439, "interMemtileCopyRequirementHash": 9067178497032473471, "kernelParametersHash": 5593246806253955030, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 14895788821609847515},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [3]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [4],
+                "R": [1]
+              },
+              "OW": {
+                "C": [1],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [4],
+              "OC": [16],
+              "OH": [2],
+              "OW": [16]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [1]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [4],
+              "ICW": [4],
+              "OC": [64],
+              "OCW": [64],
+              "OH": [16],
+              "OW": [16]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 275,
+        "metadata": {
+          "averageBranches": 3.380952380952381E0,
+          "blockKernels": ["Conv2DBf16"],
+          "constrainedSpaceSize": {"l1": 6E1, "l2": 1.5E2, "total": 1.92E3},
+          "initialSpaceSize": {"l1": 2.62144E6, "l2": 4.8E2, "total": 3.145728E8},
+          "l1BlockDims": {"B": 1, "IC": 3, "OC": 64, "OH": 16, "OW": 16},
+          "l2BlockDims": {"B": 1, "IC": 3, "ICW": 3, "OC": 64, "OCW": 64, "OH": 16, "OW": 16},
+          "maxBranches": 6,
+          "perfDpCovered": 4.017E3,
+          "perfEstCalls": {"conflicts": 0, "hits": 253, "misses": 293},
+          "steps": 21
+        }
+      }
+    },
+    "15422674572655567835": {
+      "hits": 1,
+      "key": {"activeBuffersHash": 1987725047426633151, "backendInputsHash": 14614234884937261583, "blockHash": 319142057307844910, "bufferViewHash": 4142339099808762564, "inCoreChainHash": 15299998651586276130, "interMemtileCopyRequirementHash": 0, "kernelParametersHash": 9605449779554027927, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 13881989896144176753},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [0]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [4],
+                "R": [1]
+              },
+              "OW": {
+                "C": [1],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [128],
+              "OC": [32],
+              "OH": [1],
+              "OW": [16]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [1]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [128],
+              "ICW": [128],
+              "OC": [512],
+              "OCW": [128],
+              "OH": [4],
+              "OW": [4]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 5018,
+        "metadata": {
+          "averageBranches": 1.620618556701031E1,
+          "blockKernels": ["Conv2DBf16", "AddBf16"],
+          "constrainedSpaceSize": {"l1": 7.2E3, "l2": 7.8E1, "total": 1.74528E5},
+          "initialSpaceSize": {"l1": 1.769472E7, "l2": 1.26E2, "total": 7.4317824E8},
+          "l1BlockDims": {"B": 1, "IC": 128, "OC": 512, "OH": 4, "OW": 4},
+          "l2BlockDims": {"B": 1, "IC": 128, "ICW": 128, "OC": 512, "OCW": 512, "OH": 4, "OW": 4},
+          "maxBranches": 30,
+          "perfDpCovered": 1.073099E6,
+          "perfEstCalls": {"conflicts": 0, "hits": 12245, "misses": 8546},
+          "steps": 194
+        }
+      }
+    },
+    "15543158528169212560": {
+      "hits": 1,
+      "key": {"activeBuffersHash": 156402466267021989, "backendInputsHash": 17197733907588325635, "blockHash": 7760077683124423781, "bufferViewHash": 14894741493519129447, "inCoreChainHash": 15299998651586276130, "interMemtileCopyRequirementHash": 9042741235277617659, "kernelParametersHash": 7035796228102485587, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 13881989896144176753},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [12]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [4],
+                "R": [1]
+              },
+              "OW": {
+                "C": [1],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [128],
+              "OC": [32],
+              "OH": [1],
+              "OW": [8]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [1]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [512],
+              "ICW": [512],
+              "OC": [128],
+              "OCW": [128],
+              "OH": [4],
+              "OW": [4]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 2212,
+        "metadata": {
+          "averageBranches": 9.106796116504855E0,
+          "blockKernels": ["Conv2DBf16"],
+          "constrainedSpaceSize": {"l1": 1.1352E4, "l2": 4.2E1, "total": 1.40592E5},
+          "initialSpaceSize": {"l1": 3.145728E6, "l2": 9E1, "total": 9.437184E7},
+          "l1BlockDims": {"B": 1, "IC": 512, "OC": 128, "OH": 4, "OW": 4},
+          "l2BlockDims": {"B": 1, "IC": 512, "ICW": 512, "OC": 128, "OCW": 128, "OH": 4, "OW": 4},
+          "maxBranches": 17,
+          "perfDpCovered": 2.90871E5,
+          "perfEstCalls": {"conflicts": 0, "hits": 9131, "misses": 7637},
+          "steps": 103
+        }
+      }
+    },
+    "15718334641923278439": {
+      "hits": 0,
+      "key": {"activeBuffersHash": 10279902734020492301, "backendInputsHash": 14614234884937261583, "blockHash": 9763418298986797055, "bufferViewHash": 4142339099808762564, "inCoreChainHash": 15299998651586276130, "interMemtileCopyRequirementHash": 0, "kernelParametersHash": 9605449779554027927, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 13881989896144176753},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [0]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [1],
+                "R": [1]
+              },
+              "OW": {
+                "C": [4],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [128],
+              "OC": [32],
+              "OH": [1],
+              "OW": [16]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [2]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [256],
+              "ICW": [256],
+              "OC": [1024],
+              "OCW": [128],
+              "OH": [1],
+              "OW": [2]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 9923,
+        "metadata": {
+          "averageBranches": 2.4926436781609194E1,
+          "blockKernels": ["Conv2DBf16", "AddBf16"],
+          "constrainedSpaceSize": {"l1": 1.872E4, "l2": 6.4E1, "total": 3.76064E5},
+          "initialSpaceSize": {"l1": 3.538944E7, "l2": 9.6E1, "total": 1.13246208E9},
+          "l1BlockDims": {"B": 1, "IC": 256, "OC": 1024, "OH": 2, "OW": 2},
+          "l2BlockDims": {"B": 1, "IC": 256, "ICW": 256, "OC": 1024, "OCW": 1024, "OH": 2, "OW": 2},
+          "maxBranches": 70,
+          "perfDpCovered": 9.44681E5,
+          "perfEstCalls": {"conflicts": 0, "hits": 23898, "misses": 12472},
+          "steps": 435
+        }
+      }
+    },
+    "15988949410216514321": {
+      "hits": 0,
+      "key": {"activeBuffersHash": 0, "backendInputsHash": 17197733907588325635, "blockHash": 17197106936208768320, "bufferViewHash": 14894741493519129447, "inCoreChainHash": 11544498502480724873, "interMemtileCopyRequirementHash": 10602825780025186764, "kernelParametersHash": 7035796228102485587, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 13881989896144176753},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [12]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [4],
+                "R": [1]
+              },
+              "OW": {
+                "C": [1],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [64],
+              "OC": [16],
+              "OH": [1],
+              "OW": [16]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [1]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [64],
+              "ICW": [64],
+              "OC": [64],
+              "OCW": [64],
+              "OH": [8],
+              "OW": [8]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 2355,
+        "metadata": {
+          "averageBranches": 1.9305555555555557E1,
+          "blockKernels": ["Conv2DBf16"],
+          "constrainedSpaceSize": {"l1": 6.552E3, "l2": 3.2E1, "total": 5.6448E4},
+          "initialSpaceSize": {"l1": 7.86432E5, "l2": 9.6E1, "total": 2.5165824E7},
+          "l1BlockDims": {"B": 1, "IC": 64, "OC": 64, "OH": 8, "OW": 8},
+          "l2BlockDims": {"B": 1, "IC": 64, "ICW": 64, "OC": 64, "OCW": 64, "OH": 8, "OW": 8},
+          "maxBranches": 32,
+          "perfDpCovered": 2.83635E5,
+          "perfEstCalls": {"conflicts": 0, "hits": 14355, "misses": 7189},
+          "steps": 144
+        }
+      }
+    },
+    "16066243830839748107": {
+      "hits": 0,
+      "key": {"activeBuffersHash": 4204090041689282567, "backendInputsHash": 14614234884937261583, "blockHash": 9763418298986797055, "bufferViewHash": 4142339099808762564, "inCoreChainHash": 15299998651586276130, "interMemtileCopyRequirementHash": 0, "kernelParametersHash": 9605449779554027927, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 13881989896144176753},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [0]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [4],
+                "R": [1]
+              },
+              "OW": {
+                "C": [1],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [128],
+              "OC": [32],
+              "OH": [1],
+              "OW": [16]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [1]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [256],
+              "ICW": [256],
+              "OC": [1024],
+              "OCW": [128],
+              "OH": [2],
+              "OW": [2]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 10364,
+        "metadata": {
+          "averageBranches": 2.4926436781609194E1,
+          "blockKernels": ["Conv2DBf16", "AddBf16"],
+          "constrainedSpaceSize": {"l1": 1.872E4, "l2": 6.4E1, "total": 3.76064E5},
+          "initialSpaceSize": {"l1": 3.538944E7, "l2": 9.6E1, "total": 1.13246208E9},
+          "l1BlockDims": {"B": 1, "IC": 256, "OC": 1024, "OH": 2, "OW": 2},
+          "l2BlockDims": {"B": 1, "IC": 256, "ICW": 256, "OC": 1024, "OCW": 1024, "OH": 2, "OW": 2},
+          "maxBranches": 70,
+          "perfDpCovered": 9.44679E5,
+          "perfEstCalls": {"conflicts": 0, "hits": 23896, "misses": 12472},
+          "steps": 435
+        }
+      }
+    },
+    "1610745299123221487": {
+      "hits": 0,
+      "key": {"activeBuffersHash": 156402466267021989, "backendInputsHash": 17197733907588325635, "blockHash": 12013747246037980277, "bufferViewHash": 14894741493519129447, "inCoreChainHash": 15299998651586276130, "interMemtileCopyRequirementHash": 6891340558036956004, "kernelParametersHash": 7035796228102485587, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 13881989896144176753},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [12]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [4],
+                "R": [1]
+              },
+              "OW": {
+                "C": [1],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [128],
+              "OC": [32],
+              "OH": [1],
+              "OW": [8]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [1]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [512],
+              "ICW": [512],
+              "OC": [256],
+              "OCW": [128],
+              "OH": [4],
+              "OW": [4]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 2995,
+        "metadata": {
+          "averageBranches": 1.5152941176470588E1,
+          "blockKernels": ["Conv2DBf16"],
+          "constrainedSpaceSize": {"l1": 1.1352E4, "l2": 6E1, "total": 2.08704E5},
+          "initialSpaceSize": {"l1": 5.89824E6, "l2": 1.08E2, "total": 2.1233664E8},
+          "l1BlockDims": {"B": 1, "IC": 512, "OC": 256, "OH": 4, "OW": 4},
+          "l2BlockDims": {"B": 1, "IC": 512, "ICW": 512, "OC": 256, "OCW": 256, "OH": 4, "OW": 4},
+          "maxBranches": 48,
+          "perfDpCovered": 5.12969E5,
+          "perfEstCalls": {"conflicts": 0, "hits": 15746, "misses": 9677},
+          "steps": 170
+        }
+      }
+    },
+    "16563101155354146117": {
+      "hits": 0,
+      "key": {"activeBuffersHash": 0, "backendInputsHash": 17197733907588325635, "blockHash": 14873943372990486633, "bufferViewHash": 14894741493519129447, "inCoreChainHash": 11544498502480724873, "interMemtileCopyRequirementHash": 0, "kernelParametersHash": 7035796228102485587, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 13881989896144176753},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [12]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [4],
+                "R": [1]
+              },
+              "OW": {
+                "C": [1],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [64],
+              "OC": [32],
+              "OH": [1],
+              "OW": [8]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [2]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [64],
+              "ICW": [64],
+              "OC": [256],
+              "OCW": [128],
+              "OH": [4],
+              "OW": [8]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 2290,
+        "metadata": {
+          "averageBranches": 8.321428571428571E0,
+          "blockKernels": ["Conv2DBf16"],
+          "constrainedSpaceSize": {"l1": 7.704E3, "l2": 8E1, "total": 1.88928E5},
+          "initialSpaceSize": {"l1": 2.94912E6, "l2": 1.44E2, "total": 1.4155776E8},
+          "l1BlockDims": {"B": 1, "IC": 64, "OC": 256, "OH": 8, "OW": 8},
+          "l2BlockDims": {"B": 1, "IC": 64, "ICW": 64, "OC": 256, "OCW": 256, "OH": 8, "OW": 8},
+          "maxBranches": 16,
+          "perfDpCovered": 9.85889E5,
+          "perfEstCalls": {"conflicts": 0, "hits": 14262, "misses": 8535},
+          "steps": 84
+        }
+      }
+    },
+    "17150612291393116078": {
+      "hits": 1,
+      "key": {"activeBuffersHash": 8646624939577163445, "backendInputsHash": 15117460049887890462, "blockHash": 5210572508634849885, "bufferViewHash": 14894741493519129447, "inCoreChainHash": 15299998651586276130, "interMemtileCopyRequirementHash": 6736636911531420097, "kernelParametersHash": 7035796228102485587, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 13881989896144176753},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [12]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [4],
+                "R": [1]
+              },
+              "OW": {
+                "C": [1],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [32],
+              "OC": [16],
+              "OH": [2],
+              "OW": [8]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [1]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [64],
+              "ICW": [64],
+              "OC": [64],
+              "OCW": [64],
+              "OH": [8],
+              "OW": [8]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 2925,
+        "metadata": {
+          "averageBranches": 7.456521739130435E0,
+          "blockKernels": ["Conv2DBf16"],
+          "constrainedSpaceSize": {"l1": 4.096E3, "l2": 3.2E1, "total": 4.096E4},
+          "initialSpaceSize": {"l1": 3.93216E5, "l2": 9.6E1, "total": 1.2582912E7},
+          "l1BlockDims": {"B": 1, "IC": 64, "OC": 64, "OH": 8, "OW": 8},
+          "l2BlockDims": {"B": 1, "IC": 64, "ICW": 64, "OC": 64, "OCW": 64, "OH": 8, "OW": 8},
+          "maxBranches": 15,
+          "perfDpCovered": 2.15287E5,
+          "perfEstCalls": {"conflicts": 0, "hits": 23339, "misses": 11602},
+          "steps": 92
+        }
+      }
+    },
+    "17422771174779324968": {
+      "hits": 0,
+      "key": {"activeBuffersHash": 370172110523787719, "backendInputsHash": 15117460049887890462, "blockHash": 5210572508634849885, "bufferViewHash": 14894741493519129447, "inCoreChainHash": 15299998651586276130, "interMemtileCopyRequirementHash": 6736636911531420097, "kernelParametersHash": 7035796228102485587, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 13881989896144176753},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [12]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [4],
+                "R": [1]
+              },
+              "OW": {
+                "C": [1],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [32],
+              "OC": [16],
+              "OH": [1],
+              "OW": [16]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [2]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [64],
+              "ICW": [64],
+              "OC": [64],
+              "OCW": [64],
+              "OH": [4],
+              "OW": [8]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 2923,
+        "metadata": {
+          "averageBranches": 7.456521739130435E0,
+          "blockKernels": ["Conv2DBf16"],
+          "constrainedSpaceSize": {"l1": 4.096E3, "l2": 3.2E1, "total": 4.096E4},
+          "initialSpaceSize": {"l1": 3.93216E5, "l2": 9.6E1, "total": 1.2582912E7},
+          "l1BlockDims": {"B": 1, "IC": 64, "OC": 64, "OH": 8, "OW": 8},
+          "l2BlockDims": {"B": 1, "IC": 64, "ICW": 64, "OC": 64, "OCW": 64, "OH": 8, "OW": 8},
+          "maxBranches": 15,
+          "perfDpCovered": 2.15285E5,
+          "perfEstCalls": {"conflicts": 0, "hits": 23337, "misses": 11602},
+          "steps": 92
+        }
+      }
+    },
+    "2764236528584195043": {
+      "hits": 1,
+      "key": {"activeBuffersHash": 10958543403166927484, "backendInputsHash": 17197733907588325635, "blockHash": 5513096037158825937, "bufferViewHash": 14894741493519129447, "inCoreChainHash": 15299998651586276130, "interMemtileCopyRequirementHash": 12800366549180240830, "kernelParametersHash": 7035796228102485587, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 13881989896144176753},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [12]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [1],
+                "R": [1]
+              },
+              "OW": {
+                "C": [4],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [192],
+              "OC": [16],
+              "OH": [1],
+              "OW": [16]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [1]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [2048],
+              "ICW": [2048],
+              "OC": [512],
+              "OCW": [64],
+              "OH": [1],
+              "OW": [1]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 2294,
+        "metadata": {
+          "averageBranches": 3.8052173913043475E1,
+          "blockKernels": ["Conv2DBf16"],
+          "constrainedSpaceSize": {"l1": 6.04E3, "l2": 1.4E1, "total": 2.5616E4},
+          "initialSpaceSize": {"l1": 2.94912E6, "l2": 4.2E1, "total": 4.128768E7},
+          "l1BlockDims": {"B": 1, "IC": 2048, "OC": 512, "OH": 1, "OW": 1},
+          "l2BlockDims": {"B": 1, "IC": 2048, "ICW": 2048, "OC": 512, "OCW": 512, "OH": 1, "OW": 1},
+          "maxBranches": 62,
+          "perfDpCovered": 4.5489E4,
+          "perfEstCalls": {"conflicts": 0, "hits": 10977, "misses": 5704},
+          "steps": 230
+        }
+      }
+    },
+    "3281527748003727498": {
+      "hits": 1,
+      "key": {"activeBuffersHash": 14811117701468933610, "backendInputsHash": 14614234884937261583, "blockHash": 17390598678807941758, "bufferViewHash": 4142339099808762564, "inCoreChainHash": 15299998651586276130, "interMemtileCopyRequirementHash": 0, "kernelParametersHash": 9605449779554027927, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 13881989896144176753},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [0]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [4],
+                "R": [1]
+              },
+              "OW": {
+                "C": [1],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [64],
+              "OC": [32],
+              "OH": [1],
+              "OW": [16]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [2]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [64],
+              "ICW": [64],
+              "OC": [256],
+              "OCW": [128],
+              "OH": [4],
+              "OW": [8]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 2637,
+        "metadata": {
+          "averageBranches": 8.8E0,
+          "blockKernels": ["Conv2DBf16", "AddBf16"],
+          "constrainedSpaceSize": {"l1": 7.2E3, "l2": 8E1, "total": 1.75104E5},
+          "initialSpaceSize": {"l1": 1.769472E7, "l2": 1.44E2, "total": 8.4934656E8},
+          "l1BlockDims": {"B": 1, "IC": 64, "OC": 256, "OH": 8, "OW": 8},
+          "l2BlockDims": {"B": 1, "IC": 64, "ICW": 64, "OC": 256, "OCW": 256, "OH": 8, "OW": 8},
+          "maxBranches": 15,
+          "perfDpCovered": 7.94171E5,
+          "perfEstCalls": {"conflicts": 0, "hits": 8498, "misses": 6161},
+          "steps": 65
+        }
+      }
+    },
+    "4610124326994104863": {
+      "hits": 1,
+      "key": {"activeBuffersHash": 0, "backendInputsHash": 17197733907588325635, "blockHash": 13809135090823167733, "bufferViewHash": 14894741493519129447, "inCoreChainHash": 15299998651586276130, "interMemtileCopyRequirementHash": 10602825780025186764, "kernelParametersHash": 7035796228102485587, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 13881989896144176753},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [12]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [4],
+                "R": [1]
+              },
+              "OW": {
+                "C": [1],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [128],
+              "OC": [16],
+              "OH": [1],
+              "OW": [16]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [2]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [256],
+              "ICW": [256],
+              "OC": [64],
+              "OCW": [64],
+              "OH": [4],
+              "OW": [8]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 1714,
+        "metadata": {
+          "averageBranches": 6.351851851851852E0,
+          "blockKernels": ["Conv2DBf16"],
+          "constrainedSpaceSize": {"l1": 1.6408E4, "l2": 3.2E1, "total": 1.37088E5},
+          "initialSpaceSize": {"l1": 1.572864E6, "l2": 9.6E1, "total": 5.0331648E7},
+          "l1BlockDims": {"B": 1, "IC": 256, "OC": 64, "OH": 8, "OW": 8},
+          "l2BlockDims": {"B": 1, "IC": 256, "ICW": 256, "OC": 64, "OCW": 64, "OH": 8, "OW": 8},
+          "maxBranches": 15,
+          "perfDpCovered": 1.85071E5,
+          "perfEstCalls": {"conflicts": 0, "hits": 7510, "misses": 6668},
+          "steps": 54
+        }
+      }
+    },
+    "4628129242140918185": {
+      "hits": 0,
+      "key": {"activeBuffersHash": 9567848309578233221, "backendInputsHash": 17197733907588325635, "blockHash": 10776295612198665645, "bufferViewHash": 14894741493519129447, "inCoreChainHash": 15299998651586276130, "interMemtileCopyRequirementHash": 0, "kernelParametersHash": 7035796228102485587, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 13881989896144176753},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [12]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [1],
+                "R": [1]
+              },
+              "OW": {
+                "C": [4],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [128],
+              "OC": [32],
+              "OH": [1],
+              "OW": [8]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [1]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [1024],
+              "ICW": [1024],
+              "OC": [2048],
+              "OCW": [128],
+              "OH": [1],
+              "OW": [1]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 2572,
+        "metadata": {
+          "averageBranches": 1.9015686274509804E1,
+          "blockKernels": ["Conv2DBf16"],
+          "constrainedSpaceSize": {"l1": 6.04E3, "l2": 2E1, "total": 3.7696E4},
+          "initialSpaceSize": {"l1": 2.94912E6, "l2": 5.4E1, "total": 5.308416E7},
+          "l1BlockDims": {"B": 1, "IC": 1024, "OC": 2048, "OH": 1, "OW": 1},
+          "l2BlockDims": {"B": 1, "IC": 1024, "ICW": 1024, "OC": 2048, "OCW": 2048, "OH": 1, "OW": 1},
+          "maxBranches": 49,
+          "perfDpCovered": 8.1165E4,
+          "perfEstCalls": {"conflicts": 0, "hits": 11853, "misses": 6398},
+          "steps": 255
+        }
+      }
+    },
+    "4644162396051469674": {
+      "hits": 0,
+      "key": {"activeBuffersHash": 0, "backendInputsHash": 17197733907588325635, "blockHash": 14631588744265147929, "bufferViewHash": 14894741493519129447, "inCoreChainHash": 15299998651586276130, "interMemtileCopyRequirementHash": 136985590918281810, "kernelParametersHash": 7035796228102485587, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 13881989896144176753},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [12]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [4],
+                "R": [1]
+              },
+              "OW": {
+                "C": [1],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [128],
+              "OC": [32],
+              "OH": [1],
+              "OW": [8]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [1]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [1024],
+              "ICW": [1024],
+              "OC": [256],
+              "OCW": [128],
+              "OH": [2],
+              "OW": [2]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 3457,
+        "metadata": {
+          "averageBranches": 1.6208029197080293E1,
+          "blockKernels": ["Conv2DBf16"],
+          "constrainedSpaceSize": {"l1": 6.04E3, "l2": 4E1, "total": 7.5392E4},
+          "initialSpaceSize": {"l1": 2.94912E6, "l2": 7.2E1, "total": 7.077888E7},
+          "l1BlockDims": {"B": 1, "IC": 1024, "OC": 256, "OH": 2, "OW": 2},
+          "l2BlockDims": {"B": 1, "IC": 1024, "ICW": 1024, "OC": 256, "OCW": 256, "OH": 2, "OW": 2},
+          "maxBranches": 43,
+          "perfDpCovered": 2.26983E5,
+          "perfEstCalls": {"conflicts": 0, "hits": 18695, "misses": 9303},
+          "steps": 274
+        }
+      }
+    },
+    "4968666077636163846": {
+      "hits": 0,
+      "key": {"activeBuffersHash": 7949450394470865384, "backendInputsHash": 1552544247038149194, "blockHash": 15234360807062623613, "bufferViewHash": 14894741493519129447, "inCoreChainHash": 15299998651586276130, "interMemtileCopyRequirementHash": 16105083852629529292, "kernelParametersHash": 7035796228102485587, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 13881989896144176753},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [0]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [4],
+                "R": [1]
+              },
+              "OW": {
+                "C": [1],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [16],
+              "OC": [16],
+              "OH": [1],
+              "OW": [16]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [2]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [256],
+              "ICW": [256],
+              "OC": [256],
+              "OCW": [64],
+              "OH": [1],
+              "OW": [2]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 934,
+        "metadata": {
+          "averageBranches": 6.029411764705882E0,
+          "blockKernels": ["Conv2DBf16"],
+          "constrainedSpaceSize": {"l1": 1.728E3, "l2": 1.6E1, "total": 7.68E3},
+          "initialSpaceSize": {"l1": 2.21184E6, "l2": 7.2E1, "total": 5.308416E7},
+          "l1BlockDims": {"B": 1, "IC": 256, "OC": 256, "OH": 2, "OW": 2},
+          "l2BlockDims": {"B": 1, "IC": 256, "ICW": 256, "OC": 256, "OCW": 256, "OH": 2, "OW": 2},
+          "maxBranches": 9,
+          "perfDpCovered": 2.2747E4,
+          "perfEstCalls": {"conflicts": 0, "hits": 1657, "misses": 2525},
+          "steps": 68
+        }
+      }
+    },
+    "5299993544865151519": {
+      "hits": 3,
+      "key": {"activeBuffersHash": 13897998899423917005, "backendInputsHash": 14614234884937261583, "blockHash": 9763418298986797055, "bufferViewHash": 4142339099808762564, "inCoreChainHash": 15299998651586276130, "interMemtileCopyRequirementHash": 0, "kernelParametersHash": 9605449779554027927, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 13881989896144176753},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [0]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [4],
+                "R": [1]
+              },
+              "OW": {
+                "C": [1],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [128],
+              "OC": [32],
+              "OH": [1],
+              "OW": [16]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [1]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [256],
+              "ICW": [256],
+              "OC": [1024],
+              "OCW": [128],
+              "OH": [2],
+              "OW": [2]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 10116,
+        "metadata": {
+          "averageBranches": 2.4926436781609194E1,
+          "blockKernels": ["Conv2DBf16", "AddBf16"],
+          "constrainedSpaceSize": {"l1": 1.872E4, "l2": 6.4E1, "total": 3.76064E5},
+          "initialSpaceSize": {"l1": 3.538944E7, "l2": 9.6E1, "total": 1.13246208E9},
+          "l1BlockDims": {"B": 1, "IC": 256, "OC": 1024, "OH": 2, "OW": 2},
+          "l2BlockDims": {"B": 1, "IC": 256, "ICW": 256, "OC": 1024, "OCW": 1024, "OH": 2, "OW": 2},
+          "maxBranches": 70,
+          "perfDpCovered": 9.44679E5,
+          "perfEstCalls": {"conflicts": 0, "hits": 23896, "misses": 12472},
+          "steps": 435
+        }
+      }
+    },
+    "5891172489695725413": {
+      "hits": 0,
+      "key": {"activeBuffersHash": 15961808379735610429, "backendInputsHash": 14614234884937261583, "blockHash": 319142057307844910, "bufferViewHash": 4142339099808762564, "inCoreChainHash": 15299998651586276130, "interMemtileCopyRequirementHash": 0, "kernelParametersHash": 9605449779554027927, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 13881989896144176753},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [0]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [4],
+                "R": [1]
+              },
+              "OW": {
+                "C": [1],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [128],
+              "OC": [32],
+              "OH": [1],
+              "OW": [16]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [2]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [128],
+              "ICW": [128],
+              "OC": [512],
+              "OCW": [128],
+              "OH": [2],
+              "OW": [4]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 4832,
+        "metadata": {
+          "averageBranches": 1.620618556701031E1,
+          "blockKernels": ["Conv2DBf16", "AddBf16"],
+          "constrainedSpaceSize": {"l1": 7.2E3, "l2": 7.8E1, "total": 1.74528E5},
+          "initialSpaceSize": {"l1": 1.769472E7, "l2": 1.26E2, "total": 7.4317824E8},
+          "l1BlockDims": {"B": 1, "IC": 128, "OC": 512, "OH": 4, "OW": 4},
+          "l2BlockDims": {"B": 1, "IC": 128, "ICW": 128, "OC": 512, "OCW": 512, "OH": 4, "OW": 4},
+          "maxBranches": 30,
+          "perfDpCovered": 1.073109E6,
+          "perfEstCalls": {"conflicts": 0, "hits": 12255, "misses": 8546},
+          "steps": 194
+        }
+      }
+    },
+    "7343096029788766587": {
+      "hits": 0,
+      "key": {"activeBuffersHash": 0, "backendInputsHash": 17197733907588325635, "blockHash": 6225828709413114390, "bufferViewHash": 14894741493519129447, "inCoreChainHash": 15299998651586276130, "interMemtileCopyRequirementHash": 0, "kernelParametersHash": 7035796228102485587, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 13881989896144176753},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [12]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [4],
+                "R": [1]
+              },
+              "OW": {
+                "C": [1],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [128],
+              "OC": [32],
+              "OH": [1],
+              "OW": [8]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [2]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [256],
+              "ICW": [256],
+              "OC": [512],
+              "OCW": [128],
+              "OH": [2],
+              "OW": [4]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 3431,
+        "metadata": {
+          "averageBranches": 2.3637735849056604E1,
+          "blockKernels": ["Conv2DBf16"],
+          "constrainedSpaceSize": {"l1": 1.1032E4, "l2": 7.8E1, "total": 2.69136E5},
+          "initialSpaceSize": {"l1": 2.94912E6, "l2": 1.26E2, "total": 1.2386304E8},
+          "l1BlockDims": {"B": 1, "IC": 256, "OC": 512, "OH": 4, "OW": 4},
+          "l2BlockDims": {"B": 1, "IC": 256, "ICW": 256, "OC": 512, "OCW": 512, "OH": 4, "OW": 4},
+          "maxBranches": 47,
+          "perfDpCovered": 6.85335E5,
+          "perfEstCalls": {"conflicts": 0, "hits": 15739, "misses": 9138},
+          "steps": 265
+        }
+      }
+    },
+    "7806501285651638730": {
+      "hits": 0,
+      "key": {"activeBuffersHash": 12292742167059532702, "backendInputsHash": 14614234884937261583, "blockHash": 8818947356329338629, "bufferViewHash": 4142339099808762564, "inCoreChainHash": 15299998651586276130, "interMemtileCopyRequirementHash": 0, "kernelParametersHash": 9605449779554027927, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 13881989896144176753},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [0]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [1],
+                "R": [1]
+              },
+              "OW": {
+                "C": [4],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [128],
+              "OC": [32],
+              "OH": [1],
+              "OW": [16]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [1]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [512],
+              "ICW": [512],
+              "OC": [2048],
+              "OCW": [128],
+              "OH": [1],
+              "OW": [1]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 5833,
+        "metadata": {
+          "averageBranches": 1.660546875E1,
+          "blockKernels": ["Conv2DBf16", "AddBf16"],
+          "constrainedSpaceSize": {"l1": 1.936E4, "l2": 2.6E1, "total": 1.55712E5},
+          "initialSpaceSize": {"l1": 7.077888E7, "l2": 5.4E1, "total": 1.27401984E9},
+          "l1BlockDims": {"B": 1, "IC": 512, "OC": 2048, "OH": 1, "OW": 1},
+          "l2BlockDims": {"B": 1, "IC": 512, "ICW": 512, "OC": 2048, "OCW": 2048, "OH": 1, "OW": 1},
+          "maxBranches": 43,
+          "perfDpCovered": 2.62731E5,
+          "perfEstCalls": {"conflicts": 0, "hits": 13145, "misses": 6769},
+          "steps": 256
+        }
+      }
+    },
+    "856371107673061098": {
+      "hits": 2,
+      "key": {"activeBuffersHash": 13872283629277726342, "backendInputsHash": 15117460049887890462, "blockHash": 11122487500267795516, "bufferViewHash": 14894741493519129447, "inCoreChainHash": 15299998651586276130, "interMemtileCopyRequirementHash": 7002058038292540017, "kernelParametersHash": 7035796228102485587, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 13881989896144176753},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [12]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [4],
+                "R": [1]
+              },
+              "OW": {
+                "C": [1],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [32],
+              "OC": [16],
+              "OH": [1],
+              "OW": [16]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [2]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [128],
+              "ICW": [128],
+              "OC": [128],
+              "OCW": [64],
+              "OH": [2],
+              "OW": [4]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 2815,
+        "metadata": {
+          "averageBranches": 1.5916666666666666E1,
+          "blockKernels": ["Conv2DBf16"],
+          "constrainedSpaceSize": {"l1": 2.048E3, "l2": 4.2E1, "total": 2.7648E4},
+          "initialSpaceSize": {"l1": 3.93216E5, "l2": 9E1, "total": 1.179648E7},
+          "l1BlockDims": {"B": 1, "IC": 128, "OC": 128, "OH": 4, "OW": 4},
+          "l2BlockDims": {"B": 1, "IC": 128, "ICW": 128, "OC": 128, "OCW": 128, "OH": 4, "OW": 4},
+          "maxBranches": 25,
+          "perfDpCovered": 1.80883E5,
+          "perfEstCalls": {"conflicts": 0, "hits": 15732, "misses": 9395},
+          "steps": 168
+        }
+      }
+    },
+    "8733877945029283563": {
+      "hits": 0,
+      "key": {"activeBuffersHash": 10858723054675192335, "backendInputsHash": 14614234884937261583, "blockHash": 17390598678807941758, "bufferViewHash": 4142339099808762564, "inCoreChainHash": 15299998651586276130, "interMemtileCopyRequirementHash": 0, "kernelParametersHash": 9605449779554027927, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 13881989896144176753},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [0]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [4],
+                "R": [1]
+              },
+              "OW": {
+                "C": [1],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [64],
+              "OC": [32],
+              "OH": [1],
+              "OW": [16]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [2]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [64],
+              "ICW": [64],
+              "OC": [256],
+              "OCW": [128],
+              "OH": [4],
+              "OW": [8]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 2521,
+        "metadata": {
+          "averageBranches": 8.8E0,
+          "blockKernels": ["Conv2DBf16", "AddBf16"],
+          "constrainedSpaceSize": {"l1": 7.2E3, "l2": 8E1, "total": 1.75104E5},
+          "initialSpaceSize": {"l1": 1.769472E7, "l2": 1.44E2, "total": 8.4934656E8},
+          "l1BlockDims": {"B": 1, "IC": 64, "OC": 256, "OH": 8, "OW": 8},
+          "l2BlockDims": {"B": 1, "IC": 64, "ICW": 64, "OC": 256, "OCW": 256, "OH": 8, "OW": 8},
+          "maxBranches": 15,
+          "perfDpCovered": 7.94171E5,
+          "perfEstCalls": {"conflicts": 0, "hits": 8498, "misses": 6161},
+          "steps": 65
+        }
+      }
+    },
+    "8766139115917939374": {
+      "hits": 1,
+      "key": {"activeBuffersHash": 1563763281280272640, "backendInputsHash": 15117460049887890462, "blockHash": 7123336484991023021, "bufferViewHash": 14894741493519129447, "inCoreChainHash": 15299998651586276130, "interMemtileCopyRequirementHash": 3802880022985913427, "kernelParametersHash": 7035796228102485587, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 16880119317401704309},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [64]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [4],
+                "R": [1]
+              },
+              "OW": {
+                "C": [1],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [24],
+              "OC": [8],
+              "OH": [2],
+              "OW": [32]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [1]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [512],
+              "ICW": [512],
+              "OC": [512],
+              "OCW": [32],
+              "OH": [1],
+              "OW": [1]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 1156,
+        "metadata": {
+          "averageBranches": 1.0755102040816327E1,
+          "blockKernels": ["Conv2DBf16"],
+          "constrainedSpaceSize": {"l1": 2.048E3, "l2": 1.66E2, "total": 1.09568E5},
+          "initialSpaceSize": {"l1": 2.94912E6, "l2": 2.94E2, "total": 2.8901376E8},
+          "l1BlockDims": {"B": 1, "IC": 512, "OC": 512, "OH": 1, "OW": 1},
+          "l2BlockDims": {"B": 1, "IC": 512, "ICW": 512, "OC": 512, "OCW": 512, "OH": 1, "OW": 1},
+          "maxBranches": 24,
+          "perfDpCovered": 3.30629E5,
+          "perfEstCalls": {"conflicts": 0, "hits": 2205, "misses": 4264},
+          "steps": 49
+        }
+      }
+    },
+    "8950685202280369990": {
+      "hits": 0,
+      "key": {"activeBuffersHash": 14073937041617624101, "backendInputsHash": 1552544247038149194, "blockHash": 1498460818444345755, "bufferViewHash": 14894741493519129447, "inCoreChainHash": 15299998651586276130, "interMemtileCopyRequirementHash": 8546613115746725208, "kernelParametersHash": 7035796228102485587, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 16880119317401704309},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [12]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [1],
+                "R": [1]
+              },
+              "OW": {
+                "C": [4],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [16],
+              "OC": [32],
+              "OH": [1],
+              "OW": [8]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [1]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [512],
+              "ICW": [16],
+              "OC": [512],
+              "OCW": [128],
+              "OH": [1],
+              "OW": [1]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 2439,
+        "metadata": {
+          "averageBranches": 1.5E1,
+          "blockKernels": ["Conv2DBf16"],
+          "constrainedSpaceSize": {"l1": 1.728E3, "l2": 1.66E2, "total": 8.7168E4},
+          "initialSpaceSize": {"l1": 4.42368E6, "l2": 2.94E2, "total": 4.3352064E8},
+          "l1BlockDims": {"B": 1, "IC": 512, "OC": 512, "OH": 1, "OW": 1},
+          "l2BlockDims": {"B": 1, "IC": 512, "ICW": 512, "OC": 512, "OCW": 512, "OH": 1, "OW": 1},
+          "maxBranches": 29,
+          "perfDpCovered": 3.39389E5,
+          "perfEstCalls": {"conflicts": 0, "hits": 4639, "misses": 4613},
+          "steps": 262
+        }
+      }
+    },
+    "9123843957310366369": {
+      "hits": 4,
+      "key": {"activeBuffersHash": 13944269504216292995, "backendInputsHash": 15117460049887890462, "blockHash": 5790732338751744621, "bufferViewHash": 14894741493519129447, "inCoreChainHash": 15299998651586276130, "interMemtileCopyRequirementHash": 8662988169451485949, "kernelParametersHash": 7035796228102485587, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 13881989896144176753},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [12]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [1],
+                "R": [1]
+              },
+              "OW": {
+                "C": [4],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [32],
+              "OC": [16],
+              "OH": [1],
+              "OW": [16]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [2]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [256],
+              "ICW": [256],
+              "OC": [256],
+              "OCW": [64],
+              "OH": [1],
+              "OW": [2]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 1526,
+        "metadata": {
+          "averageBranches": 9.902654867256636E0,
+          "blockKernels": ["Conv2DBf16"],
+          "constrainedSpaceSize": {"l1": 2.048E3, "l2": 1.6E1, "total": 1.024E4},
+          "initialSpaceSize": {"l1": 1.47456E6, "l2": 7.2E1, "total": 3.538944E7},
+          "l1BlockDims": {"B": 1, "IC": 256, "OC": 256, "OH": 2, "OW": 2},
+          "l2BlockDims": {"B": 1, "IC": 256, "ICW": 256, "OC": 256, "OCW": 256, "OH": 2, "OW": 2},
+          "maxBranches": 21,
+          "perfDpCovered": 3.3333E4,
+          "perfEstCalls": {"conflicts": 0, "hits": 4343, "misses": 4986},
+          "steps": 113
+        }
+      }
+    },
+    "952299927455630947": {
+      "hits": 0,
+      "key": {"activeBuffersHash": 0, "backendInputsHash": 8846205311126660764, "blockHash": 7734909838822837039, "bufferViewHash": 5703832948557287851, "inCoreChainHash": 14978736368004617439, "interMemtileCopyRequirementHash": 0, "kernelParametersHash": 15385955399455369826, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 14895788821609847515},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {},
+            "permutation": ["OW", "OC", "OH"],
+            "spatial": {
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [4],
+                "R": [1]
+              },
+              "OW": {
+                "C": [1],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "OC": [256],
+              "OH": [1],
+              "OW": [8]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [1]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "OC": [2048],
+              "OH": [1],
+              "OW": [1]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 197,
+        "metadata": {
+          "averageBranches": 7.605633802816901E0,
+          "blockKernels": ["ReduceMeanC8Bf16"],
+          "constrainedSpaceSize": {"l1": 4.096E3, "l2": 9E0, "total": 3.6864E4},
+          "initialSpaceSize": {"l1": 8.192E3, "l2": 9E0, "total": 7.3728E4},
+          "l1BlockDims": {"OC": 2048, "OH": 1, "OW": 1},
+          "l2BlockDims": {"B": 1, "OC": 2048, "OH": 1, "OW": 1},
+          "maxBranches": 12,
+          "perfDpCovered": 3.4513E4,
+          "perfEstCalls": {"conflicts": 0, "hits": 791, "misses": 531},
+          "steps": 71
+        }
+      }
+    },
+    "9647502813624222706": {
+      "hits": 0,
+      "key": {"activeBuffersHash": 17122208895370542898, "backendInputsHash": 14614234884937261583, "blockHash": 319142057307844910, "bufferViewHash": 4142339099808762564, "inCoreChainHash": 15299998651586276130, "interMemtileCopyRequirementHash": 0, "kernelParametersHash": 9605449779554027927, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 13881989896144176753},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [0]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [4],
+                "R": [1]
+              },
+              "OW": {
+                "C": [1],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [128],
+              "OC": [32],
+              "OH": [1],
+              "OW": [16]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [1]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [128],
+              "ICW": [128],
+              "OC": [512],
+              "OCW": [128],
+              "OH": [4],
+              "OW": [4]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 5104,
+        "metadata": {
+          "averageBranches": 1.620618556701031E1,
+          "blockKernels": ["Conv2DBf16", "AddBf16"],
+          "constrainedSpaceSize": {"l1": 7.2E3, "l2": 7.8E1, "total": 1.74528E5},
+          "initialSpaceSize": {"l1": 1.769472E7, "l2": 1.26E2, "total": 7.4317824E8},
+          "l1BlockDims": {"B": 1, "IC": 128, "OC": 512, "OH": 4, "OW": 4},
+          "l2BlockDims": {"B": 1, "IC": 128, "ICW": 128, "OC": 512, "OCW": 512, "OH": 4, "OW": 4},
+          "maxBranches": 30,
+          "perfDpCovered": 1.073099E6,
+          "perfEstCalls": {"conflicts": 0, "hits": 12245, "misses": 8546},
+          "steps": 194
+        }
+      }
+    },
+    "969450081574726232": {
+      "hits": 0,
+      "key": {"activeBuffersHash": 8023089595592422962, "backendInputsHash": 1552544247038149194, "blockHash": 3876261167288534853, "bufferViewHash": 14894741493519129447, "inCoreChainHash": 15299998651586276130, "interMemtileCopyRequirementHash": 885510152699255891, "kernelParametersHash": 7035796228102485587, "optionsHash": 2104191345327517968, "tilingRecipeOptsHash": 13881989896144176753},
+      "value": {
+        "branch": {
+          "0": {
+            "config": {
+              "config.conv_type": {
+                "type": "uint64",
+                "values": [12]
+              }
+            },
+            "permutation": ["OW", "OC", "OH", "IC", "B"],
+            "spatial": {
+              "B": {
+                "C": [1],
+                "R": [1]
+              },
+              "IC": {
+                "C": [1],
+                "R": [1]
+              },
+              "OC": {
+                "C": [1],
+                "R": [4]
+              },
+              "OH": {
+                "C": [4],
+                "R": [1]
+              },
+              "OW": {
+                "C": [1],
+                "R": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [16],
+              "OC": [32],
+              "OH": [1],
+              "OW": [8]
+            }
+          },
+          "1": {
+            "spatial": {
+              "B": {
+                "S": [1]
+              },
+              "IC": {
+                "S": [1]
+              },
+              "ICW": {
+                "S": [1]
+              },
+              "OC": {
+                "S": [1]
+              },
+              "OCW": {
+                "S": [1]
+              },
+              "OH": {
+                "S": [2]
+              },
+              "OW": {
+                "S": [1]
+              }
+            },
+            "temporal": {
+              "B": [1],
+              "IC": [128],
+              "ICW": [128],
+              "OC": [128],
+              "OCW": [128],
+              "OH": [2],
+              "OW": [4]
+            }
+          },
+          "id": 0
+        },
+        "durationMs": 1574,
+        "metadata": {
+          "averageBranches": 5.069444444444445E0,
+          "blockKernels": ["Conv2DBf16"],
+          "constrainedSpaceSize": {"l1": 1.728E3, "l2": 4.2E1, "total": 2.1888E4},
+          "initialSpaceSize": {"l1": 5.89824E5, "l2": 9E1, "total": 1.769472E7},
+          "l1BlockDims": {"B": 1, "IC": 128, "OC": 128, "OH": 4, "OW": 4},
+          "l2BlockDims": {"B": 1, "IC": 128, "ICW": 128, "OC": 128, "OCW": 128, "OH": 4, "OW": 4},
+          "maxBranches": 9,
+          "perfDpCovered": 1.18641E5,
+          "perfEstCalls": {"conflicts": 0, "hits": 6880, "misses": 5348},
+          "steps": 72
+        }
+      }
+    }
+  }
+}

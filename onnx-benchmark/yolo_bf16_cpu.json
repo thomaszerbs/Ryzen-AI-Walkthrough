@@ -1,0 +1,67 @@
+{
+    "run": {
+        "command": "performance_benchmark.py --model_path ../CNN-examples/object_detection/yolov8m/models/yolov8m_BF16.onnx --execution_provider CPU --num 100 --timelimit 30 --infinite 0 --config /scratch/thozerbs/ryzen_ai/venv/lib/python3.12/site-packages/voe-4.0-linux_x86_64/vaip_config.json",
+        "benchmark_release": 22,
+        "model": "../CNN-examples/object_detection/yolov8m/models/yolov8m_BF16.onnx",
+        "execution_provider": "CPU"
+    },
+    "results": {
+        "performance": {
+            "total_throughput": 2.5283289896470955,
+            "average_latency": 395.4632690921426,
+            "images_requested": 100,
+            "images_preloaded": 100,
+            "images_processed": 100
+        },
+        "efficency perf/W": {
+            "apu_perf_pow": "N/A"
+        },
+        "energy mJ/frame": {
+            "apu": "N/A",
+            "cpu": "N/A",
+            "npu": "N/A",
+            "mem": "N/A"
+        }
+    },
+    "model": "../CNN-examples/object_detection/yolov8m/models/yolov8m_BF16.onnx",
+    "vitisai": {
+        "all": 0,
+        "CPU": 0
+    },
+    "system": {
+        "frequency": {
+            "MPNPUCLK": 0,
+            "NPUHCLK": 0,
+            "FCLK": 0,
+            "LCLK": 0
+        },
+        "voltages": {
+            "CORE0": 0,
+            "CORE1": 0,
+            "CORE2": 0,
+            "CORE3": 0,
+            "CORE4": 0,
+            "CORE5": 0,
+            "CORE6": 0,
+            "CORE7": 0
+        },
+        "hw": {
+            "processor": "x86_64",
+            "num_cores": 32
+        },
+        "os": {
+            "os_version": "Linux-6.17.0-19-generic-x86_64-with-glibc2.39"
+        },
+        "resources": {
+            "CPU_usage": "4.7%",
+            "Memory": "86.25812530517578 GB",
+            "Swap_Memory": "6.297229766845703 GB"
+        },
+        "driver": {
+            "npu": "Unknown"
+        }
+    },
+    "environment": {
+        "packages": {}
+    }
+}

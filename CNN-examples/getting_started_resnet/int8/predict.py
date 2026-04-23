@@ -63,8 +63,10 @@ if not os.path.exists(dirname):
    os.mkdir(dirname)
 
 
-#Extract and dump first 10 images
-for i in range (0,10):
+NUM_IMAGES = 500
+
+#Extract and dump images
+for i in range(0, NUM_IMAGES):
     im = images[i]
     im  = im.transpose(1,2,0)
     im = cv2.cvtColor(im,cv2.COLOR_RGB2BGR)
@@ -72,7 +74,8 @@ for i in range (0,10):
     cv2.imwrite(im_name, im)
 
 #Pick dumped images and predict
-for i in range (0,10):
+correct = 0
+for i in range(0, NUM_IMAGES):
     image_name = f'./images/image_{i}.png'
     image = Image.open(image_name).convert('RGB')
     # Resize the image to match the input size expected by the model
@@ -86,21 +89,19 @@ for i in range (0,10):
     # Add a batch dimension to the input image
     input_data = np.expand_dims(image_array, axis=0)
 
-
     # Run the model
     outputs = session.run(None, {'input': input_data})
-
 
     # Process the outputs
     output_array = outputs[0]
     predicted_class = np.argmax(output_array)
-    
-
     predicted_label = label_names[predicted_class]
-    
     label = label_names[labels[i]]
-    
     print(f'Image {i}: Actual Label {label}, Predicted Label {predicted_label}')
+    if predicted_class == labels[i]:
+        correct += 1
+
+print(f'\nTop-1 Accuracy: {100*correct/NUM_IMAGES:.1f}%  ({correct}/{NUM_IMAGES} correct)')
 
 
 #################################################################################

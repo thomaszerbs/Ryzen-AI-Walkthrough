@@ -1,0 +1,502 @@
+{
+ "metaDef": [
+  {
+   "id": "vaiml_par_0",
+   "inputs": [
+    "input"
+   ],
+   "outputs": [
+    "output"
+   ],
+   "nodes": [
+    "output",
+    "/fc/fc.1/Relu_output_0",
+    "/fc/fc.0/Gemm_output_0",
+    "/Flatten_output_0",
+    "/avgpool/GlobalAveragePool_output_0",
+    "/layer4/layer4.2/relu_2/Relu_output_0",
+    "/layer4/layer4.2/Add_output_0",
+    "/layer4/layer4.2/conv3/Conv_output_0",
+    "/layer4/layer4.2/relu_1/Relu_output_0",
+    "/layer4/layer4.2/conv2/Conv_output_0",
+    "/layer4/layer4.2/relu/Relu_output_0",
+    "/layer4/layer4.2/conv1/Conv_output_0",
+    "/layer4/layer4.1/relu_2/Relu_output_0",
+    "/layer4/layer4.1/Add_output_0",
+    "/layer4/layer4.1/conv3/Conv_output_0",
+    "/layer4/layer4.1/relu_1/Relu_output_0",
+    "/layer4/layer4.1/conv2/Conv_output_0",
+    "/layer4/layer4.1/relu/Relu_output_0",
+    "/layer4/layer4.1/conv1/Conv_output_0",
+    "/layer4/layer4.0/relu_2/Relu_output_0",
+    "/layer4/layer4.0/Add_output_0",
+    "/layer4/layer4.0/downsample/downsample.0/Conv_output_0",
+    "/layer3/layer3.5/relu_2/Relu_output_0",
+    "/layer3/layer3.5/Add_output_0",
+    "/layer3/layer3.5/conv3/Conv_output_0",
+    "/layer3/layer3.5/relu_1/Relu_output_0",
+    "/layer3/layer3.5/conv2/Conv_output_0",
+    "/layer3/layer3.5/relu/Relu_output_0",
+    "/layer3/layer3.5/conv1/Conv_output_0",
+    "/layer3/layer3.4/relu_2/Relu_output_0",
+    "/layer3/layer3.4/Add_output_0",
+    "/layer3/layer3.4/conv3/Conv_output_0",
+    "/layer3/layer3.4/relu_1/Relu_output_0",
+    "/layer3/layer3.4/conv2/Conv_output_0",
+    "/layer3/layer3.4/relu/Relu_output_0",
+    "/layer3/layer3.4/conv1/Conv_output_0",
+    "/layer3/layer3.3/relu_2/Relu_output_0",
+    "/layer3/layer3.3/Add_output_0",
+    "/layer3/layer3.3/conv3/Conv_output_0",
+    "/layer3/layer3.3/relu_1/Relu_output_0",
+    "/layer3/layer3.3/conv2/Conv_output_0",
+    "/layer3/layer3.3/relu/Relu_output_0",
+    "/layer3/layer3.3/conv1/Conv_output_0",
+    "/layer3/layer3.2/relu_2/Relu_output_0",
+    "/layer3/layer3.2/Add_output_0",
+    "/layer3/layer3.2/conv3/Conv_output_0",
+    "/layer3/layer3.2/relu_1/Relu_output_0",
+    "/layer3/layer3.2/conv2/Conv_output_0",
+    "/layer3/layer3.2/relu/Relu_output_0",
+    "/layer3/layer3.2/conv1/Conv_output_0",
+    "/layer3/layer3.1/relu_2/Relu_output_0",
+    "/layer3/layer3.1/Add_output_0",
+    "/layer3/layer3.1/conv3/Conv_output_0",
+    "/layer3/layer3.1/relu_1/Relu_output_0",
+    "/layer3/layer3.1/conv2/Conv_output_0",
+    "/layer3/layer3.1/relu/Relu_output_0",
+    "/layer3/layer3.1/conv1/Conv_output_0",
+    "/layer3/layer3.0/relu_2/Relu_output_0",
+    "/layer3/layer3.0/Add_output_0",
+    "/layer3/layer3.0/downsample/downsample.0/Conv_output_0",
+    "/layer2/layer2.3/relu_2/Relu_output_0",
+    "/layer2/layer2.3/Add_output_0",
+    "/layer2/layer2.3/conv3/Conv_output_0",
+    "/layer2/layer2.3/relu_1/Relu_output_0",
+    "/layer2/layer2.3/conv2/Conv_output_0",
+    "/layer2/layer2.3/relu/Relu_output_0",
+    "/layer2/layer2.3/conv1/Conv_output_0",
+    "/layer2/layer2.2/relu_2/Relu_output_0",
+    "/layer2/layer2.2/Add_output_0",
+    "/layer2/layer2.2/conv3/Conv_output_0",
+    "/layer2/layer2.2/relu_1/Relu_output_0",
+    "/layer2/layer2.2/conv2/Conv_output_0",
+    "/layer2/layer2.2/relu/Relu_output_0",
+    "/layer2/layer2.2/conv1/Conv_output_0",
+    "/layer2/layer2.1/relu_2/Relu_output_0",
+    "/layer2/layer2.1/Add_output_0",
+    "/layer2/layer2.1/conv3/Conv_output_0",
+    "/layer2/layer2.1/relu_1/Relu_output_0",
+    "/layer2/layer2.1/conv2/Conv_output_0",
+    "/layer2/layer2.1/relu/Relu_output_0",
+    "/layer2/layer2.1/conv1/Conv_output_0",
+    "/layer2/layer2.0/relu_2/Relu_output_0",
+    "/layer2/layer2.0/Add_output_0",
+    "/layer2/layer2.0/downsample/downsample.0/Conv_output_0",
+    "/layer1/layer1.2/relu_2/Relu_output_0",
+    "/layer1/layer1.2/Add_output_0",
+    "/layer1/layer1.2/conv3/Conv_output_0",
+    "/layer1/layer1.2/relu_1/Relu_output_0",
+    "/layer1/layer1.2/conv2/Conv_output_0",
+    "/layer1/layer1.2/relu/Relu_output_0",
+    "/layer1/layer1.2/conv1/Conv_output_0",
+    "/layer1/layer1.1/relu_2/Relu_output_0",
+    "/layer1/layer1.1/Add_output_0",
+    "/layer1/layer1.1/conv3/Conv_output_0",
+    "/layer1/layer1.1/relu_1/Relu_output_0",
+    "/layer1/layer1.1/conv2/Conv_output_0",
+    "/layer1/layer1.1/relu/Relu_output_0",
+    "/layer1/layer1.1/conv1/Conv_output_0",
+    "/layer1/layer1.0/relu_2/Relu_output_0",
+    "/layer1/layer1.0/Add_output_0",
+    "/layer1/layer1.0/downsample/downsample.0/Conv_output_0",
+    "/maxpool/MaxPool_output_0",
+    "/relu/Relu_output_0",
+    "/conv1/Conv_output_0",
+    "/layer1/layer1.0/conv3/Conv_output_0",
+    "/layer1/layer1.0/relu_1/Relu_output_0",
+    "/layer1/layer1.0/conv2/Conv_output_0",
+    "/layer1/layer1.0/relu/Relu_output_0",
+    "/layer1/layer1.0/conv1/Conv_output_0",
+    "/layer2/layer2.0/conv3/Conv_output_0",
+    "/layer2/layer2.0/relu_1/Relu_output_0",
+    "/layer2/layer2.0/conv2/Conv_output_0",
+    "/layer2/layer2.0/relu/Relu_output_0",
+    "/layer2/layer2.0/conv1/Conv_output_0",
+    "/layer3/layer3.0/conv3/Conv_output_0",
+    "/layer3/layer3.0/relu_1/Relu_output_0",
+    "/layer3/layer3.0/conv2/Conv_output_0",
+    "/layer3/layer3.0/relu/Relu_output_0",
+    "/layer3/layer3.0/conv1/Conv_output_0",
+    "/layer4/layer4.0/conv3/Conv_output_0",
+    "/layer4/layer4.0/relu_1/Relu_output_0",
+    "/layer4/layer4.0/conv2/Conv_output_0",
+    "/layer4/layer4.0/relu/Relu_output_0",
+    "/layer4/layer4.0/conv1/Conv_output_0"
+   ],
+   "constantInitializers": [
+    "fc.0.bias",
+    "fc.0.weight",
+    "fc.2.bias",
+    "fc.2.weight",
+    "onnx::Conv_501",
+    "onnx::Conv_502",
+    "onnx::Conv_504",
+    "onnx::Conv_505",
+    "onnx::Conv_507",
+    "onnx::Conv_508",
+    "onnx::Conv_510",
+    "onnx::Conv_511",
+    "onnx::Conv_513",
+    "onnx::Conv_514",
+    "onnx::Conv_516",
+    "onnx::Conv_517",
+    "onnx::Conv_519",
+    "onnx::Conv_520",
+    "onnx::Conv_522",
+    "onnx::Conv_523",
+    "onnx::Conv_525",
+    "onnx::Conv_526",
+    "onnx::Conv_528",
+    "onnx::Conv_529",
+    "onnx::Conv_531",
+    "onnx::Conv_532",
+    "onnx::Conv_534",
+    "onnx::Conv_535",
+    "onnx::Conv_537",
+    "onnx::Conv_538",
+    "onnx::Conv_540",
+    "onnx::Conv_541",
+    "onnx::Conv_543",
+    "onnx::Conv_544",
+    "onnx::Conv_546",
+    "onnx::Conv_547",
+    "onnx::Conv_549",
+    "onnx::Conv_550",
+    "onnx::Conv_552",
+    "onnx::Conv_553",
+    "onnx::Conv_555",
+    "onnx::Conv_556",
+    "onnx::Conv_558",
+    "onnx::Conv_559",
+    "onnx::Conv_561",
+    "onnx::Conv_562",
+    "onnx::Conv_564",
+    "onnx::Conv_565",
+    "onnx::Conv_567",
+    "onnx::Conv_568",
+    "onnx::Conv_570",
+    "onnx::Conv_571",
+    "onnx::Conv_573",
+    "onnx::Conv_574",
+    "onnx::Conv_576",
+    "onnx::Conv_577",
+    "onnx::Conv_579",
+    "onnx::Conv_580",
+    "onnx::Conv_582",
+    "onnx::Conv_583",
+    "onnx::Conv_585",
+    "onnx::Conv_586",
+    "onnx::Conv_588",
+    "onnx::Conv_589",
+    "onnx::Conv_591",
+    "onnx::Conv_592",
+    "onnx::Conv_594",
+    "onnx::Conv_595",
+    "onnx::Conv_597",
+    "onnx::Conv_598",
+    "onnx::Conv_600",
+    "onnx::Conv_601",
+    "onnx::Conv_603",
+    "onnx::Conv_604",
+    "onnx::Conv_606",
+    "onnx::Conv_607",
+    "onnx::Conv_609",
+    "onnx::Conv_610",
+    "onnx::Conv_612",
+    "onnx::Conv_613",
+    "onnx::Conv_615",
+    "onnx::Conv_616",
+    "onnx::Conv_618",
+    "onnx::Conv_619",
+    "onnx::Conv_621",
+    "onnx::Conv_622",
+    "onnx::Conv_624",
+    "onnx::Conv_625",
+    "onnx::Conv_627",
+    "onnx::Conv_628",
+    "onnx::Conv_630",
+    "onnx::Conv_631",
+    "onnx::Conv_633",
+    "onnx::Conv_634",
+    "onnx::Conv_636",
+    "onnx::Conv_637",
+    "onnx::Conv_639",
+    "onnx::Conv_640",
+    "onnx::Conv_642",
+    "onnx::Conv_643",
+    "onnx::Conv_645",
+    "onnx::Conv_646",
+    "onnx::Conv_648",
+    "onnx::Conv_649",
+    "onnx::Conv_651",
+    "onnx::Conv_652",
+    "onnx::Conv_654",
+    "onnx::Conv_655",
+    "onnx::Conv_657",
+    "onnx::Conv_658"
+   ],
+   "device": "VAIML",
+   "vaimlParam": {
+    "vaimlModelPath": "/scratch/thozerbs/git/RyzenAI-SW/CNN-examples/getting_started_resnet/bf16/my_cache_dir/resnet_trained_for_cifar10/vaiml_par_0",
+    "aiAnalyzerProfiling": true,
+    "deviceName": "stx",
+    "outputShapes": [
+     {
+      "shapes": [
+       "-1",
+       "10"
+      ]
+     }
+    ],
+    "inputShapes": [
+     {
+      "shapes": [
+       "-1",
+       "3",
+       "32",
+       "32"
+      ]
+     }
+    ],
+    "vaimlUnarchivePath": "/scratch/thozerbs/git/RyzenAI-SW/CNN-examples/getting_started_resnet/bf16/my_cache_dir/resnet_trained_for_cifar10",
+    "subgraphName": "vaiml_par_0",
+    "priority": "normal",
+    "configJson": "vitisai_config.json",
+    "runnerType": "hw",
+    "deviceBatchSize": 1,
+    "inputNames": [
+     "input"
+    ],
+    "outputNames": [
+     "output"
+    ],
+    "maxSpillBufferSize": "333824",
+    "enablePreemption": true
+   }
+  }
+ ],
+ "config": {
+  "passes": [
+   {
+    "name": "init",
+    "plugin": "vaip-pass_init"
+   },
+   {
+    "name": "vaiml_partition",
+    "plugin": "vaip-pass_vaiml_partition",
+    "vaimlConfig": {
+     "enableF32ToBf16Conversion": true
+    }
+   }
+  ],
+  "cacheDir": "/scratch/thozerbs/git/RyzenAI-SW/CNN-examples/getting_started_resnet/bf16/my_cache_dir",
+  "cacheKey": "resnet_trained_for_cifar10",
+  "version": {
+   "versionInfos": [
+    {
+     "packageName": "vai-rt",
+     "commit": "git_id: 8941f701b4e8e25b34d4a6bae7e790e332acccdd build 2431 at 20260304090658",
+     "version": "v1.0"
+    },
+    {
+     "packageName": "onnxruntime",
+     "commit": "58b2075a54578015d2c573c209b2ca462228672d",
+     "version": "58b207"
+    },
+    {
+     "packageName": "glog",
+     "commit": "b33e3bad4c46c8a6345525fd822af355e5ef9446",
+     "version": "v0.6.0"
+    },
+    {
+     "packageName": "gsl",
+     "commit": "a3534567187d2edc428efd3f13466ff75fe5805c",
+     "version": "v4.0.0"
+    },
+    {
+     "packageName": "json",
+     "commit": "bc889afb4c5bf1c0d8ee29ef35eaaf4c8bef8a5d",
+     "version": "v3.11.2"
+    },
+    {
+     "packageName": "protobuf",
+     "commit": "f0dc78d7e6e331b8c6bb2d5283e06aa26883ca7c",
+     "version": "v21.12"
+    },
+    {
+     "packageName": "onnxruntime",
+     "commit": "58b2075a54578015d2c573c209b2ca462228672d",
+     "version": "v1.23.2-2-g58b20"
+    },
+    {
+     "packageName": "xcompiler",
+     "commit": "2ac5cdf042ba25e0ad1110c12cb5d4d73488c347",
+     "version": "rc3-2844-g2ac5c"
+    },
+    {
+     "packageName": "xir",
+     "commit": "f9d212421bc063fbaeafc7c0c46dca402afc943b",
+     "version": "rc3-115-gf9d21"
+    },
+    {
+     "packageName": "target-factory",
+     "commit": "77dffd33cc921c97be92cbbd013c7da8ab7a2926",
+     "version": "SR-945504-721-g77df"
+    },
+    {
+     "packageName": "trace-logging",
+     "commit": "bd5bbc4158df207df506a4b62e8b89a12525ae41",
+     "version": "rc3-41-gbd5b"
+    },
+    {
+     "packageName": "flexml_rt",
+     "commit": "cffd695aee489ebba8e80dd5a6270045bf5b53da",
+     "version": "no-tag"
+    },
+    {
+     "packageName": "vart",
+     "commit": "aa34d860d6517f6913a481563728edb21e521656",
+     "version": "rc3-399-gaa34"
+    },
+    {
+     "packageName": "graph-engine",
+     "commit": "86b93d7be8ea0452bd63b4674f41b536e57ea804",
+     "version": "rc3-362-g86b9"
+    },
+    {
+     "packageName": "DynamicDispatch",
+     "commit": "1a8bd0a7e8f86a468cdc55c7c1a7ff82cdd26089",
+     "version": "RAI-1.3GA-1449-g1a8bd"
+    },
+    {
+     "packageName": "VAIP",
+     "commit": "002c301a507c49dec1074e4bba957c9bbbbba84b",
+     "version": "cp_dev_no_morphizen-1275-g002c3"
+    },
+    {
+     "packageName": "morphizen",
+     "commit": "eb42ce5f4d155fa12ecd35c4de294e7c94f1d5f8",
+     "version": "eb42ce"
+    }
+   ]
+  },
+  "onnxPath": "models/resnet_trained_for_cifar10.onnx",
+  "sessionOptions": {
+   "ai_analyzer_profiling": "True",
+   "cache_key": "resnet_trained_for_cifar10",
+   "xlnx_enable_old_qdq": "1",
+   "session_options": "492226360",
+   "enable_cache_file_io_in_mem": "0",
+   "config_file": "vitisai_config.json",
+   "cache_dir": "/scratch/thozerbs/git/RyzenAI-SW/CNN-examples/getting_started_resnet/bf16/my_cache_dir",
+   "ai_analyzer_visualization": "True"
+  },
+  "targets": [
+   {
+    "name": "VAIML",
+    "pass": [
+     "init",
+     "vaiml_partition"
+    ]
+   }
+  ],
+  "target": "VAIML",
+  "onnxMd5File": "9d9110c306b8e68d8e622b3414dd5982",
+  "onnxMd5A": "d0dc4aa2ef0e1454638977bce1b78692",
+  "onnxMd5B": "4fd0eea30db85fb363aa83154c68acae"
+ },
+ "events": [
+  {
+   "name": "check_cache_hit",
+   "ph": "X",
+   "ts": "143184",
+   "pid": "1069775",
+   "tid": "1069775",
+   "args": {
+    "memUsage": {}
+   },
+   "dur": "5"
+  },
+  {
+   "id": "check_cache_hit_mem_usage_1",
+   "ph": "v",
+   "ts": "143184",
+   "pid": "1069775",
+   "args": {
+    "dumps": {
+     "process_totals": {
+      "peak_memory": "0",
+      "current_memory": "0"
+     }
+    }
+   }
+  },
+  {
+   "id": "check_cache_hit_mem_usage_2",
+   "ph": "v",
+   "ts": "143189",
+   "pid": "1069775",
+   "args": {
+    "dumps": {
+     "process_totals": {
+      "peak_memory": "0",
+      "current_memory": "0"
+     }
+    }
+   }
+  },
+  {
+   "name": "0-init@vaip-pass_init",
+   "ph": "X",
+   "ts": "144407",
+   "pid": "1069775",
+   "tid": "1069775",
+   "args": {
+    "memUsage": {}
+   },
+   "dur": "7"
+  },
+  {
+   "id": "0-init@vaip-pass_init_mem_usage_1",
+   "ph": "v",
+   "ts": "144407",
+   "pid": "1069775",
+   "args": {
+    "dumps": {
+     "process_totals": {
+      "peak_memory": "0",
+      "current_memory": "0"
+     }
+    }
+   }
+  },
+  {
+   "id": "0-init@vaip-pass_init_mem_usage_2",
+   "ph": "v",
+   "ts": "144414",
+   "pid": "1069775",
+   "args": {
+    "dumps": {
+     "process_totals": {
+      "peak_memory": "0",
+      "current_memory": "0"
+     }
+    }
+   }
+  }
+ ],
+ "cacheFiles": [
+  "context.json"
+ ]
+}

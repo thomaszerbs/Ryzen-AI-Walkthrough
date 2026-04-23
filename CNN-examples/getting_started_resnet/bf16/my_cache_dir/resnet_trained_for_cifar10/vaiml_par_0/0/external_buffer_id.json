@@ -1,0 +1,497 @@
+{
+    "external_buffers": {
+        "buffer0": {
+            "coalesed_buffers": [
+                {
+                    "logical_id": 90,
+                    "name": "compute_graph.L3_56_pseudo_op_from_layer_55_port_0",
+                    "offset_in_bytes": 329728
+                },
+                {
+                    "logical_id": 18,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_10",
+                    "offset_in_bytes": 139264
+                },
+                {
+                    "logical_id": 20,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_11",
+                    "offset_in_bytes": 147456
+                },
+                {
+                    "logical_id": 22,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_12",
+                    "offset_in_bytes": 155648
+                },
+                {
+                    "logical_id": 24,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_13",
+                    "offset_in_bytes": 188416
+                },
+                {
+                    "logical_id": 26,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_14",
+                    "offset_in_bytes": 204800
+                },
+                {
+                    "logical_id": 28,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_15",
+                    "offset_in_bytes": 208896
+                },
+                {
+                    "logical_id": 30,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_16",
+                    "offset_in_bytes": 225280
+                },
+                {
+                    "logical_id": 32,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_17",
+                    "offset_in_bytes": 241664
+                },
+                {
+                    "logical_id": 34,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_18",
+                    "offset_in_bytes": 245760
+                },
+                {
+                    "logical_id": 2,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_2",
+                    "offset_in_bytes": 0
+                },
+                {
+                    "logical_id": 37,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_20",
+                    "offset_in_bytes": 249856
+                },
+                {
+                    "logical_id": 39,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_21",
+                    "offset_in_bytes": 253952
+                },
+                {
+                    "logical_id": 42,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_23",
+                    "offset_in_bytes": 258048
+                },
+                {
+                    "logical_id": 44,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_24",
+                    "offset_in_bytes": 262144
+                },
+                {
+                    "logical_id": 46,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_25",
+                    "offset_in_bytes": 266240
+                },
+                {
+                    "logical_id": 48,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_26",
+                    "offset_in_bytes": 282624
+                },
+                {
+                    "logical_id": 50,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_27",
+                    "offset_in_bytes": 290816
+                },
+                {
+                    "logical_id": 52,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_28",
+                    "offset_in_bytes": 292864
+                },
+                {
+                    "logical_id": 54,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_29",
+                    "offset_in_bytes": 301056
+                },
+                {
+                    "logical_id": 4,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_3",
+                    "offset_in_bytes": 8192
+                },
+                {
+                    "logical_id": 56,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_30",
+                    "offset_in_bytes": 309248
+                },
+                {
+                    "logical_id": 58,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_31",
+                    "offset_in_bytes": 311296
+                },
+                {
+                    "logical_id": 61,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_33",
+                    "offset_in_bytes": 313344
+                },
+                {
+                    "logical_id": 63,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_34",
+                    "offset_in_bytes": 315392
+                },
+                {
+                    "logical_id": 66,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_36",
+                    "offset_in_bytes": 317440
+                },
+                {
+                    "logical_id": 68,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_37",
+                    "offset_in_bytes": 319488
+                },
+                {
+                    "logical_id": 71,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_39",
+                    "offset_in_bytes": 321536
+                },
+                {
+                    "logical_id": 6,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_4",
+                    "offset_in_bytes": 16384
+                },
+                {
+                    "logical_id": 73,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_40",
+                    "offset_in_bytes": 323584
+                },
+                {
+                    "logical_id": 76,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_42",
+                    "offset_in_bytes": 325632
+                },
+                {
+                    "logical_id": 78,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_43",
+                    "offset_in_bytes": 327680
+                },
+                {
+                    "logical_id": 8,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_5",
+                    "offset_in_bytes": 24576
+                },
+                {
+                    "logical_id": 10,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_6",
+                    "offset_in_bytes": 57344
+                },
+                {
+                    "logical_id": 12,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_7",
+                    "offset_in_bytes": 90112
+                },
+                {
+                    "logical_id": 14,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_8",
+                    "offset_in_bytes": 98304
+                },
+                {
+                    "logical_id": 16,
+                    "name": "compute_graph.L3_OFM_Buffer_spill_layer_9",
+                    "offset_in_bytes": 106496
+                }
+            ],
+            "name": "coalesed_spills",
+            "size_in_bytes": 333824,
+            "xrt_id": 2
+        },
+        "buffer1": {
+            "coalesed_buffers": [
+                {
+                    "logical_id": 17,
+                    "name": "compute_graph.Layer_10_wts_ddr",
+                    "offset_in_bytes": 325632
+                },
+                {
+                    "logical_id": 19,
+                    "name": "compute_graph.Layer_11_wts_ddr",
+                    "offset_in_bytes": 359424
+                },
+                {
+                    "logical_id": 21,
+                    "name": "compute_graph.Layer_12_wts_ddr",
+                    "offset_in_bytes": 434176
+                },
+                {
+                    "logical_id": 23,
+                    "name": "compute_graph.Layer_13_wts_ddr",
+                    "offset_in_bytes": 468992
+                },
+                {
+                    "logical_id": 25,
+                    "name": "compute_graph.Layer_14_wts_ddr",
+                    "offset_in_bytes": 536576
+                },
+                {
+                    "logical_id": 27,
+                    "name": "compute_graph.Layer_15_wts_ddr",
+                    "offset_in_bytes": 839680
+                },
+                {
+                    "logical_id": 29,
+                    "name": "compute_graph.Layer_16_wts_ddr",
+                    "offset_in_bytes": 1110016
+                },
+                {
+                    "logical_id": 31,
+                    "name": "compute_graph.Layer_17_wts_ddr",
+                    "offset_in_bytes": 1245184
+                },
+                {
+                    "logical_id": 33,
+                    "name": "compute_graph.Layer_18_wts_ddr",
+                    "offset_in_bytes": 1380352
+                },
+                {
+                    "logical_id": 35,
+                    "name": "compute_graph.Layer_19_wts_ddr",
+                    "offset_in_bytes": 1679360
+                },
+                {
+                    "logical_id": 1,
+                    "name": "compute_graph.Layer_1_wts_ddr",
+                    "offset_in_bytes": 0
+                },
+                {
+                    "logical_id": 36,
+                    "name": "compute_graph.Layer_20_wts_ddr",
+                    "offset_in_bytes": 1814528
+                },
+                {
+                    "logical_id": 38,
+                    "name": "compute_graph.Layer_21_wts_ddr",
+                    "offset_in_bytes": 1949696
+                },
+                {
+                    "logical_id": 40,
+                    "name": "compute_graph.Layer_22_wts_ddr",
+                    "offset_in_bytes": 2248704
+                },
+                {
+                    "logical_id": 41,
+                    "name": "compute_graph.Layer_23_wts_ddr",
+                    "offset_in_bytes": 2383872
+                },
+                {
+                    "logical_id": 43,
+                    "name": "compute_graph.Layer_24_wts_ddr",
+                    "offset_in_bytes": 2519040
+                },
+                {
+                    "logical_id": 45,
+                    "name": "compute_graph.Layer_25_wts_ddr",
+                    "offset_in_bytes": 2818048
+                },
+                {
+                    "logical_id": 47,
+                    "name": "compute_graph.Layer_26_wts_ddr",
+                    "offset_in_bytes": 2953216
+                },
+                {
+                    "logical_id": 49,
+                    "name": "compute_graph.Layer_27_wts_ddr",
+                    "offset_in_bytes": 3223552
+                },
+                {
+                    "logical_id": 51,
+                    "name": "compute_graph.Layer_28_wts_ddr",
+                    "offset_in_bytes": 4435968
+                },
+                {
+                    "logical_id": 53,
+                    "name": "compute_graph.Layer_29_wts_ddr",
+                    "offset_in_bytes": 5517312
+                },
+                {
+                    "logical_id": 55,
+                    "name": "compute_graph.Layer_30_wts_ddr",
+                    "offset_in_bytes": 6057984
+                },
+                {
+                    "logical_id": 57,
+                    "name": "compute_graph.Layer_31_wts_ddr",
+                    "offset_in_bytes": 6598656
+                },
+                {
+                    "logical_id": 59,
+                    "name": "compute_graph.Layer_32_wts_ddr",
+                    "offset_in_bytes": 7794688
+                },
+                {
+                    "logical_id": 60,
+                    "name": "compute_graph.Layer_33_wts_ddr",
+                    "offset_in_bytes": 8335360
+                },
+                {
+                    "logical_id": 62,
+                    "name": "compute_graph.Layer_34_wts_ddr",
+                    "offset_in_bytes": 8876032
+                },
+                {
+                    "logical_id": 64,
+                    "name": "compute_graph.Layer_35_wts_ddr",
+                    "offset_in_bytes": 10072064
+                },
+                {
+                    "logical_id": 65,
+                    "name": "compute_graph.Layer_36_wts_ddr",
+                    "offset_in_bytes": 10612736
+                },
+                {
+                    "logical_id": 67,
+                    "name": "compute_graph.Layer_37_wts_ddr",
+                    "offset_in_bytes": 11153408
+                },
+                {
+                    "logical_id": 69,
+                    "name": "compute_graph.Layer_38_wts_ddr",
+                    "offset_in_bytes": 12349440
+                },
+                {
+                    "logical_id": 70,
+                    "name": "compute_graph.Layer_39_wts_ddr",
+                    "offset_in_bytes": 12890112
+                },
+                {
+                    "logical_id": 3,
+                    "name": "compute_graph.Layer_3_wts_ddr",
+                    "offset_in_bytes": 29184
+                },
+                {
+                    "logical_id": 72,
+                    "name": "compute_graph.Layer_40_wts_ddr",
+                    "offset_in_bytes": 13430784
+                },
+                {
+                    "logical_id": 74,
+                    "name": "compute_graph.Layer_41_wts_ddr",
+                    "offset_in_bytes": 14626816
+                },
+                {
+                    "logical_id": 75,
+                    "name": "compute_graph.Layer_42_wts_ddr",
+                    "offset_in_bytes": 15167488
+                },
+                {
+                    "logical_id": 77,
+                    "name": "compute_graph.Layer_43_wts_ddr",
+                    "offset_in_bytes": 15708160
+                },
+                {
+                    "logical_id": 79,
+                    "name": "compute_graph.Layer_44_wts_ddr",
+                    "offset_in_bytes": 16904192
+                },
+                {
+                    "logical_id": 80,
+                    "name": "compute_graph.Layer_45_wts_ddr",
+                    "offset_in_bytes": 17444864
+                },
+                {
+                    "logical_id": 81,
+                    "name": "compute_graph.Layer_46_wts_ddr",
+                    "offset_in_bytes": 18526208
+                },
+                {
+                    "logical_id": 82,
+                    "name": "compute_graph.Layer_47_wts_ddr",
+                    "offset_in_bytes": 23375872
+                },
+                {
+                    "logical_id": 83,
+                    "name": "compute_graph.Layer_48_wts_ddr",
+                    "offset_in_bytes": 27701248
+                },
+                {
+                    "logical_id": 84,
+                    "name": "compute_graph.Layer_49_wts_ddr",
+                    "offset_in_bytes": 29863936
+                },
+                {
+                    "logical_id": 5,
+                    "name": "compute_graph.Layer_4_wts_ddr",
+                    "offset_in_bytes": 37888
+                },
+                {
+                    "logical_id": 85,
+                    "name": "compute_graph.Layer_50_wts_ddr",
+                    "offset_in_bytes": 32071680
+                },
+                {
+                    "logical_id": 86,
+                    "name": "compute_graph.Layer_51_wts_ddr",
+                    "offset_in_bytes": 37027840
+                },
+                {
+                    "logical_id": 87,
+                    "name": "compute_graph.Layer_52_wts_ddr",
+                    "offset_in_bytes": 39190528
+                },
+                {
+                    "logical_id": 88,
+                    "name": "compute_graph.Layer_53_wts_ddr",
+                    "offset_in_bytes": 41398272
+                },
+                {
+                    "logical_id": 89,
+                    "name": "compute_graph.Layer_54_wts_ddr",
+                    "offset_in_bytes": 46354432
+                },
+                {
+                    "logical_id": 91,
+                    "name": "compute_graph.Layer_57_wts_ddr",
+                    "offset_in_bytes": 48517120
+                },
+                {
+                    "logical_id": 92,
+                    "name": "compute_graph.Layer_58_wts_ddr",
+                    "offset_in_bytes": 49123328
+                },
+                {
+                    "logical_id": 7,
+                    "name": "compute_graph.Layer_5_wts_ddr",
+                    "offset_in_bytes": 112640
+                },
+                {
+                    "logical_id": 9,
+                    "name": "compute_graph.Layer_6_wts_ddr",
+                    "offset_in_bytes": 147456
+                },
+                {
+                    "logical_id": 11,
+                    "name": "compute_graph.Layer_7_wts_ddr",
+                    "offset_in_bytes": 182272
+                },
+                {
+                    "logical_id": 13,
+                    "name": "compute_graph.Layer_8_wts_ddr",
+                    "offset_in_bytes": 216064
+                },
+                {
+                    "logical_id": 15,
+                    "name": "compute_graph.Layer_9_wts_ddr",
+                    "offset_in_bytes": 290816
+                }
+            ],
+            "name": "coalesed_weights",
+            "size_in_bytes": 49142272,
+            "xrt_id": 1
+        },
+        "buffer2": {
+            "logical_id": 0,
+            "name": "compute_graph.ifm_ddr",
+            "size_in_bytes": 8192,
+            "xrt_id": 0
+        },
+        "buffer3": {
+            "logical_id": 93,
+            "name": "compute_graph.ofm_ddr_0",
+            "size_in_bytes": 20,
+            "xrt_id": 3
+        },
+        "runtime_control_packet": {
+            "ctrl_pkt_buffer": true,
+            "logical_id": 2147483647,
+            "path": "../ctrl_pkt/ctrl_pkt0.bin",
+            "size_in_bytes": 1961816,
+            "xrt_id": 4
+        }
+    }
+}

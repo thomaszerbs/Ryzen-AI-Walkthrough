@@ -1,0 +1,163 @@
+{
+    "run": {
+        "command": "performance_benchmark.py --model_path ../CNN-examples/getting_started_resnet/bf16/models/resnet_trained_for_cifar10_BS1.onnx --execution_provider VitisAIEP --autoquant 0 --renew 0 --num 100 --timelimit 30 --infinite 0 --config /scratch/thozerbs/git/RyzenAI-SW/CNN-examples/getting_started_resnet/bf16/vitisai_config.json",
+        "benchmark_release": 22,
+        "model": "../CNN-examples/getting_started_resnet/bf16/models/resnet_trained_for_cifar10_BS1.onnx",
+        "execution_provider": "VitisAIEP"
+    },
+    "results": {
+        "performance": {
+            "total_throughput": 147.49389232670808,
+            "average_latency": 6.738630309700966,
+            "images_requested": 100,
+            "images_preloaded": 100,
+            "images_processed": 100
+        },
+        "efficency perf/W": {
+            "apu_perf_pow": "N/A"
+        },
+        "energy mJ/frame": {
+            "apu": "N/A",
+            "cpu": "N/A",
+            "npu": "N/A",
+            "mem": "N/A"
+        }
+    },
+    "model": "../CNN-examples/getting_started_resnet/bf16/models/resnet_trained_for_cifar10_BS1.onnx",
+    "vitisai": {
+        "all": 124,
+        "CPU": 0,
+        "VAIML": 124
+    },
+    "system": {
+        "frequency": {
+            "MPNPUCLK": 0,
+            "NPUHCLK": 0,
+            "FCLK": 0,
+            "LCLK": 0
+        },
+        "voltages": {
+            "CORE0": 0,
+            "CORE1": 0,
+            "CORE2": 0,
+            "CORE3": 0,
+            "CORE4": 0,
+            "CORE5": 0,
+            "CORE6": 0,
+            "CORE7": 0
+        },
+        "hw": {
+            "processor": "x86_64",
+            "num_cores": 32
+        },
+        "os": {
+            "os_version": "Linux-6.17.0-19-generic-x86_64-with-glibc2.39"
+        },
+        "resources": {
+            "CPU_usage": "2.8%",
+            "Memory": "85.21115112304688 GB",
+            "Swap_Memory": "6.34466552734375 GB"
+        },
+        "driver": {
+            "npu": "Unknown"
+        }
+    },
+    "environment": {
+        "packages": {},
+        "xclbin": {
+            "xclbin_path": "",
+            "packages": {
+                "vai-rt": {
+                    "commit": "git_id: 8941f701b4e8e25b34d4a6bae7e790e332acccdd build 2431 at 20260304090658",
+                    "version": "v1.0"
+                },
+                "onnxruntime": {
+                    "commit": "58b2075a54578015d2c573c209b2ca462228672d",
+                    "version": "v1.23.2-2-g58b20"
+                },
+                "glog": {
+                    "commit": "b33e3bad4c46c8a6345525fd822af355e5ef9446",
+                    "version": "v0.6.0"
+                },
+                "gsl": {
+                    "commit": "a3534567187d2edc428efd3f13466ff75fe5805c",
+                    "version": "v4.0.0"
+                },
+                "json": {
+                    "commit": "bc889afb4c5bf1c0d8ee29ef35eaaf4c8bef8a5d",
+                    "version": "v3.11.2"
+                },
+                "protobuf": {
+                    "commit": "f0dc78d7e6e331b8c6bb2d5283e06aa26883ca7c",
+                    "version": "v21.12"
+                },
+                "xcompiler": {
+                    "commit": "2ac5cdf042ba25e0ad1110c12cb5d4d73488c347",
+                    "version": "rc3-2844-g2ac5c"
+                },
+                "xir": {
+                    "commit": "f9d212421bc063fbaeafc7c0c46dca402afc943b",
+                    "version": "rc3-115-gf9d21"
+                },
+                "target-factory": {
+                    "commit": "77dffd33cc921c97be92cbbd013c7da8ab7a2926",
+                    "version": "SR-945504-721-g77df"
+                },
+                "trace-logging": {
+                    "commit": "bd5bbc4158df207df506a4b62e8b89a12525ae41",
+                    "version": "rc3-41-gbd5b"
+                },
+                "flexml_rt": {
+                    "commit": "cffd695aee489ebba8e80dd5a6270045bf5b53da",
+                    "version": "no-tag"
+                },
+                "vart": {
+                    "commit": "aa34d860d6517f6913a481563728edb21e521656",
+                    "version": "rc3-399-gaa34"
+                },
+                "graph-engine": {
+                    "commit": "86b93d7be8ea0452bd63b4674f41b536e57ea804",
+                    "version": "rc3-362-g86b9"
+                },
+                "DynamicDispatch": {
+                    "commit": "1a8bd0a7e8f86a468cdc55c7c1a7ff82cdd26089",
+                    "version": "RAI-1.3GA-1449-g1a8bd"
+                },
+                "VAIP": {
+                    "commit": "002c301a507c49dec1074e4bba957c9bbbbba84b",
+                    "version": "cp_dev_no_morphizen-1275-g002c3"
+                },
+                "morphizen": {
+                    "commit": "eb42ce5f4d155fa12ecd35c4de294e7c94f1d5f8",
+                    "version": "eb42ce"
+                }
+            }
+        },
+        "vaip_config": {
+            "passes": [
+                {
+                    "name": "init",
+                    "plugin": "vaip-pass_init"
+                },
+                {
+                    "name": "vaiml_partition",
+                    "plugin": "vaip-pass_vaiml_partition",
+                    "vaiml_config": {
+                        "enable_f32_to_bf16_conversion": true,
+                        "preferred_data_storage": "auto"
+                    }
+                }
+            ],
+            "target": "VAIML",
+            "targets": [
+                {
+                    "name": "VAIML",
+                    "pass": [
+                        "init",
+                        "vaiml_partition"
+                    ]
+                }
+            ]
+        }
+    }
+}

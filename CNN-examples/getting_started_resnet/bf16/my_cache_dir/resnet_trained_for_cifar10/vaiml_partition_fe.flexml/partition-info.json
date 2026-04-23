@@ -1,0 +1,1 @@
+{"ai_analyzer_profiling_enabled":false,"aie_partition_call_order":["forward_outlined_part_0"],"modelname":"model","num_aie_partitions":1,"output_type":"partition-mlir","runner_type":"hw","status":"completed"}

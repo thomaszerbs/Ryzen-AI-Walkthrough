@@ -1,0 +1,15 @@
+{
+  "ai_analyzer_profiling_enabled": true,
+  "aie_partition_call_order": [
+    "forward_outlined_part_0"
+  ],
+  "data_movement": 58,
+  "egops": 0,
+  "enable_preemption": 1,
+  "modelname": "model",
+  "num_aie_partitions": 1,
+  "output_type": "aie-exe",
+  "runner_type": "hw",
+  "status": "completed",
+  "use_lite": true
+}

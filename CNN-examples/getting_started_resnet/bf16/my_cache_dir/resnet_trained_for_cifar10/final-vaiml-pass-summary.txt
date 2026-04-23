@@ -1,0 +1,24 @@
+--------- Final Summary of VAIML Pass ----------
+OS: Linux X64
+VAIP commit: 002c301a507c49dec1074e4bba957c9bbbbba84b
+Model: /scratch/thozerbs/git/RyzenAI-SW/CNN-examples/getting_started_resnet/bf16/models/resnet_trained_for_cifar10.onnx
+Model signature: 9d9110c306b8e68d8e622b3414dd5982
+Device: stx
+Model data type: float32
+Device data type: bfloat16
+Number of operators in the model: 124
+GOPs of the model: 0.168
+Number of operators supported by VAIML: 124 (100.000%)
+GOPs supported by VAIML: 0.168 (100.000%)
+Number of subgraphs supported by VAIML: 1
+Number of operators offloaded by VAIML: 124 (100.000%)
+GOPs offloaded by VAIML: 0.168 (100.000%)
+Number of subgraphs offloaded by VAIML: 1
+Number of subgraphs with compilation errors (fall back to CPU): 0
+Number of subgraphs below 2% GOPs threshold (fall back to CPU): 0
+Number of subgraphs above max number of subgraphs allowed(7): 0 (fall back to CPU)
+Stats for offloaded subgraphs
+Subgraph vaiml_par_0 stats: 
+    Type: npu
+    Operators: 124 (100.000%)
+    GOPs : 0.168 (100.000%)  OPs: 167,999,964

@@ -1,0 +1,423 @@
+{
+    "l3_dataTransfer_size_in_Bytes" : 61357608,
+    "xclbin_name" : "unified-2x4x4.xclbin",
+    "inputs" : [
+        {
+            "name" : "compute_graph.ifm_ddr",
+            "scale_factor" : 1,
+            "cpu_shape" : [
+                1,
+                3,
+                32,
+                32
+            ],
+            "cpu_format" : "NCHW",
+            "cpu_dtype" : "fp32",
+            "hw_shape" : [
+                32,
+                1,
+                32,
+                1,
+                4
+            ],
+            "hw_format" : "HCWNC4",
+            "hw_dtype" : "bf16",
+            "tensor_name" : "input"
+        }
+    ],
+    "outputs" : [
+        {
+            "name" : "compute_graph.ofm_ddr_0",
+            "scale_factor" : 1,
+            "cpu_shape" : [
+                1,
+                10
+            ],
+            "cpu_format" : "AB",
+            "cpu_dtype" : "fp32",
+            "hw_shape" : [
+                1,
+                10
+            ],
+            "hw_format" : "AB",
+            "hw_dtype" : "bf16",
+            "tensor_name" : "output"
+        }
+    ],
+    "weights" : {
+        "layers" : [
+            {
+                "name" : "compute_graph.Layer_1_wts_ddr",
+                "offset" : 0
+            },
+            {
+                "name" : "compute_graph.Layer_3_wts_ddr",
+                "offset" : 7296
+            },
+            {
+                "name" : "compute_graph.Layer_4_wts_ddr",
+                "offset" : 9472
+            },
+            {
+                "name" : "compute_graph.Layer_5_wts_ddr",
+                "offset" : 28160
+            },
+            {
+                "name" : "compute_graph.Layer_6_wts_ddr",
+                "offset" : 36864
+            },
+            {
+                "name" : "compute_graph.Layer_7_wts_ddr",
+                "offset" : 45568
+            },
+            {
+                "name" : "compute_graph.Layer_8_wts_ddr",
+                "offset" : 54016
+            },
+            {
+                "name" : "compute_graph.Layer_9_wts_ddr",
+                "offset" : 72704
+            },
+            {
+                "name" : "compute_graph.Layer_10_wts_ddr",
+                "offset" : 81408
+            },
+            {
+                "name" : "compute_graph.Layer_11_wts_ddr",
+                "offset" : 89856
+            },
+            {
+                "name" : "compute_graph.Layer_12_wts_ddr",
+                "offset" : 108544
+            },
+            {
+                "name" : "compute_graph.Layer_13_wts_ddr",
+                "offset" : 117248
+            },
+            {
+                "name" : "compute_graph.Layer_14_wts_ddr",
+                "offset" : 134144
+            },
+            {
+                "name" : "compute_graph.Layer_15_wts_ddr",
+                "offset" : 209920
+            },
+            {
+                "name" : "compute_graph.Layer_16_wts_ddr",
+                "offset" : 277504
+            },
+            {
+                "name" : "compute_graph.Layer_17_wts_ddr",
+                "offset" : 311296
+            },
+            {
+                "name" : "compute_graph.Layer_18_wts_ddr",
+                "offset" : 345088
+            },
+            {
+                "name" : "compute_graph.Layer_19_wts_ddr",
+                "offset" : 419840
+            },
+            {
+                "name" : "compute_graph.Layer_20_wts_ddr",
+                "offset" : 453632
+            },
+            {
+                "name" : "compute_graph.Layer_21_wts_ddr",
+                "offset" : 487424
+            },
+            {
+                "name" : "compute_graph.Layer_22_wts_ddr",
+                "offset" : 562176
+            },
+            {
+                "name" : "compute_graph.Layer_23_wts_ddr",
+                "offset" : 595968
+            },
+            {
+                "name" : "compute_graph.Layer_24_wts_ddr",
+                "offset" : 629760
+            },
+            {
+                "name" : "compute_graph.Layer_25_wts_ddr",
+                "offset" : 704512
+            },
+            {
+                "name" : "compute_graph.Layer_26_wts_ddr",
+                "offset" : 738304
+            },
+            {
+                "name" : "compute_graph.Layer_27_wts_ddr",
+                "offset" : 805888
+            },
+            {
+                "name" : "compute_graph.Layer_28_wts_ddr",
+                "offset" : 1108992
+            },
+            {
+                "name" : "compute_graph.Layer_29_wts_ddr",
+                "offset" : 1379328
+            },
+            {
+                "name" : "compute_graph.Layer_30_wts_ddr",
+                "offset" : 1514496
+            },
+            {
+                "name" : "compute_graph.Layer_31_wts_ddr",
+                "offset" : 1649664
+            },
+            {
+                "name" : "compute_graph.Layer_32_wts_ddr",
+                "offset" : 1948672
+            },
+            {
+                "name" : "compute_graph.Layer_33_wts_ddr",
+                "offset" : 2083840
+            },
+            {
+                "name" : "compute_graph.Layer_34_wts_ddr",
+                "offset" : 2219008
+            },
+            {
+                "name" : "compute_graph.Layer_35_wts_ddr",
+                "offset" : 2518016
+            },
+            {
+                "name" : "compute_graph.Layer_36_wts_ddr",
+                "offset" : 2653184
+            },
+            {
+                "name" : "compute_graph.Layer_37_wts_ddr",
+                "offset" : 2788352
+            },
+            {
+                "name" : "compute_graph.Layer_38_wts_ddr",
+                "offset" : 3087360
+            },
+            {
+                "name" : "compute_graph.Layer_39_wts_ddr",
+                "offset" : 3222528
+            },
+            {
+                "name" : "compute_graph.Layer_40_wts_ddr",
+                "offset" : 3357696
+            },
+            {
+                "name" : "compute_graph.Layer_41_wts_ddr",
+                "offset" : 3656704
+            },
+            {
+                "name" : "compute_graph.Layer_42_wts_ddr",
+                "offset" : 3791872
+            },
+            {
+                "name" : "compute_graph.Layer_43_wts_ddr",
+                "offset" : 3927040
+            },
+            {
+                "name" : "compute_graph.Layer_44_wts_ddr",
+                "offset" : 4226048
+            },
+            {
+                "name" : "compute_graph.Layer_45_wts_ddr",
+                "offset" : 4361216
+            },
+            {
+                "name" : "compute_graph.Layer_46_wts_ddr",
+                "offset" : 4631552
+            },
+            {
+                "name" : "compute_graph.Layer_47_wts_ddr",
+                "offset" : 5843968
+            },
+            {
+                "name" : "compute_graph.Layer_48_wts_ddr",
+                "offset" : 6925312
+            },
+            {
+                "name" : "compute_graph.Layer_49_wts_ddr",
+                "offset" : 7465984
+            },
+            {
+                "name" : "compute_graph.Layer_50_wts_ddr",
+                "offset" : 8017920
+            },
+            {
+                "name" : "compute_graph.Layer_51_wts_ddr",
+                "offset" : 9256960
+            },
+            {
+                "name" : "compute_graph.Layer_52_wts_ddr",
+                "offset" : 9797632
+            },
+            {
+                "name" : "compute_graph.Layer_53_wts_ddr",
+                "offset" : 10349568
+            },
+            {
+                "name" : "compute_graph.Layer_54_wts_ddr",
+                "offset" : 11588608
+            },
+            {
+                "name" : "compute_graph.Layer_57_wts_ddr",
+                "offset" : 12129280
+            },
+            {
+                "name" : "compute_graph.Layer_58_wts_ddr",
+                "offset" : 12280832
+            }
+        ]
+    },
+    "spills" : {
+        "layers" : [
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_2",
+                "offset" : 0
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_3",
+                "offset" : 2048
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_4",
+                "offset" : 4096
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_5",
+                "offset" : 6144
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_6",
+                "offset" : 14336
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_7",
+                "offset" : 22528
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_8",
+                "offset" : 24576
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_9",
+                "offset" : 26624
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_10",
+                "offset" : 34816
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_11",
+                "offset" : 36864
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_12",
+                "offset" : 38912
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_13",
+                "offset" : 47104
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_14",
+                "offset" : 51200
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_15",
+                "offset" : 52224
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_16",
+                "offset" : 56320
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_17",
+                "offset" : 60416
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_18",
+                "offset" : 61440
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_20",
+                "offset" : 62464
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_21",
+                "offset" : 63488
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_23",
+                "offset" : 64512
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_24",
+                "offset" : 65536
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_25",
+                "offset" : 66560
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_26",
+                "offset" : 70656
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_27",
+                "offset" : 72704
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_28",
+                "offset" : 73216
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_29",
+                "offset" : 75264
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_30",
+                "offset" : 77312
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_31",
+                "offset" : 77824
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_33",
+                "offset" : 78336
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_34",
+                "offset" : 78848
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_36",
+                "offset" : 79360
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_37",
+                "offset" : 79872
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_39",
+                "offset" : 80384
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_40",
+                "offset" : 80896
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_42",
+                "offset" : 81408
+            },
+            {
+                "name" : "compute_graph.L3_OFM_Buffer_spill_layer_43",
+                "offset" : 81920
+            },
+            {
+                "name" : "compute_graph.L3_56_pseudo_op_from_layer_55_port_0",
+                "offset" : 82432
+            }
+        ]
+    }
+}

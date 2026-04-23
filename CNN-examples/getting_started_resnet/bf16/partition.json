@@ -1,0 +1,4262 @@
+{
+    "flexml_graph_metadata": {
+        "connections": [
+            {
+                "from_port_id": "arg0_1_input",
+                "id": "C_0",
+                "properties": [],
+                "to_port_id": "/conv1/Conv_input"
+            },
+            {
+                "from_port_id": "/fc/fc.2/Gemm_output",
+                "id": "C_1",
+                "properties": [],
+                "to_port_id": "output_output"
+            },
+            {
+                "from_port_id": "/conv1/Conv_/conv1/Conv_output_0",
+                "id": "C_2",
+                "properties": [],
+                "to_port_id": "/relu/Relu_/conv1/Conv_output_0"
+            },
+            {
+                "from_port_id": "/relu/Relu_/relu/Relu_output_0",
+                "id": "C_3",
+                "properties": [],
+                "to_port_id": "/maxpool/MaxPool_/relu/Relu_output_0"
+            },
+            {
+                "from_port_id": "/maxpool/MaxPool_/maxpool/MaxPool_output_0",
+                "id": "C_4",
+                "properties": [],
+                "to_port_id": "/layer1/layer1.0/downsample/downsample.0/Conv_/maxpool/MaxPool_output_0"
+            },
+            {
+                "from_port_id": "/maxpool/MaxPool_/maxpool/MaxPool_output_0",
+                "id": "C_5",
+                "properties": [],
+                "to_port_id": "/layer1/layer1.0/conv1/Conv_/maxpool/MaxPool_output_0"
+            },
+            {
+                "from_port_id": "/layer1/layer1.0/conv1/Conv_/layer1/layer1.0/conv1/Conv_output_0",
+                "id": "C_6",
+                "properties": [],
+                "to_port_id": "/layer1/layer1.0/relu/Relu_/layer1/layer1.0/conv1/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer1/layer1.0/relu/Relu_/layer1/layer1.0/relu/Relu_output_0",
+                "id": "C_7",
+                "properties": [],
+                "to_port_id": "/layer1/layer1.0/conv2/Conv_/layer1/layer1.0/relu/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer1/layer1.0/conv2/Conv_/layer1/layer1.0/conv2/Conv_output_0",
+                "id": "C_8",
+                "properties": [],
+                "to_port_id": "/layer1/layer1.0/relu_1/Relu_/layer1/layer1.0/conv2/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer1/layer1.0/relu_1/Relu_/layer1/layer1.0/relu_1/Relu_output_0",
+                "id": "C_9",
+                "properties": [],
+                "to_port_id": "/layer1/layer1.0/conv3/Conv_/layer1/layer1.0/relu_1/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer1/layer1.0/conv3/Conv_/layer1/layer1.0/conv3/Conv_output_0",
+                "id": "C_10",
+                "properties": [],
+                "to_port_id": "/layer1/layer1.0/Add_/layer1/layer1.0/conv3/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer1/layer1.0/downsample/downsample.0/Conv_/layer1/layer1.0/downsample/downsample.0/Conv_output_0",
+                "id": "C_11",
+                "properties": [],
+                "to_port_id": "/layer1/layer1.0/Add_/layer1/layer1.0/downsample/downsample.0/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer1/layer1.0/Add_/layer1/layer1.0/Add_output_0",
+                "id": "C_12",
+                "properties": [],
+                "to_port_id": "/layer1/layer1.0/relu_2/Relu_/layer1/layer1.0/Add_output_0"
+            },
+            {
+                "from_port_id": "/layer1/layer1.0/relu_2/Relu_/layer1/layer1.0/relu_2/Relu_output_0",
+                "id": "C_13",
+                "properties": [],
+                "to_port_id": "/layer1/layer1.1/conv1/Conv_/layer1/layer1.0/relu_2/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer1/layer1.1/conv1/Conv_/layer1/layer1.1/conv1/Conv_output_0",
+                "id": "C_14",
+                "properties": [],
+                "to_port_id": "/layer1/layer1.1/relu/Relu_/layer1/layer1.1/conv1/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer1/layer1.1/relu/Relu_/layer1/layer1.1/relu/Relu_output_0",
+                "id": "C_15",
+                "properties": [],
+                "to_port_id": "/layer1/layer1.1/conv2/Conv_/layer1/layer1.1/relu/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer1/layer1.1/conv2/Conv_/layer1/layer1.1/conv2/Conv_output_0",
+                "id": "C_16",
+                "properties": [],
+                "to_port_id": "/layer1/layer1.1/relu_1/Relu_/layer1/layer1.1/conv2/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer1/layer1.1/relu_1/Relu_/layer1/layer1.1/relu_1/Relu_output_0",
+                "id": "C_17",
+                "properties": [],
+                "to_port_id": "/layer1/layer1.1/conv3/Conv_/layer1/layer1.1/relu_1/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer1/layer1.1/conv3/Conv_/layer1/layer1.1/conv3/Conv_output_0",
+                "id": "C_18",
+                "properties": [],
+                "to_port_id": "/layer1/layer1.1/Add_/layer1/layer1.1/conv3/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer1/layer1.0/relu_2/Relu_/layer1/layer1.0/relu_2/Relu_output_0",
+                "id": "C_19",
+                "properties": [],
+                "to_port_id": "/layer1/layer1.1/Add_/layer1/layer1.0/relu_2/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer1/layer1.1/Add_/layer1/layer1.1/Add_output_0",
+                "id": "C_20",
+                "properties": [],
+                "to_port_id": "/layer1/layer1.1/relu_2/Relu_/layer1/layer1.1/Add_output_0"
+            },
+            {
+                "from_port_id": "/layer1/layer1.1/relu_2/Relu_/layer1/layer1.1/relu_2/Relu_output_0",
+                "id": "C_21",
+                "properties": [],
+                "to_port_id": "/layer1/layer1.2/conv1/Conv_/layer1/layer1.1/relu_2/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer1/layer1.2/conv1/Conv_/layer1/layer1.2/conv1/Conv_output_0",
+                "id": "C_22",
+                "properties": [],
+                "to_port_id": "/layer1/layer1.2/relu/Relu_/layer1/layer1.2/conv1/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer1/layer1.2/relu/Relu_/layer1/layer1.2/relu/Relu_output_0",
+                "id": "C_23",
+                "properties": [],
+                "to_port_id": "/layer1/layer1.2/conv2/Conv_/layer1/layer1.2/relu/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer1/layer1.2/conv2/Conv_/layer1/layer1.2/conv2/Conv_output_0",
+                "id": "C_24",
+                "properties": [],
+                "to_port_id": "/layer1/layer1.2/relu_1/Relu_/layer1/layer1.2/conv2/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer1/layer1.2/relu_1/Relu_/layer1/layer1.2/relu_1/Relu_output_0",
+                "id": "C_25",
+                "properties": [],
+                "to_port_id": "/layer1/layer1.2/conv3/Conv_/layer1/layer1.2/relu_1/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer1/layer1.2/conv3/Conv_/layer1/layer1.2/conv3/Conv_output_0",
+                "id": "C_26",
+                "properties": [],
+                "to_port_id": "/layer1/layer1.2/Add_/layer1/layer1.2/conv3/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer1/layer1.1/relu_2/Relu_/layer1/layer1.1/relu_2/Relu_output_0",
+                "id": "C_27",
+                "properties": [],
+                "to_port_id": "/layer1/layer1.2/Add_/layer1/layer1.1/relu_2/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer1/layer1.2/Add_/layer1/layer1.2/Add_output_0",
+                "id": "C_28",
+                "properties": [],
+                "to_port_id": "/layer1/layer1.2/relu_2/Relu_/layer1/layer1.2/Add_output_0"
+            },
+            {
+                "from_port_id": "/layer1/layer1.2/relu_2/Relu_/layer1/layer1.2/relu_2/Relu_output_0",
+                "id": "C_29",
+                "properties": [],
+                "to_port_id": "/layer2/layer2.0/downsample/downsample.0/Conv_/layer1/layer1.2/relu_2/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer1/layer1.2/relu_2/Relu_/layer1/layer1.2/relu_2/Relu_output_0",
+                "id": "C_30",
+                "properties": [],
+                "to_port_id": "/layer2/layer2.0/conv1/Conv_/layer1/layer1.2/relu_2/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer2/layer2.0/conv1/Conv_/layer2/layer2.0/conv1/Conv_output_0",
+                "id": "C_31",
+                "properties": [],
+                "to_port_id": "/layer2/layer2.0/relu/Relu_/layer2/layer2.0/conv1/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer2/layer2.0/relu/Relu_/layer2/layer2.0/relu/Relu_output_0",
+                "id": "C_32",
+                "properties": [],
+                "to_port_id": "/layer2/layer2.0/conv2/Conv_/layer2/layer2.0/relu/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer2/layer2.0/conv2/Conv_/layer2/layer2.0/conv2/Conv_output_0",
+                "id": "C_33",
+                "properties": [],
+                "to_port_id": "/layer2/layer2.0/relu_1/Relu_/layer2/layer2.0/conv2/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer2/layer2.0/relu_1/Relu_/layer2/layer2.0/relu_1/Relu_output_0",
+                "id": "C_34",
+                "properties": [],
+                "to_port_id": "/layer2/layer2.0/conv3/Conv_/layer2/layer2.0/relu_1/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer2/layer2.0/conv3/Conv_/layer2/layer2.0/conv3/Conv_output_0",
+                "id": "C_35",
+                "properties": [],
+                "to_port_id": "/layer2/layer2.0/Add_/layer2/layer2.0/conv3/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer2/layer2.0/downsample/downsample.0/Conv_/layer2/layer2.0/downsample/downsample.0/Conv_output_0",
+                "id": "C_36",
+                "properties": [],
+                "to_port_id": "/layer2/layer2.0/Add_/layer2/layer2.0/downsample/downsample.0/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer2/layer2.0/Add_/layer2/layer2.0/Add_output_0",
+                "id": "C_37",
+                "properties": [],
+                "to_port_id": "/layer2/layer2.0/relu_2/Relu_/layer2/layer2.0/Add_output_0"
+            },
+            {
+                "from_port_id": "/layer2/layer2.0/relu_2/Relu_/layer2/layer2.0/relu_2/Relu_output_0",
+                "id": "C_38",
+                "properties": [],
+                "to_port_id": "/layer2/layer2.1/conv1/Conv_/layer2/layer2.0/relu_2/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer2/layer2.1/conv1/Conv_/layer2/layer2.1/conv1/Conv_output_0",
+                "id": "C_39",
+                "properties": [],
+                "to_port_id": "/layer2/layer2.1/relu/Relu_/layer2/layer2.1/conv1/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer2/layer2.1/relu/Relu_/layer2/layer2.1/relu/Relu_output_0",
+                "id": "C_40",
+                "properties": [],
+                "to_port_id": "/layer2/layer2.1/conv2/Conv_/layer2/layer2.1/relu/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer2/layer2.1/conv2/Conv_/layer2/layer2.1/conv2/Conv_output_0",
+                "id": "C_41",
+                "properties": [],
+                "to_port_id": "/layer2/layer2.1/relu_1/Relu_/layer2/layer2.1/conv2/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer2/layer2.1/relu_1/Relu_/layer2/layer2.1/relu_1/Relu_output_0",
+                "id": "C_42",
+                "properties": [],
+                "to_port_id": "/layer2/layer2.1/conv3/Conv_/layer2/layer2.1/relu_1/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer2/layer2.1/conv3/Conv_/layer2/layer2.1/conv3/Conv_output_0",
+                "id": "C_43",
+                "properties": [],
+                "to_port_id": "/layer2/layer2.1/Add_/layer2/layer2.1/conv3/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer2/layer2.0/relu_2/Relu_/layer2/layer2.0/relu_2/Relu_output_0",
+                "id": "C_44",
+                "properties": [],
+                "to_port_id": "/layer2/layer2.1/Add_/layer2/layer2.0/relu_2/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer2/layer2.1/Add_/layer2/layer2.1/Add_output_0",
+                "id": "C_45",
+                "properties": [],
+                "to_port_id": "/layer2/layer2.1/relu_2/Relu_/layer2/layer2.1/Add_output_0"
+            },
+            {
+                "from_port_id": "/layer2/layer2.1/relu_2/Relu_/layer2/layer2.1/relu_2/Relu_output_0",
+                "id": "C_46",
+                "properties": [],
+                "to_port_id": "/layer2/layer2.2/conv1/Conv_/layer2/layer2.1/relu_2/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer2/layer2.2/conv1/Conv_/layer2/layer2.2/conv1/Conv_output_0",
+                "id": "C_47",
+                "properties": [],
+                "to_port_id": "/layer2/layer2.2/relu/Relu_/layer2/layer2.2/conv1/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer2/layer2.2/relu/Relu_/layer2/layer2.2/relu/Relu_output_0",
+                "id": "C_48",
+                "properties": [],
+                "to_port_id": "/layer2/layer2.2/conv2/Conv_/layer2/layer2.2/relu/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer2/layer2.2/conv2/Conv_/layer2/layer2.2/conv2/Conv_output_0",
+                "id": "C_49",
+                "properties": [],
+                "to_port_id": "/layer2/layer2.2/relu_1/Relu_/layer2/layer2.2/conv2/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer2/layer2.2/relu_1/Relu_/layer2/layer2.2/relu_1/Relu_output_0",
+                "id": "C_50",
+                "properties": [],
+                "to_port_id": "/layer2/layer2.2/conv3/Conv_/layer2/layer2.2/relu_1/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer2/layer2.2/conv3/Conv_/layer2/layer2.2/conv3/Conv_output_0",
+                "id": "C_51",
+                "properties": [],
+                "to_port_id": "/layer2/layer2.2/Add_/layer2/layer2.2/conv3/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer2/layer2.1/relu_2/Relu_/layer2/layer2.1/relu_2/Relu_output_0",
+                "id": "C_52",
+                "properties": [],
+                "to_port_id": "/layer2/layer2.2/Add_/layer2/layer2.1/relu_2/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer2/layer2.2/Add_/layer2/layer2.2/Add_output_0",
+                "id": "C_53",
+                "properties": [],
+                "to_port_id": "/layer2/layer2.2/relu_2/Relu_/layer2/layer2.2/Add_output_0"
+            },
+            {
+                "from_port_id": "/layer2/layer2.2/relu_2/Relu_/layer2/layer2.2/relu_2/Relu_output_0",
+                "id": "C_54",
+                "properties": [],
+                "to_port_id": "/layer2/layer2.3/conv1/Conv_/layer2/layer2.2/relu_2/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer2/layer2.3/conv1/Conv_/layer2/layer2.3/conv1/Conv_output_0",
+                "id": "C_55",
+                "properties": [],
+                "to_port_id": "/layer2/layer2.3/relu/Relu_/layer2/layer2.3/conv1/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer2/layer2.3/relu/Relu_/layer2/layer2.3/relu/Relu_output_0",
+                "id": "C_56",
+                "properties": [],
+                "to_port_id": "/layer2/layer2.3/conv2/Conv_/layer2/layer2.3/relu/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer2/layer2.3/conv2/Conv_/layer2/layer2.3/conv2/Conv_output_0",
+                "id": "C_57",
+                "properties": [],
+                "to_port_id": "/layer2/layer2.3/relu_1/Relu_/layer2/layer2.3/conv2/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer2/layer2.3/relu_1/Relu_/layer2/layer2.3/relu_1/Relu_output_0",
+                "id": "C_58",
+                "properties": [],
+                "to_port_id": "/layer2/layer2.3/conv3/Conv_/layer2/layer2.3/relu_1/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer2/layer2.3/conv3/Conv_/layer2/layer2.3/conv3/Conv_output_0",
+                "id": "C_59",
+                "properties": [],
+                "to_port_id": "/layer2/layer2.3/Add_/layer2/layer2.3/conv3/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer2/layer2.2/relu_2/Relu_/layer2/layer2.2/relu_2/Relu_output_0",
+                "id": "C_60",
+                "properties": [],
+                "to_port_id": "/layer2/layer2.3/Add_/layer2/layer2.2/relu_2/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer2/layer2.3/Add_/layer2/layer2.3/Add_output_0",
+                "id": "C_61",
+                "properties": [],
+                "to_port_id": "/layer2/layer2.3/relu_2/Relu_/layer2/layer2.3/Add_output_0"
+            },
+            {
+                "from_port_id": "/layer2/layer2.3/relu_2/Relu_/layer2/layer2.3/relu_2/Relu_output_0",
+                "id": "C_62",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.0/downsample/downsample.0/Conv_/layer2/layer2.3/relu_2/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer2/layer2.3/relu_2/Relu_/layer2/layer2.3/relu_2/Relu_output_0",
+                "id": "C_63",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.0/conv1/Conv_/layer2/layer2.3/relu_2/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.0/conv1/Conv_/layer3/layer3.0/conv1/Conv_output_0",
+                "id": "C_64",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.0/relu/Relu_/layer3/layer3.0/conv1/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.0/relu/Relu_/layer3/layer3.0/relu/Relu_output_0",
+                "id": "C_65",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.0/conv2/Conv_/layer3/layer3.0/relu/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.0/conv2/Conv_/layer3/layer3.0/conv2/Conv_output_0",
+                "id": "C_66",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.0/relu_1/Relu_/layer3/layer3.0/conv2/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.0/relu_1/Relu_/layer3/layer3.0/relu_1/Relu_output_0",
+                "id": "C_67",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.0/conv3/Conv_/layer3/layer3.0/relu_1/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.0/conv3/Conv_/layer3/layer3.0/conv3/Conv_output_0",
+                "id": "C_68",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.0/Add_/layer3/layer3.0/conv3/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.0/downsample/downsample.0/Conv_/layer3/layer3.0/downsample/downsample.0/Conv_output_0",
+                "id": "C_69",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.0/Add_/layer3/layer3.0/downsample/downsample.0/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.0/Add_/layer3/layer3.0/Add_output_0",
+                "id": "C_70",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.0/relu_2/Relu_/layer3/layer3.0/Add_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.0/relu_2/Relu_/layer3/layer3.0/relu_2/Relu_output_0",
+                "id": "C_71",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.1/conv1/Conv_/layer3/layer3.0/relu_2/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.1/conv1/Conv_/layer3/layer3.1/conv1/Conv_output_0",
+                "id": "C_72",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.1/relu/Relu_/layer3/layer3.1/conv1/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.1/relu/Relu_/layer3/layer3.1/relu/Relu_output_0",
+                "id": "C_73",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.1/conv2/Conv_/layer3/layer3.1/relu/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.1/conv2/Conv_/layer3/layer3.1/conv2/Conv_output_0",
+                "id": "C_74",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.1/relu_1/Relu_/layer3/layer3.1/conv2/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.1/relu_1/Relu_/layer3/layer3.1/relu_1/Relu_output_0",
+                "id": "C_75",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.1/conv3/Conv_/layer3/layer3.1/relu_1/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.1/conv3/Conv_/layer3/layer3.1/conv3/Conv_output_0",
+                "id": "C_76",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.1/Add_/layer3/layer3.1/conv3/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.0/relu_2/Relu_/layer3/layer3.0/relu_2/Relu_output_0",
+                "id": "C_77",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.1/Add_/layer3/layer3.0/relu_2/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.1/Add_/layer3/layer3.1/Add_output_0",
+                "id": "C_78",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.1/relu_2/Relu_/layer3/layer3.1/Add_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.1/relu_2/Relu_/layer3/layer3.1/relu_2/Relu_output_0",
+                "id": "C_79",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.2/conv1/Conv_/layer3/layer3.1/relu_2/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.2/conv1/Conv_/layer3/layer3.2/conv1/Conv_output_0",
+                "id": "C_80",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.2/relu/Relu_/layer3/layer3.2/conv1/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.2/relu/Relu_/layer3/layer3.2/relu/Relu_output_0",
+                "id": "C_81",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.2/conv2/Conv_/layer3/layer3.2/relu/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.2/conv2/Conv_/layer3/layer3.2/conv2/Conv_output_0",
+                "id": "C_82",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.2/relu_1/Relu_/layer3/layer3.2/conv2/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.2/relu_1/Relu_/layer3/layer3.2/relu_1/Relu_output_0",
+                "id": "C_83",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.2/conv3/Conv_/layer3/layer3.2/relu_1/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.2/conv3/Conv_/layer3/layer3.2/conv3/Conv_output_0",
+                "id": "C_84",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.2/Add_/layer3/layer3.2/conv3/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.1/relu_2/Relu_/layer3/layer3.1/relu_2/Relu_output_0",
+                "id": "C_85",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.2/Add_/layer3/layer3.1/relu_2/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.2/Add_/layer3/layer3.2/Add_output_0",
+                "id": "C_86",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.2/relu_2/Relu_/layer3/layer3.2/Add_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.2/relu_2/Relu_/layer3/layer3.2/relu_2/Relu_output_0",
+                "id": "C_87",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.3/conv1/Conv_/layer3/layer3.2/relu_2/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.3/conv1/Conv_/layer3/layer3.3/conv1/Conv_output_0",
+                "id": "C_88",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.3/relu/Relu_/layer3/layer3.3/conv1/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.3/relu/Relu_/layer3/layer3.3/relu/Relu_output_0",
+                "id": "C_89",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.3/conv2/Conv_/layer3/layer3.3/relu/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.3/conv2/Conv_/layer3/layer3.3/conv2/Conv_output_0",
+                "id": "C_90",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.3/relu_1/Relu_/layer3/layer3.3/conv2/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.3/relu_1/Relu_/layer3/layer3.3/relu_1/Relu_output_0",
+                "id": "C_91",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.3/conv3/Conv_/layer3/layer3.3/relu_1/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.3/conv3/Conv_/layer3/layer3.3/conv3/Conv_output_0",
+                "id": "C_92",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.3/Add_/layer3/layer3.3/conv3/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.2/relu_2/Relu_/layer3/layer3.2/relu_2/Relu_output_0",
+                "id": "C_93",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.3/Add_/layer3/layer3.2/relu_2/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.3/Add_/layer3/layer3.3/Add_output_0",
+                "id": "C_94",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.3/relu_2/Relu_/layer3/layer3.3/Add_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.3/relu_2/Relu_/layer3/layer3.3/relu_2/Relu_output_0",
+                "id": "C_95",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.4/conv1/Conv_/layer3/layer3.3/relu_2/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.4/conv1/Conv_/layer3/layer3.4/conv1/Conv_output_0",
+                "id": "C_96",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.4/relu/Relu_/layer3/layer3.4/conv1/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.4/relu/Relu_/layer3/layer3.4/relu/Relu_output_0",
+                "id": "C_97",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.4/conv2/Conv_/layer3/layer3.4/relu/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.4/conv2/Conv_/layer3/layer3.4/conv2/Conv_output_0",
+                "id": "C_98",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.4/relu_1/Relu_/layer3/layer3.4/conv2/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.4/relu_1/Relu_/layer3/layer3.4/relu_1/Relu_output_0",
+                "id": "C_99",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.4/conv3/Conv_/layer3/layer3.4/relu_1/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.4/conv3/Conv_/layer3/layer3.4/conv3/Conv_output_0",
+                "id": "C_100",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.4/Add_/layer3/layer3.4/conv3/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.3/relu_2/Relu_/layer3/layer3.3/relu_2/Relu_output_0",
+                "id": "C_101",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.4/Add_/layer3/layer3.3/relu_2/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.4/Add_/layer3/layer3.4/Add_output_0",
+                "id": "C_102",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.4/relu_2/Relu_/layer3/layer3.4/Add_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.4/relu_2/Relu_/layer3/layer3.4/relu_2/Relu_output_0",
+                "id": "C_103",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.5/conv1/Conv_/layer3/layer3.4/relu_2/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.5/conv1/Conv_/layer3/layer3.5/conv1/Conv_output_0",
+                "id": "C_104",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.5/relu/Relu_/layer3/layer3.5/conv1/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.5/relu/Relu_/layer3/layer3.5/relu/Relu_output_0",
+                "id": "C_105",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.5/conv2/Conv_/layer3/layer3.5/relu/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.5/conv2/Conv_/layer3/layer3.5/conv2/Conv_output_0",
+                "id": "C_106",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.5/relu_1/Relu_/layer3/layer3.5/conv2/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.5/relu_1/Relu_/layer3/layer3.5/relu_1/Relu_output_0",
+                "id": "C_107",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.5/conv3/Conv_/layer3/layer3.5/relu_1/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.5/conv3/Conv_/layer3/layer3.5/conv3/Conv_output_0",
+                "id": "C_108",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.5/Add_/layer3/layer3.5/conv3/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.4/relu_2/Relu_/layer3/layer3.4/relu_2/Relu_output_0",
+                "id": "C_109",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.5/Add_/layer3/layer3.4/relu_2/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.5/Add_/layer3/layer3.5/Add_output_0",
+                "id": "C_110",
+                "properties": [],
+                "to_port_id": "/layer3/layer3.5/relu_2/Relu_/layer3/layer3.5/Add_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.5/relu_2/Relu_/layer3/layer3.5/relu_2/Relu_output_0",
+                "id": "C_111",
+                "properties": [],
+                "to_port_id": "/layer4/layer4.0/downsample/downsample.0/Conv_/layer3/layer3.5/relu_2/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer3/layer3.5/relu_2/Relu_/layer3/layer3.5/relu_2/Relu_output_0",
+                "id": "C_112",
+                "properties": [],
+                "to_port_id": "/layer4/layer4.0/conv1/Conv_/layer3/layer3.5/relu_2/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer4/layer4.0/conv1/Conv_/layer4/layer4.0/conv1/Conv_output_0",
+                "id": "C_113",
+                "properties": [],
+                "to_port_id": "/layer4/layer4.0/relu/Relu_/layer4/layer4.0/conv1/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer4/layer4.0/relu/Relu_/layer4/layer4.0/relu/Relu_output_0",
+                "id": "C_114",
+                "properties": [],
+                "to_port_id": "/layer4/layer4.0/conv2/Conv_/layer4/layer4.0/relu/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer4/layer4.0/conv2/Conv_/layer4/layer4.0/conv2/Conv_output_0",
+                "id": "C_115",
+                "properties": [],
+                "to_port_id": "/layer4/layer4.0/relu_1/Relu_/layer4/layer4.0/conv2/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer4/layer4.0/relu_1/Relu_/layer4/layer4.0/relu_1/Relu_output_0",
+                "id": "C_116",
+                "properties": [],
+                "to_port_id": "/layer4/layer4.0/conv3/Conv_/layer4/layer4.0/relu_1/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer4/layer4.0/conv3/Conv_/layer4/layer4.0/conv3/Conv_output_0",
+                "id": "C_117",
+                "properties": [],
+                "to_port_id": "/layer4/layer4.0/Add_/layer4/layer4.0/conv3/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer4/layer4.0/downsample/downsample.0/Conv_/layer4/layer4.0/downsample/downsample.0/Conv_output_0",
+                "id": "C_118",
+                "properties": [],
+                "to_port_id": "/layer4/layer4.0/Add_/layer4/layer4.0/downsample/downsample.0/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer4/layer4.0/Add_/layer4/layer4.0/Add_output_0",
+                "id": "C_119",
+                "properties": [],
+                "to_port_id": "/layer4/layer4.0/relu_2/Relu_/layer4/layer4.0/Add_output_0"
+            },
+            {
+                "from_port_id": "/layer4/layer4.0/relu_2/Relu_/layer4/layer4.0/relu_2/Relu_output_0",
+                "id": "C_120",
+                "properties": [],
+                "to_port_id": "/layer4/layer4.1/conv1/Conv_/layer4/layer4.0/relu_2/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer4/layer4.1/conv1/Conv_/layer4/layer4.1/conv1/Conv_output_0",
+                "id": "C_121",
+                "properties": [],
+                "to_port_id": "/layer4/layer4.1/relu/Relu_/layer4/layer4.1/conv1/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer4/layer4.1/relu/Relu_/layer4/layer4.1/relu/Relu_output_0",
+                "id": "C_122",
+                "properties": [],
+                "to_port_id": "/layer4/layer4.1/conv2/Conv_/layer4/layer4.1/relu/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer4/layer4.1/conv2/Conv_/layer4/layer4.1/conv2/Conv_output_0",
+                "id": "C_123",
+                "properties": [],
+                "to_port_id": "/layer4/layer4.1/relu_1/Relu_/layer4/layer4.1/conv2/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer4/layer4.1/relu_1/Relu_/layer4/layer4.1/relu_1/Relu_output_0",
+                "id": "C_124",
+                "properties": [],
+                "to_port_id": "/layer4/layer4.1/conv3/Conv_/layer4/layer4.1/relu_1/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer4/layer4.1/conv3/Conv_/layer4/layer4.1/conv3/Conv_output_0",
+                "id": "C_125",
+                "properties": [],
+                "to_port_id": "/layer4/layer4.1/Add_/layer4/layer4.1/conv3/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer4/layer4.0/relu_2/Relu_/layer4/layer4.0/relu_2/Relu_output_0",
+                "id": "C_126",
+                "properties": [],
+                "to_port_id": "/layer4/layer4.1/Add_/layer4/layer4.0/relu_2/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer4/layer4.1/Add_/layer4/layer4.1/Add_output_0",
+                "id": "C_127",
+                "properties": [],
+                "to_port_id": "/layer4/layer4.1/relu_2/Relu_/layer4/layer4.1/Add_output_0"
+            },
+            {
+                "from_port_id": "/layer4/layer4.1/relu_2/Relu_/layer4/layer4.1/relu_2/Relu_output_0",
+                "id": "C_128",
+                "properties": [],
+                "to_port_id": "/layer4/layer4.2/conv1/Conv_/layer4/layer4.1/relu_2/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer4/layer4.2/conv1/Conv_/layer4/layer4.2/conv1/Conv_output_0",
+                "id": "C_129",
+                "properties": [],
+                "to_port_id": "/layer4/layer4.2/relu/Relu_/layer4/layer4.2/conv1/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer4/layer4.2/relu/Relu_/layer4/layer4.2/relu/Relu_output_0",
+                "id": "C_130",
+                "properties": [],
+                "to_port_id": "/layer4/layer4.2/conv2/Conv_/layer4/layer4.2/relu/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer4/layer4.2/conv2/Conv_/layer4/layer4.2/conv2/Conv_output_0",
+                "id": "C_131",
+                "properties": [],
+                "to_port_id": "/layer4/layer4.2/relu_1/Relu_/layer4/layer4.2/conv2/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer4/layer4.2/relu_1/Relu_/layer4/layer4.2/relu_1/Relu_output_0",
+                "id": "C_132",
+                "properties": [],
+                "to_port_id": "/layer4/layer4.2/conv3/Conv_/layer4/layer4.2/relu_1/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer4/layer4.2/conv3/Conv_/layer4/layer4.2/conv3/Conv_output_0",
+                "id": "C_133",
+                "properties": [],
+                "to_port_id": "/layer4/layer4.2/Add_/layer4/layer4.2/conv3/Conv_output_0"
+            },
+            {
+                "from_port_id": "/layer4/layer4.1/relu_2/Relu_/layer4/layer4.1/relu_2/Relu_output_0",
+                "id": "C_134",
+                "properties": [],
+                "to_port_id": "/layer4/layer4.2/Add_/layer4/layer4.1/relu_2/Relu_output_0"
+            },
+            {
+                "from_port_id": "/layer4/layer4.2/Add_/layer4/layer4.2/Add_output_0",
+                "id": "C_135",
+                "properties": [],
+                "to_port_id": "/layer4/layer4.2/relu_2/Relu_/layer4/layer4.2/Add_output_0"
+            },
+            {
+                "from_port_id": "/layer4/layer4.2/relu_2/Relu_/layer4/layer4.2/relu_2/Relu_output_0",
+                "id": "C_136",
+                "properties": [],
+                "to_port_id": "/avgpool/GlobalAveragePool_/layer4/layer4.2/relu_2/Relu_output_0"
+            },
+            {
+                "from_port_id": "/avgpool/GlobalAveragePool_/avgpool/GlobalAveragePool_output_0",
+                "id": "C_137",
+                "properties": [],
+                "to_port_id": "/Flatten_/avgpool/GlobalAveragePool_output_0"
+            },
+            {
+                "from_port_id": "/Flatten_/Flatten_output_0",
+                "id": "C_138",
+                "properties": [],
+                "to_port_id": "/fc/fc.0/Gemm_/Flatten_output_0"
+            },
+            {
+                "from_port_id": "/fc/fc.0/Gemm_/fc/fc.0/Gemm_output_0",
+                "id": "C_139",
+                "properties": [],
+                "to_port_id": "/fc/fc.1/Relu_/fc/fc.0/Gemm_output_0"
+            },
+            {
+                "from_port_id": "/fc/fc.1/Relu_/fc/fc.1/Relu_output_0",
+                "id": "C_140",
+                "properties": [],
+                "to_port_id": "/fc/fc.2/Gemm_/fc/fc.1/Relu_output_0"
+            }
+        ],
+        "data_transfers": [
+            {
+                "name": "arg0_1",
+                "ports": [
+                    {
+                        "direction": "out",
+                        "id": "arg0_1_input",
+                        "name": "input",
+                        "properties": []
+                    }
+                ],
+                "properties": [],
+                "type": "input"
+            },
+            {
+                "name": "output",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "output_output",
+                        "name": "output",
+                        "properties": []
+                    }
+                ],
+                "properties": [],
+                "type": "output"
+            }
+        ],
+        "designs": [
+            {
+                "name": "graph"
+            }
+        ],
+        "operators": [
+            {
+                "id": "/conv1/Conv",
+                "name": "/conv1/Conv",
+                "operations": 4849664,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/conv1/Conv_input",
+                        "name": "input",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/conv1/Conv_onnx::Conv_501",
+                        "name": "onnx::Conv_501",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/conv1/Conv_onnx::Conv_502",
+                        "name": "onnx::Conv_502",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/conv1/Conv_/conv1/Conv_output_0",
+                        "name": "/conv1/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/relu/Relu",
+                "name": "/relu/Relu",
+                "operations": 32768,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/relu/Relu_/conv1/Conv_output_0",
+                        "name": "/conv1/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/relu/Relu_/relu/Relu_output_0",
+                        "name": "/relu/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/maxpool/MaxPool",
+                "name": "/maxpool/MaxPool",
+                "operations": 73728,
+                "operator_type": "MaxPool",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/maxpool/MaxPool_/relu/Relu_output_0",
+                        "name": "/relu/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/maxpool/MaxPool_/maxpool/MaxPool_output_0",
+                        "name": "/maxpool/MaxPool_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer1/layer1.0/downsample/downsample.0/Conv",
+                "name": "/layer1/layer1.0/downsample/downsample.0/Conv",
+                "operations": 2129920,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.0/downsample/downsample.0/Conv_/maxpool/MaxPool_output_0",
+                        "name": "/maxpool/MaxPool_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.0/downsample/downsample.0/Conv_onnx::Conv_513",
+                        "name": "onnx::Conv_513",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.0/downsample/downsample.0/Conv_onnx::Conv_514",
+                        "name": "onnx::Conv_514",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer1/layer1.0/downsample/downsample.0/Conv_/layer1/layer1.0/downsample/downsample.0/Conv_output_0",
+                        "name": "/layer1/layer1.0/downsample/downsample.0/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer1/layer1.0/conv1/Conv",
+                "name": "/layer1/layer1.0/conv1/Conv",
+                "operations": 532480,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.0/conv1/Conv_/maxpool/MaxPool_output_0",
+                        "name": "/maxpool/MaxPool_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.0/conv1/Conv_onnx::Conv_504",
+                        "name": "onnx::Conv_504",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.0/conv1/Conv_onnx::Conv_505",
+                        "name": "onnx::Conv_505",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer1/layer1.0/conv1/Conv_/layer1/layer1.0/conv1/Conv_output_0",
+                        "name": "/layer1/layer1.0/conv1/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer1/layer1.0/relu/Relu",
+                "name": "/layer1/layer1.0/relu/Relu",
+                "operations": 8192,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.0/relu/Relu_/layer1/layer1.0/conv1/Conv_output_0",
+                        "name": "/layer1/layer1.0/conv1/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer1/layer1.0/relu/Relu_/layer1/layer1.0/relu/Relu_output_0",
+                        "name": "/layer1/layer1.0/relu/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer1/layer1.0/conv2/Conv",
+                "name": "/layer1/layer1.0/conv2/Conv",
+                "operations": 4726784,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.0/conv2/Conv_/layer1/layer1.0/relu/Relu_output_0",
+                        "name": "/layer1/layer1.0/relu/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.0/conv2/Conv_onnx::Conv_507",
+                        "name": "onnx::Conv_507",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.0/conv2/Conv_onnx::Conv_508",
+                        "name": "onnx::Conv_508",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer1/layer1.0/conv2/Conv_/layer1/layer1.0/conv2/Conv_output_0",
+                        "name": "/layer1/layer1.0/conv2/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer1/layer1.0/relu_1/Relu",
+                "name": "/layer1/layer1.0/relu_1/Relu",
+                "operations": 8192,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.0/relu_1/Relu_/layer1/layer1.0/conv2/Conv_output_0",
+                        "name": "/layer1/layer1.0/conv2/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer1/layer1.0/relu_1/Relu_/layer1/layer1.0/relu_1/Relu_output_0",
+                        "name": "/layer1/layer1.0/relu_1/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer1/layer1.0/conv3/Conv",
+                "name": "/layer1/layer1.0/conv3/Conv",
+                "operations": 2129920,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.0/conv3/Conv_/layer1/layer1.0/relu_1/Relu_output_0",
+                        "name": "/layer1/layer1.0/relu_1/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.0/conv3/Conv_onnx::Conv_510",
+                        "name": "onnx::Conv_510",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.0/conv3/Conv_onnx::Conv_511",
+                        "name": "onnx::Conv_511",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer1/layer1.0/conv3/Conv_/layer1/layer1.0/conv3/Conv_output_0",
+                        "name": "/layer1/layer1.0/conv3/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer1/layer1.0/Add",
+                "name": "/layer1/layer1.0/Add",
+                "operations": 32768,
+                "operator_type": "Add",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.0/Add_/layer1/layer1.0/conv3/Conv_output_0",
+                        "name": "/layer1/layer1.0/conv3/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.0/Add_/layer1/layer1.0/downsample/downsample.0/Conv_output_0",
+                        "name": "/layer1/layer1.0/downsample/downsample.0/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer1/layer1.0/Add_/layer1/layer1.0/Add_output_0",
+                        "name": "/layer1/layer1.0/Add_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer1/layer1.0/relu_2/Relu",
+                "name": "/layer1/layer1.0/relu_2/Relu",
+                "operations": 32768,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.0/relu_2/Relu_/layer1/layer1.0/Add_output_0",
+                        "name": "/layer1/layer1.0/Add_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer1/layer1.0/relu_2/Relu_/layer1/layer1.0/relu_2/Relu_output_0",
+                        "name": "/layer1/layer1.0/relu_2/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer1/layer1.1/conv1/Conv",
+                "name": "/layer1/layer1.1/conv1/Conv",
+                "operations": 2105344,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.1/conv1/Conv_/layer1/layer1.0/relu_2/Relu_output_0",
+                        "name": "/layer1/layer1.0/relu_2/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.1/conv1/Conv_onnx::Conv_516",
+                        "name": "onnx::Conv_516",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.1/conv1/Conv_onnx::Conv_517",
+                        "name": "onnx::Conv_517",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer1/layer1.1/conv1/Conv_/layer1/layer1.1/conv1/Conv_output_0",
+                        "name": "/layer1/layer1.1/conv1/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer1/layer1.1/relu/Relu",
+                "name": "/layer1/layer1.1/relu/Relu",
+                "operations": 8192,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.1/relu/Relu_/layer1/layer1.1/conv1/Conv_output_0",
+                        "name": "/layer1/layer1.1/conv1/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer1/layer1.1/relu/Relu_/layer1/layer1.1/relu/Relu_output_0",
+                        "name": "/layer1/layer1.1/relu/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer1/layer1.1/conv2/Conv",
+                "name": "/layer1/layer1.1/conv2/Conv",
+                "operations": 4726784,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.1/conv2/Conv_/layer1/layer1.1/relu/Relu_output_0",
+                        "name": "/layer1/layer1.1/relu/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.1/conv2/Conv_onnx::Conv_519",
+                        "name": "onnx::Conv_519",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.1/conv2/Conv_onnx::Conv_520",
+                        "name": "onnx::Conv_520",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer1/layer1.1/conv2/Conv_/layer1/layer1.1/conv2/Conv_output_0",
+                        "name": "/layer1/layer1.1/conv2/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer1/layer1.1/relu_1/Relu",
+                "name": "/layer1/layer1.1/relu_1/Relu",
+                "operations": 8192,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.1/relu_1/Relu_/layer1/layer1.1/conv2/Conv_output_0",
+                        "name": "/layer1/layer1.1/conv2/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer1/layer1.1/relu_1/Relu_/layer1/layer1.1/relu_1/Relu_output_0",
+                        "name": "/layer1/layer1.1/relu_1/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer1/layer1.1/conv3/Conv",
+                "name": "/layer1/layer1.1/conv3/Conv",
+                "operations": 2129920,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.1/conv3/Conv_/layer1/layer1.1/relu_1/Relu_output_0",
+                        "name": "/layer1/layer1.1/relu_1/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.1/conv3/Conv_onnx::Conv_522",
+                        "name": "onnx::Conv_522",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.1/conv3/Conv_onnx::Conv_523",
+                        "name": "onnx::Conv_523",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer1/layer1.1/conv3/Conv_/layer1/layer1.1/conv3/Conv_output_0",
+                        "name": "/layer1/layer1.1/conv3/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer1/layer1.1/Add",
+                "name": "/layer1/layer1.1/Add",
+                "operations": 32768,
+                "operator_type": "Add",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.1/Add_/layer1/layer1.1/conv3/Conv_output_0",
+                        "name": "/layer1/layer1.1/conv3/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.1/Add_/layer1/layer1.0/relu_2/Relu_output_0",
+                        "name": "/layer1/layer1.0/relu_2/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer1/layer1.1/Add_/layer1/layer1.1/Add_output_0",
+                        "name": "/layer1/layer1.1/Add_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer1/layer1.1/relu_2/Relu",
+                "name": "/layer1/layer1.1/relu_2/Relu",
+                "operations": 32768,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.1/relu_2/Relu_/layer1/layer1.1/Add_output_0",
+                        "name": "/layer1/layer1.1/Add_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer1/layer1.1/relu_2/Relu_/layer1/layer1.1/relu_2/Relu_output_0",
+                        "name": "/layer1/layer1.1/relu_2/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer1/layer1.2/conv1/Conv",
+                "name": "/layer1/layer1.2/conv1/Conv",
+                "operations": 2105344,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.2/conv1/Conv_/layer1/layer1.1/relu_2/Relu_output_0",
+                        "name": "/layer1/layer1.1/relu_2/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.2/conv1/Conv_onnx::Conv_525",
+                        "name": "onnx::Conv_525",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.2/conv1/Conv_onnx::Conv_526",
+                        "name": "onnx::Conv_526",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer1/layer1.2/conv1/Conv_/layer1/layer1.2/conv1/Conv_output_0",
+                        "name": "/layer1/layer1.2/conv1/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer1/layer1.2/relu/Relu",
+                "name": "/layer1/layer1.2/relu/Relu",
+                "operations": 8192,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.2/relu/Relu_/layer1/layer1.2/conv1/Conv_output_0",
+                        "name": "/layer1/layer1.2/conv1/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer1/layer1.2/relu/Relu_/layer1/layer1.2/relu/Relu_output_0",
+                        "name": "/layer1/layer1.2/relu/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer1/layer1.2/conv2/Conv",
+                "name": "/layer1/layer1.2/conv2/Conv",
+                "operations": 4726784,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.2/conv2/Conv_/layer1/layer1.2/relu/Relu_output_0",
+                        "name": "/layer1/layer1.2/relu/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.2/conv2/Conv_onnx::Conv_528",
+                        "name": "onnx::Conv_528",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.2/conv2/Conv_onnx::Conv_529",
+                        "name": "onnx::Conv_529",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer1/layer1.2/conv2/Conv_/layer1/layer1.2/conv2/Conv_output_0",
+                        "name": "/layer1/layer1.2/conv2/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer1/layer1.2/relu_1/Relu",
+                "name": "/layer1/layer1.2/relu_1/Relu",
+                "operations": 8192,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.2/relu_1/Relu_/layer1/layer1.2/conv2/Conv_output_0",
+                        "name": "/layer1/layer1.2/conv2/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer1/layer1.2/relu_1/Relu_/layer1/layer1.2/relu_1/Relu_output_0",
+                        "name": "/layer1/layer1.2/relu_1/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer1/layer1.2/conv3/Conv",
+                "name": "/layer1/layer1.2/conv3/Conv",
+                "operations": 2129920,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.2/conv3/Conv_/layer1/layer1.2/relu_1/Relu_output_0",
+                        "name": "/layer1/layer1.2/relu_1/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.2/conv3/Conv_onnx::Conv_531",
+                        "name": "onnx::Conv_531",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.2/conv3/Conv_onnx::Conv_532",
+                        "name": "onnx::Conv_532",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer1/layer1.2/conv3/Conv_/layer1/layer1.2/conv3/Conv_output_0",
+                        "name": "/layer1/layer1.2/conv3/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer1/layer1.2/Add",
+                "name": "/layer1/layer1.2/Add",
+                "operations": 32768,
+                "operator_type": "Add",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.2/Add_/layer1/layer1.2/conv3/Conv_output_0",
+                        "name": "/layer1/layer1.2/conv3/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.2/Add_/layer1/layer1.1/relu_2/Relu_output_0",
+                        "name": "/layer1/layer1.1/relu_2/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer1/layer1.2/Add_/layer1/layer1.2/Add_output_0",
+                        "name": "/layer1/layer1.2/Add_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer1/layer1.2/relu_2/Relu",
+                "name": "/layer1/layer1.2/relu_2/Relu",
+                "operations": 32768,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer1/layer1.2/relu_2/Relu_/layer1/layer1.2/Add_output_0",
+                        "name": "/layer1/layer1.2/Add_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer1/layer1.2/relu_2/Relu_/layer1/layer1.2/relu_2/Relu_output_0",
+                        "name": "/layer1/layer1.2/relu_2/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer2/layer2.0/downsample/downsample.0/Conv",
+                "name": "/layer2/layer2.0/downsample/downsample.0/Conv",
+                "operations": 4210688,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.0/downsample/downsample.0/Conv_/layer1/layer1.2/relu_2/Relu_output_0",
+                        "name": "/layer1/layer1.2/relu_2/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.0/downsample/downsample.0/Conv_onnx::Conv_543",
+                        "name": "onnx::Conv_543",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.0/downsample/downsample.0/Conv_onnx::Conv_544",
+                        "name": "onnx::Conv_544",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer2/layer2.0/downsample/downsample.0/Conv_/layer2/layer2.0/downsample/downsample.0/Conv_output_0",
+                        "name": "/layer2/layer2.0/downsample/downsample.0/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer2/layer2.0/conv1/Conv",
+                "name": "/layer2/layer2.0/conv1/Conv",
+                "operations": 4210688,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.0/conv1/Conv_/layer1/layer1.2/relu_2/Relu_output_0",
+                        "name": "/layer1/layer1.2/relu_2/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.0/conv1/Conv_onnx::Conv_534",
+                        "name": "onnx::Conv_534",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.0/conv1/Conv_onnx::Conv_535",
+                        "name": "onnx::Conv_535",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer2/layer2.0/conv1/Conv_/layer2/layer2.0/conv1/Conv_output_0",
+                        "name": "/layer2/layer2.0/conv1/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer2/layer2.0/relu/Relu",
+                "name": "/layer2/layer2.0/relu/Relu",
+                "operations": 16384,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.0/relu/Relu_/layer2/layer2.0/conv1/Conv_output_0",
+                        "name": "/layer2/layer2.0/conv1/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer2/layer2.0/relu/Relu_/layer2/layer2.0/relu/Relu_output_0",
+                        "name": "/layer2/layer2.0/relu/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer2/layer2.0/conv2/Conv",
+                "name": "/layer2/layer2.0/conv2/Conv",
+                "operations": 4722688,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.0/conv2/Conv_/layer2/layer2.0/relu/Relu_output_0",
+                        "name": "/layer2/layer2.0/relu/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.0/conv2/Conv_onnx::Conv_537",
+                        "name": "onnx::Conv_537",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.0/conv2/Conv_onnx::Conv_538",
+                        "name": "onnx::Conv_538",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer2/layer2.0/conv2/Conv_/layer2/layer2.0/conv2/Conv_output_0",
+                        "name": "/layer2/layer2.0/conv2/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer2/layer2.0/relu_1/Relu",
+                "name": "/layer2/layer2.0/relu_1/Relu",
+                "operations": 4096,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.0/relu_1/Relu_/layer2/layer2.0/conv2/Conv_output_0",
+                        "name": "/layer2/layer2.0/conv2/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer2/layer2.0/relu_1/Relu_/layer2/layer2.0/relu_1/Relu_output_0",
+                        "name": "/layer2/layer2.0/relu_1/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer2/layer2.0/conv3/Conv",
+                "name": "/layer2/layer2.0/conv3/Conv",
+                "operations": 2113536,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.0/conv3/Conv_/layer2/layer2.0/relu_1/Relu_output_0",
+                        "name": "/layer2/layer2.0/relu_1/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.0/conv3/Conv_onnx::Conv_540",
+                        "name": "onnx::Conv_540",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.0/conv3/Conv_onnx::Conv_541",
+                        "name": "onnx::Conv_541",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer2/layer2.0/conv3/Conv_/layer2/layer2.0/conv3/Conv_output_0",
+                        "name": "/layer2/layer2.0/conv3/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer2/layer2.0/Add",
+                "name": "/layer2/layer2.0/Add",
+                "operations": 16384,
+                "operator_type": "Add",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.0/Add_/layer2/layer2.0/conv3/Conv_output_0",
+                        "name": "/layer2/layer2.0/conv3/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.0/Add_/layer2/layer2.0/downsample/downsample.0/Conv_output_0",
+                        "name": "/layer2/layer2.0/downsample/downsample.0/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer2/layer2.0/Add_/layer2/layer2.0/Add_output_0",
+                        "name": "/layer2/layer2.0/Add_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer2/layer2.0/relu_2/Relu",
+                "name": "/layer2/layer2.0/relu_2/Relu",
+                "operations": 16384,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.0/relu_2/Relu_/layer2/layer2.0/Add_output_0",
+                        "name": "/layer2/layer2.0/Add_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer2/layer2.0/relu_2/Relu_/layer2/layer2.0/relu_2/Relu_output_0",
+                        "name": "/layer2/layer2.0/relu_2/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer2/layer2.1/conv1/Conv",
+                "name": "/layer2/layer2.1/conv1/Conv",
+                "operations": 2101248,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.1/conv1/Conv_/layer2/layer2.0/relu_2/Relu_output_0",
+                        "name": "/layer2/layer2.0/relu_2/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.1/conv1/Conv_onnx::Conv_546",
+                        "name": "onnx::Conv_546",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.1/conv1/Conv_onnx::Conv_547",
+                        "name": "onnx::Conv_547",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer2/layer2.1/conv1/Conv_/layer2/layer2.1/conv1/Conv_output_0",
+                        "name": "/layer2/layer2.1/conv1/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer2/layer2.1/relu/Relu",
+                "name": "/layer2/layer2.1/relu/Relu",
+                "operations": 4096,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.1/relu/Relu_/layer2/layer2.1/conv1/Conv_output_0",
+                        "name": "/layer2/layer2.1/conv1/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer2/layer2.1/relu/Relu_/layer2/layer2.1/relu/Relu_output_0",
+                        "name": "/layer2/layer2.1/relu/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer2/layer2.1/conv2/Conv",
+                "name": "/layer2/layer2.1/conv2/Conv",
+                "operations": 4722688,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.1/conv2/Conv_/layer2/layer2.1/relu/Relu_output_0",
+                        "name": "/layer2/layer2.1/relu/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.1/conv2/Conv_onnx::Conv_549",
+                        "name": "onnx::Conv_549",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.1/conv2/Conv_onnx::Conv_550",
+                        "name": "onnx::Conv_550",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer2/layer2.1/conv2/Conv_/layer2/layer2.1/conv2/Conv_output_0",
+                        "name": "/layer2/layer2.1/conv2/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer2/layer2.1/relu_1/Relu",
+                "name": "/layer2/layer2.1/relu_1/Relu",
+                "operations": 4096,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.1/relu_1/Relu_/layer2/layer2.1/conv2/Conv_output_0",
+                        "name": "/layer2/layer2.1/conv2/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer2/layer2.1/relu_1/Relu_/layer2/layer2.1/relu_1/Relu_output_0",
+                        "name": "/layer2/layer2.1/relu_1/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer2/layer2.1/conv3/Conv",
+                "name": "/layer2/layer2.1/conv3/Conv",
+                "operations": 2113536,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.1/conv3/Conv_/layer2/layer2.1/relu_1/Relu_output_0",
+                        "name": "/layer2/layer2.1/relu_1/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.1/conv3/Conv_onnx::Conv_552",
+                        "name": "onnx::Conv_552",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.1/conv3/Conv_onnx::Conv_553",
+                        "name": "onnx::Conv_553",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer2/layer2.1/conv3/Conv_/layer2/layer2.1/conv3/Conv_output_0",
+                        "name": "/layer2/layer2.1/conv3/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer2/layer2.1/Add",
+                "name": "/layer2/layer2.1/Add",
+                "operations": 16384,
+                "operator_type": "Add",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.1/Add_/layer2/layer2.1/conv3/Conv_output_0",
+                        "name": "/layer2/layer2.1/conv3/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.1/Add_/layer2/layer2.0/relu_2/Relu_output_0",
+                        "name": "/layer2/layer2.0/relu_2/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer2/layer2.1/Add_/layer2/layer2.1/Add_output_0",
+                        "name": "/layer2/layer2.1/Add_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer2/layer2.1/relu_2/Relu",
+                "name": "/layer2/layer2.1/relu_2/Relu",
+                "operations": 16384,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.1/relu_2/Relu_/layer2/layer2.1/Add_output_0",
+                        "name": "/layer2/layer2.1/Add_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer2/layer2.1/relu_2/Relu_/layer2/layer2.1/relu_2/Relu_output_0",
+                        "name": "/layer2/layer2.1/relu_2/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer2/layer2.2/conv1/Conv",
+                "name": "/layer2/layer2.2/conv1/Conv",
+                "operations": 2101248,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.2/conv1/Conv_/layer2/layer2.1/relu_2/Relu_output_0",
+                        "name": "/layer2/layer2.1/relu_2/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.2/conv1/Conv_onnx::Conv_555",
+                        "name": "onnx::Conv_555",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.2/conv1/Conv_onnx::Conv_556",
+                        "name": "onnx::Conv_556",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer2/layer2.2/conv1/Conv_/layer2/layer2.2/conv1/Conv_output_0",
+                        "name": "/layer2/layer2.2/conv1/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer2/layer2.2/relu/Relu",
+                "name": "/layer2/layer2.2/relu/Relu",
+                "operations": 4096,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.2/relu/Relu_/layer2/layer2.2/conv1/Conv_output_0",
+                        "name": "/layer2/layer2.2/conv1/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer2/layer2.2/relu/Relu_/layer2/layer2.2/relu/Relu_output_0",
+                        "name": "/layer2/layer2.2/relu/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer2/layer2.2/conv2/Conv",
+                "name": "/layer2/layer2.2/conv2/Conv",
+                "operations": 4722688,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.2/conv2/Conv_/layer2/layer2.2/relu/Relu_output_0",
+                        "name": "/layer2/layer2.2/relu/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.2/conv2/Conv_onnx::Conv_558",
+                        "name": "onnx::Conv_558",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.2/conv2/Conv_onnx::Conv_559",
+                        "name": "onnx::Conv_559",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer2/layer2.2/conv2/Conv_/layer2/layer2.2/conv2/Conv_output_0",
+                        "name": "/layer2/layer2.2/conv2/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer2/layer2.2/relu_1/Relu",
+                "name": "/layer2/layer2.2/relu_1/Relu",
+                "operations": 4096,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.2/relu_1/Relu_/layer2/layer2.2/conv2/Conv_output_0",
+                        "name": "/layer2/layer2.2/conv2/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer2/layer2.2/relu_1/Relu_/layer2/layer2.2/relu_1/Relu_output_0",
+                        "name": "/layer2/layer2.2/relu_1/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer2/layer2.2/conv3/Conv",
+                "name": "/layer2/layer2.2/conv3/Conv",
+                "operations": 2113536,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.2/conv3/Conv_/layer2/layer2.2/relu_1/Relu_output_0",
+                        "name": "/layer2/layer2.2/relu_1/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.2/conv3/Conv_onnx::Conv_561",
+                        "name": "onnx::Conv_561",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.2/conv3/Conv_onnx::Conv_562",
+                        "name": "onnx::Conv_562",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer2/layer2.2/conv3/Conv_/layer2/layer2.2/conv3/Conv_output_0",
+                        "name": "/layer2/layer2.2/conv3/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer2/layer2.2/Add",
+                "name": "/layer2/layer2.2/Add",
+                "operations": 16384,
+                "operator_type": "Add",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.2/Add_/layer2/layer2.2/conv3/Conv_output_0",
+                        "name": "/layer2/layer2.2/conv3/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.2/Add_/layer2/layer2.1/relu_2/Relu_output_0",
+                        "name": "/layer2/layer2.1/relu_2/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer2/layer2.2/Add_/layer2/layer2.2/Add_output_0",
+                        "name": "/layer2/layer2.2/Add_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer2/layer2.2/relu_2/Relu",
+                "name": "/layer2/layer2.2/relu_2/Relu",
+                "operations": 16384,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.2/relu_2/Relu_/layer2/layer2.2/Add_output_0",
+                        "name": "/layer2/layer2.2/Add_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer2/layer2.2/relu_2/Relu_/layer2/layer2.2/relu_2/Relu_output_0",
+                        "name": "/layer2/layer2.2/relu_2/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer2/layer2.3/conv1/Conv",
+                "name": "/layer2/layer2.3/conv1/Conv",
+                "operations": 2101248,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.3/conv1/Conv_/layer2/layer2.2/relu_2/Relu_output_0",
+                        "name": "/layer2/layer2.2/relu_2/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.3/conv1/Conv_onnx::Conv_564",
+                        "name": "onnx::Conv_564",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.3/conv1/Conv_onnx::Conv_565",
+                        "name": "onnx::Conv_565",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer2/layer2.3/conv1/Conv_/layer2/layer2.3/conv1/Conv_output_0",
+                        "name": "/layer2/layer2.3/conv1/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer2/layer2.3/relu/Relu",
+                "name": "/layer2/layer2.3/relu/Relu",
+                "operations": 4096,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.3/relu/Relu_/layer2/layer2.3/conv1/Conv_output_0",
+                        "name": "/layer2/layer2.3/conv1/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer2/layer2.3/relu/Relu_/layer2/layer2.3/relu/Relu_output_0",
+                        "name": "/layer2/layer2.3/relu/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer2/layer2.3/conv2/Conv",
+                "name": "/layer2/layer2.3/conv2/Conv",
+                "operations": 4722688,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.3/conv2/Conv_/layer2/layer2.3/relu/Relu_output_0",
+                        "name": "/layer2/layer2.3/relu/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.3/conv2/Conv_onnx::Conv_567",
+                        "name": "onnx::Conv_567",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.3/conv2/Conv_onnx::Conv_568",
+                        "name": "onnx::Conv_568",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer2/layer2.3/conv2/Conv_/layer2/layer2.3/conv2/Conv_output_0",
+                        "name": "/layer2/layer2.3/conv2/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer2/layer2.3/relu_1/Relu",
+                "name": "/layer2/layer2.3/relu_1/Relu",
+                "operations": 4096,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.3/relu_1/Relu_/layer2/layer2.3/conv2/Conv_output_0",
+                        "name": "/layer2/layer2.3/conv2/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer2/layer2.3/relu_1/Relu_/layer2/layer2.3/relu_1/Relu_output_0",
+                        "name": "/layer2/layer2.3/relu_1/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer2/layer2.3/conv3/Conv",
+                "name": "/layer2/layer2.3/conv3/Conv",
+                "operations": 2113536,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.3/conv3/Conv_/layer2/layer2.3/relu_1/Relu_output_0",
+                        "name": "/layer2/layer2.3/relu_1/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.3/conv3/Conv_onnx::Conv_570",
+                        "name": "onnx::Conv_570",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.3/conv3/Conv_onnx::Conv_571",
+                        "name": "onnx::Conv_571",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer2/layer2.3/conv3/Conv_/layer2/layer2.3/conv3/Conv_output_0",
+                        "name": "/layer2/layer2.3/conv3/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer2/layer2.3/Add",
+                "name": "/layer2/layer2.3/Add",
+                "operations": 16384,
+                "operator_type": "Add",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.3/Add_/layer2/layer2.3/conv3/Conv_output_0",
+                        "name": "/layer2/layer2.3/conv3/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.3/Add_/layer2/layer2.2/relu_2/Relu_output_0",
+                        "name": "/layer2/layer2.2/relu_2/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer2/layer2.3/Add_/layer2/layer2.3/Add_output_0",
+                        "name": "/layer2/layer2.3/Add_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer2/layer2.3/relu_2/Relu",
+                "name": "/layer2/layer2.3/relu_2/Relu",
+                "operations": 16384,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer2/layer2.3/relu_2/Relu_/layer2/layer2.3/Add_output_0",
+                        "name": "/layer2/layer2.3/Add_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer2/layer2.3/relu_2/Relu_/layer2/layer2.3/relu_2/Relu_output_0",
+                        "name": "/layer2/layer2.3/relu_2/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.0/downsample/downsample.0/Conv",
+                "name": "/layer3/layer3.0/downsample/downsample.0/Conv",
+                "operations": 4202496,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.0/downsample/downsample.0/Conv_/layer2/layer2.3/relu_2/Relu_output_0",
+                        "name": "/layer2/layer2.3/relu_2/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.0/downsample/downsample.0/Conv_onnx::Conv_582",
+                        "name": "onnx::Conv_582",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.0/downsample/downsample.0/Conv_onnx::Conv_583",
+                        "name": "onnx::Conv_583",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.0/downsample/downsample.0/Conv_/layer3/layer3.0/downsample/downsample.0/Conv_output_0",
+                        "name": "/layer3/layer3.0/downsample/downsample.0/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.0/conv1/Conv",
+                "name": "/layer3/layer3.0/conv1/Conv",
+                "operations": 4202496,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.0/conv1/Conv_/layer2/layer2.3/relu_2/Relu_output_0",
+                        "name": "/layer2/layer2.3/relu_2/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.0/conv1/Conv_onnx::Conv_573",
+                        "name": "onnx::Conv_573",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.0/conv1/Conv_onnx::Conv_574",
+                        "name": "onnx::Conv_574",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.0/conv1/Conv_/layer3/layer3.0/conv1/Conv_output_0",
+                        "name": "/layer3/layer3.0/conv1/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.0/relu/Relu",
+                "name": "/layer3/layer3.0/relu/Relu",
+                "operations": 8192,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.0/relu/Relu_/layer3/layer3.0/conv1/Conv_output_0",
+                        "name": "/layer3/layer3.0/conv1/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.0/relu/Relu_/layer3/layer3.0/relu/Relu_output_0",
+                        "name": "/layer3/layer3.0/relu/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.0/conv2/Conv",
+                "name": "/layer3/layer3.0/conv2/Conv",
+                "operations": 4720640,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.0/conv2/Conv_/layer3/layer3.0/relu/Relu_output_0",
+                        "name": "/layer3/layer3.0/relu/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.0/conv2/Conv_onnx::Conv_576",
+                        "name": "onnx::Conv_576",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.0/conv2/Conv_onnx::Conv_577",
+                        "name": "onnx::Conv_577",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.0/conv2/Conv_/layer3/layer3.0/conv2/Conv_output_0",
+                        "name": "/layer3/layer3.0/conv2/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.0/relu_1/Relu",
+                "name": "/layer3/layer3.0/relu_1/Relu",
+                "operations": 2048,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.0/relu_1/Relu_/layer3/layer3.0/conv2/Conv_output_0",
+                        "name": "/layer3/layer3.0/conv2/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.0/relu_1/Relu_/layer3/layer3.0/relu_1/Relu_output_0",
+                        "name": "/layer3/layer3.0/relu_1/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.0/conv3/Conv",
+                "name": "/layer3/layer3.0/conv3/Conv",
+                "operations": 2105344,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.0/conv3/Conv_/layer3/layer3.0/relu_1/Relu_output_0",
+                        "name": "/layer3/layer3.0/relu_1/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.0/conv3/Conv_onnx::Conv_579",
+                        "name": "onnx::Conv_579",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.0/conv3/Conv_onnx::Conv_580",
+                        "name": "onnx::Conv_580",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.0/conv3/Conv_/layer3/layer3.0/conv3/Conv_output_0",
+                        "name": "/layer3/layer3.0/conv3/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.0/Add",
+                "name": "/layer3/layer3.0/Add",
+                "operations": 8192,
+                "operator_type": "Add",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.0/Add_/layer3/layer3.0/conv3/Conv_output_0",
+                        "name": "/layer3/layer3.0/conv3/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.0/Add_/layer3/layer3.0/downsample/downsample.0/Conv_output_0",
+                        "name": "/layer3/layer3.0/downsample/downsample.0/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.0/Add_/layer3/layer3.0/Add_output_0",
+                        "name": "/layer3/layer3.0/Add_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.0/relu_2/Relu",
+                "name": "/layer3/layer3.0/relu_2/Relu",
+                "operations": 8192,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.0/relu_2/Relu_/layer3/layer3.0/Add_output_0",
+                        "name": "/layer3/layer3.0/Add_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.0/relu_2/Relu_/layer3/layer3.0/relu_2/Relu_output_0",
+                        "name": "/layer3/layer3.0/relu_2/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.1/conv1/Conv",
+                "name": "/layer3/layer3.1/conv1/Conv",
+                "operations": 2099200,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.1/conv1/Conv_/layer3/layer3.0/relu_2/Relu_output_0",
+                        "name": "/layer3/layer3.0/relu_2/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.1/conv1/Conv_onnx::Conv_585",
+                        "name": "onnx::Conv_585",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.1/conv1/Conv_onnx::Conv_586",
+                        "name": "onnx::Conv_586",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.1/conv1/Conv_/layer3/layer3.1/conv1/Conv_output_0",
+                        "name": "/layer3/layer3.1/conv1/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.1/relu/Relu",
+                "name": "/layer3/layer3.1/relu/Relu",
+                "operations": 2048,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.1/relu/Relu_/layer3/layer3.1/conv1/Conv_output_0",
+                        "name": "/layer3/layer3.1/conv1/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.1/relu/Relu_/layer3/layer3.1/relu/Relu_output_0",
+                        "name": "/layer3/layer3.1/relu/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.1/conv2/Conv",
+                "name": "/layer3/layer3.1/conv2/Conv",
+                "operations": 4720640,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.1/conv2/Conv_/layer3/layer3.1/relu/Relu_output_0",
+                        "name": "/layer3/layer3.1/relu/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.1/conv2/Conv_onnx::Conv_588",
+                        "name": "onnx::Conv_588",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.1/conv2/Conv_onnx::Conv_589",
+                        "name": "onnx::Conv_589",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.1/conv2/Conv_/layer3/layer3.1/conv2/Conv_output_0",
+                        "name": "/layer3/layer3.1/conv2/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.1/relu_1/Relu",
+                "name": "/layer3/layer3.1/relu_1/Relu",
+                "operations": 2048,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.1/relu_1/Relu_/layer3/layer3.1/conv2/Conv_output_0",
+                        "name": "/layer3/layer3.1/conv2/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.1/relu_1/Relu_/layer3/layer3.1/relu_1/Relu_output_0",
+                        "name": "/layer3/layer3.1/relu_1/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.1/conv3/Conv",
+                "name": "/layer3/layer3.1/conv3/Conv",
+                "operations": 2105344,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.1/conv3/Conv_/layer3/layer3.1/relu_1/Relu_output_0",
+                        "name": "/layer3/layer3.1/relu_1/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.1/conv3/Conv_onnx::Conv_591",
+                        "name": "onnx::Conv_591",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.1/conv3/Conv_onnx::Conv_592",
+                        "name": "onnx::Conv_592",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.1/conv3/Conv_/layer3/layer3.1/conv3/Conv_output_0",
+                        "name": "/layer3/layer3.1/conv3/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.1/Add",
+                "name": "/layer3/layer3.1/Add",
+                "operations": 8192,
+                "operator_type": "Add",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.1/Add_/layer3/layer3.1/conv3/Conv_output_0",
+                        "name": "/layer3/layer3.1/conv3/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.1/Add_/layer3/layer3.0/relu_2/Relu_output_0",
+                        "name": "/layer3/layer3.0/relu_2/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.1/Add_/layer3/layer3.1/Add_output_0",
+                        "name": "/layer3/layer3.1/Add_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.1/relu_2/Relu",
+                "name": "/layer3/layer3.1/relu_2/Relu",
+                "operations": 8192,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.1/relu_2/Relu_/layer3/layer3.1/Add_output_0",
+                        "name": "/layer3/layer3.1/Add_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.1/relu_2/Relu_/layer3/layer3.1/relu_2/Relu_output_0",
+                        "name": "/layer3/layer3.1/relu_2/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.2/conv1/Conv",
+                "name": "/layer3/layer3.2/conv1/Conv",
+                "operations": 2099200,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.2/conv1/Conv_/layer3/layer3.1/relu_2/Relu_output_0",
+                        "name": "/layer3/layer3.1/relu_2/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.2/conv1/Conv_onnx::Conv_594",
+                        "name": "onnx::Conv_594",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.2/conv1/Conv_onnx::Conv_595",
+                        "name": "onnx::Conv_595",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.2/conv1/Conv_/layer3/layer3.2/conv1/Conv_output_0",
+                        "name": "/layer3/layer3.2/conv1/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.2/relu/Relu",
+                "name": "/layer3/layer3.2/relu/Relu",
+                "operations": 2048,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.2/relu/Relu_/layer3/layer3.2/conv1/Conv_output_0",
+                        "name": "/layer3/layer3.2/conv1/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.2/relu/Relu_/layer3/layer3.2/relu/Relu_output_0",
+                        "name": "/layer3/layer3.2/relu/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.2/conv2/Conv",
+                "name": "/layer3/layer3.2/conv2/Conv",
+                "operations": 4720640,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.2/conv2/Conv_/layer3/layer3.2/relu/Relu_output_0",
+                        "name": "/layer3/layer3.2/relu/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.2/conv2/Conv_onnx::Conv_597",
+                        "name": "onnx::Conv_597",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.2/conv2/Conv_onnx::Conv_598",
+                        "name": "onnx::Conv_598",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.2/conv2/Conv_/layer3/layer3.2/conv2/Conv_output_0",
+                        "name": "/layer3/layer3.2/conv2/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.2/relu_1/Relu",
+                "name": "/layer3/layer3.2/relu_1/Relu",
+                "operations": 2048,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.2/relu_1/Relu_/layer3/layer3.2/conv2/Conv_output_0",
+                        "name": "/layer3/layer3.2/conv2/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.2/relu_1/Relu_/layer3/layer3.2/relu_1/Relu_output_0",
+                        "name": "/layer3/layer3.2/relu_1/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.2/conv3/Conv",
+                "name": "/layer3/layer3.2/conv3/Conv",
+                "operations": 2105344,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.2/conv3/Conv_/layer3/layer3.2/relu_1/Relu_output_0",
+                        "name": "/layer3/layer3.2/relu_1/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.2/conv3/Conv_onnx::Conv_600",
+                        "name": "onnx::Conv_600",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.2/conv3/Conv_onnx::Conv_601",
+                        "name": "onnx::Conv_601",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.2/conv3/Conv_/layer3/layer3.2/conv3/Conv_output_0",
+                        "name": "/layer3/layer3.2/conv3/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.2/Add",
+                "name": "/layer3/layer3.2/Add",
+                "operations": 8192,
+                "operator_type": "Add",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.2/Add_/layer3/layer3.2/conv3/Conv_output_0",
+                        "name": "/layer3/layer3.2/conv3/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.2/Add_/layer3/layer3.1/relu_2/Relu_output_0",
+                        "name": "/layer3/layer3.1/relu_2/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.2/Add_/layer3/layer3.2/Add_output_0",
+                        "name": "/layer3/layer3.2/Add_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.2/relu_2/Relu",
+                "name": "/layer3/layer3.2/relu_2/Relu",
+                "operations": 8192,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.2/relu_2/Relu_/layer3/layer3.2/Add_output_0",
+                        "name": "/layer3/layer3.2/Add_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.2/relu_2/Relu_/layer3/layer3.2/relu_2/Relu_output_0",
+                        "name": "/layer3/layer3.2/relu_2/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.3/conv1/Conv",
+                "name": "/layer3/layer3.3/conv1/Conv",
+                "operations": 2099200,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.3/conv1/Conv_/layer3/layer3.2/relu_2/Relu_output_0",
+                        "name": "/layer3/layer3.2/relu_2/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.3/conv1/Conv_onnx::Conv_603",
+                        "name": "onnx::Conv_603",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.3/conv1/Conv_onnx::Conv_604",
+                        "name": "onnx::Conv_604",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.3/conv1/Conv_/layer3/layer3.3/conv1/Conv_output_0",
+                        "name": "/layer3/layer3.3/conv1/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.3/relu/Relu",
+                "name": "/layer3/layer3.3/relu/Relu",
+                "operations": 2048,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.3/relu/Relu_/layer3/layer3.3/conv1/Conv_output_0",
+                        "name": "/layer3/layer3.3/conv1/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.3/relu/Relu_/layer3/layer3.3/relu/Relu_output_0",
+                        "name": "/layer3/layer3.3/relu/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.3/conv2/Conv",
+                "name": "/layer3/layer3.3/conv2/Conv",
+                "operations": 4720640,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.3/conv2/Conv_/layer3/layer3.3/relu/Relu_output_0",
+                        "name": "/layer3/layer3.3/relu/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.3/conv2/Conv_onnx::Conv_606",
+                        "name": "onnx::Conv_606",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.3/conv2/Conv_onnx::Conv_607",
+                        "name": "onnx::Conv_607",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.3/conv2/Conv_/layer3/layer3.3/conv2/Conv_output_0",
+                        "name": "/layer3/layer3.3/conv2/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.3/relu_1/Relu",
+                "name": "/layer3/layer3.3/relu_1/Relu",
+                "operations": 2048,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.3/relu_1/Relu_/layer3/layer3.3/conv2/Conv_output_0",
+                        "name": "/layer3/layer3.3/conv2/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.3/relu_1/Relu_/layer3/layer3.3/relu_1/Relu_output_0",
+                        "name": "/layer3/layer3.3/relu_1/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.3/conv3/Conv",
+                "name": "/layer3/layer3.3/conv3/Conv",
+                "operations": 2105344,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.3/conv3/Conv_/layer3/layer3.3/relu_1/Relu_output_0",
+                        "name": "/layer3/layer3.3/relu_1/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.3/conv3/Conv_onnx::Conv_609",
+                        "name": "onnx::Conv_609",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.3/conv3/Conv_onnx::Conv_610",
+                        "name": "onnx::Conv_610",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.3/conv3/Conv_/layer3/layer3.3/conv3/Conv_output_0",
+                        "name": "/layer3/layer3.3/conv3/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.3/Add",
+                "name": "/layer3/layer3.3/Add",
+                "operations": 8192,
+                "operator_type": "Add",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.3/Add_/layer3/layer3.3/conv3/Conv_output_0",
+                        "name": "/layer3/layer3.3/conv3/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.3/Add_/layer3/layer3.2/relu_2/Relu_output_0",
+                        "name": "/layer3/layer3.2/relu_2/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.3/Add_/layer3/layer3.3/Add_output_0",
+                        "name": "/layer3/layer3.3/Add_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.3/relu_2/Relu",
+                "name": "/layer3/layer3.3/relu_2/Relu",
+                "operations": 8192,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.3/relu_2/Relu_/layer3/layer3.3/Add_output_0",
+                        "name": "/layer3/layer3.3/Add_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.3/relu_2/Relu_/layer3/layer3.3/relu_2/Relu_output_0",
+                        "name": "/layer3/layer3.3/relu_2/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.4/conv1/Conv",
+                "name": "/layer3/layer3.4/conv1/Conv",
+                "operations": 2099200,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.4/conv1/Conv_/layer3/layer3.3/relu_2/Relu_output_0",
+                        "name": "/layer3/layer3.3/relu_2/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.4/conv1/Conv_onnx::Conv_612",
+                        "name": "onnx::Conv_612",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.4/conv1/Conv_onnx::Conv_613",
+                        "name": "onnx::Conv_613",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.4/conv1/Conv_/layer3/layer3.4/conv1/Conv_output_0",
+                        "name": "/layer3/layer3.4/conv1/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.4/relu/Relu",
+                "name": "/layer3/layer3.4/relu/Relu",
+                "operations": 2048,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.4/relu/Relu_/layer3/layer3.4/conv1/Conv_output_0",
+                        "name": "/layer3/layer3.4/conv1/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.4/relu/Relu_/layer3/layer3.4/relu/Relu_output_0",
+                        "name": "/layer3/layer3.4/relu/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.4/conv2/Conv",
+                "name": "/layer3/layer3.4/conv2/Conv",
+                "operations": 4720640,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.4/conv2/Conv_/layer3/layer3.4/relu/Relu_output_0",
+                        "name": "/layer3/layer3.4/relu/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.4/conv2/Conv_onnx::Conv_615",
+                        "name": "onnx::Conv_615",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.4/conv2/Conv_onnx::Conv_616",
+                        "name": "onnx::Conv_616",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.4/conv2/Conv_/layer3/layer3.4/conv2/Conv_output_0",
+                        "name": "/layer3/layer3.4/conv2/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.4/relu_1/Relu",
+                "name": "/layer3/layer3.4/relu_1/Relu",
+                "operations": 2048,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.4/relu_1/Relu_/layer3/layer3.4/conv2/Conv_output_0",
+                        "name": "/layer3/layer3.4/conv2/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.4/relu_1/Relu_/layer3/layer3.4/relu_1/Relu_output_0",
+                        "name": "/layer3/layer3.4/relu_1/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.4/conv3/Conv",
+                "name": "/layer3/layer3.4/conv3/Conv",
+                "operations": 2105344,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.4/conv3/Conv_/layer3/layer3.4/relu_1/Relu_output_0",
+                        "name": "/layer3/layer3.4/relu_1/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.4/conv3/Conv_onnx::Conv_618",
+                        "name": "onnx::Conv_618",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.4/conv3/Conv_onnx::Conv_619",
+                        "name": "onnx::Conv_619",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.4/conv3/Conv_/layer3/layer3.4/conv3/Conv_output_0",
+                        "name": "/layer3/layer3.4/conv3/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.4/Add",
+                "name": "/layer3/layer3.4/Add",
+                "operations": 8192,
+                "operator_type": "Add",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.4/Add_/layer3/layer3.4/conv3/Conv_output_0",
+                        "name": "/layer3/layer3.4/conv3/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.4/Add_/layer3/layer3.3/relu_2/Relu_output_0",
+                        "name": "/layer3/layer3.3/relu_2/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.4/Add_/layer3/layer3.4/Add_output_0",
+                        "name": "/layer3/layer3.4/Add_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.4/relu_2/Relu",
+                "name": "/layer3/layer3.4/relu_2/Relu",
+                "operations": 8192,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.4/relu_2/Relu_/layer3/layer3.4/Add_output_0",
+                        "name": "/layer3/layer3.4/Add_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.4/relu_2/Relu_/layer3/layer3.4/relu_2/Relu_output_0",
+                        "name": "/layer3/layer3.4/relu_2/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.5/conv1/Conv",
+                "name": "/layer3/layer3.5/conv1/Conv",
+                "operations": 2099200,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.5/conv1/Conv_/layer3/layer3.4/relu_2/Relu_output_0",
+                        "name": "/layer3/layer3.4/relu_2/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.5/conv1/Conv_onnx::Conv_621",
+                        "name": "onnx::Conv_621",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.5/conv1/Conv_onnx::Conv_622",
+                        "name": "onnx::Conv_622",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.5/conv1/Conv_/layer3/layer3.5/conv1/Conv_output_0",
+                        "name": "/layer3/layer3.5/conv1/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.5/relu/Relu",
+                "name": "/layer3/layer3.5/relu/Relu",
+                "operations": 2048,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.5/relu/Relu_/layer3/layer3.5/conv1/Conv_output_0",
+                        "name": "/layer3/layer3.5/conv1/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.5/relu/Relu_/layer3/layer3.5/relu/Relu_output_0",
+                        "name": "/layer3/layer3.5/relu/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.5/conv2/Conv",
+                "name": "/layer3/layer3.5/conv2/Conv",
+                "operations": 4720640,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.5/conv2/Conv_/layer3/layer3.5/relu/Relu_output_0",
+                        "name": "/layer3/layer3.5/relu/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.5/conv2/Conv_onnx::Conv_624",
+                        "name": "onnx::Conv_624",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.5/conv2/Conv_onnx::Conv_625",
+                        "name": "onnx::Conv_625",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.5/conv2/Conv_/layer3/layer3.5/conv2/Conv_output_0",
+                        "name": "/layer3/layer3.5/conv2/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.5/relu_1/Relu",
+                "name": "/layer3/layer3.5/relu_1/Relu",
+                "operations": 2048,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.5/relu_1/Relu_/layer3/layer3.5/conv2/Conv_output_0",
+                        "name": "/layer3/layer3.5/conv2/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.5/relu_1/Relu_/layer3/layer3.5/relu_1/Relu_output_0",
+                        "name": "/layer3/layer3.5/relu_1/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.5/conv3/Conv",
+                "name": "/layer3/layer3.5/conv3/Conv",
+                "operations": 2105344,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.5/conv3/Conv_/layer3/layer3.5/relu_1/Relu_output_0",
+                        "name": "/layer3/layer3.5/relu_1/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.5/conv3/Conv_onnx::Conv_627",
+                        "name": "onnx::Conv_627",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.5/conv3/Conv_onnx::Conv_628",
+                        "name": "onnx::Conv_628",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.5/conv3/Conv_/layer3/layer3.5/conv3/Conv_output_0",
+                        "name": "/layer3/layer3.5/conv3/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.5/Add",
+                "name": "/layer3/layer3.5/Add",
+                "operations": 8192,
+                "operator_type": "Add",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.5/Add_/layer3/layer3.5/conv3/Conv_output_0",
+                        "name": "/layer3/layer3.5/conv3/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.5/Add_/layer3/layer3.4/relu_2/Relu_output_0",
+                        "name": "/layer3/layer3.4/relu_2/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.5/Add_/layer3/layer3.5/Add_output_0",
+                        "name": "/layer3/layer3.5/Add_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer3/layer3.5/relu_2/Relu",
+                "name": "/layer3/layer3.5/relu_2/Relu",
+                "operations": 8192,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer3/layer3.5/relu_2/Relu_/layer3/layer3.5/Add_output_0",
+                        "name": "/layer3/layer3.5/Add_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer3/layer3.5/relu_2/Relu_/layer3/layer3.5/relu_2/Relu_output_0",
+                        "name": "/layer3/layer3.5/relu_2/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer4/layer4.0/downsample/downsample.0/Conv",
+                "name": "/layer4/layer4.0/downsample/downsample.0/Conv",
+                "operations": 4198400,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.0/downsample/downsample.0/Conv_/layer3/layer3.5/relu_2/Relu_output_0",
+                        "name": "/layer3/layer3.5/relu_2/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.0/downsample/downsample.0/Conv_onnx::Conv_639",
+                        "name": "onnx::Conv_639",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.0/downsample/downsample.0/Conv_onnx::Conv_640",
+                        "name": "onnx::Conv_640",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer4/layer4.0/downsample/downsample.0/Conv_/layer4/layer4.0/downsample/downsample.0/Conv_output_0",
+                        "name": "/layer4/layer4.0/downsample/downsample.0/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer4/layer4.0/conv1/Conv",
+                "name": "/layer4/layer4.0/conv1/Conv",
+                "operations": 4198400,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.0/conv1/Conv_/layer3/layer3.5/relu_2/Relu_output_0",
+                        "name": "/layer3/layer3.5/relu_2/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.0/conv1/Conv_onnx::Conv_630",
+                        "name": "onnx::Conv_630",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.0/conv1/Conv_onnx::Conv_631",
+                        "name": "onnx::Conv_631",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer4/layer4.0/conv1/Conv_/layer4/layer4.0/conv1/Conv_output_0",
+                        "name": "/layer4/layer4.0/conv1/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer4/layer4.0/relu/Relu",
+                "name": "/layer4/layer4.0/relu/Relu",
+                "operations": 4096,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.0/relu/Relu_/layer4/layer4.0/conv1/Conv_output_0",
+                        "name": "/layer4/layer4.0/conv1/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer4/layer4.0/relu/Relu_/layer4/layer4.0/relu/Relu_output_0",
+                        "name": "/layer4/layer4.0/relu/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer4/layer4.0/conv2/Conv",
+                "name": "/layer4/layer4.0/conv2/Conv",
+                "operations": 4719616,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.0/conv2/Conv_/layer4/layer4.0/relu/Relu_output_0",
+                        "name": "/layer4/layer4.0/relu/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.0/conv2/Conv_onnx::Conv_633",
+                        "name": "onnx::Conv_633",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.0/conv2/Conv_onnx::Conv_634",
+                        "name": "onnx::Conv_634",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer4/layer4.0/conv2/Conv_/layer4/layer4.0/conv2/Conv_output_0",
+                        "name": "/layer4/layer4.0/conv2/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer4/layer4.0/relu_1/Relu",
+                "name": "/layer4/layer4.0/relu_1/Relu",
+                "operations": 1024,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.0/relu_1/Relu_/layer4/layer4.0/conv2/Conv_output_0",
+                        "name": "/layer4/layer4.0/conv2/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer4/layer4.0/relu_1/Relu_/layer4/layer4.0/relu_1/Relu_output_0",
+                        "name": "/layer4/layer4.0/relu_1/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer4/layer4.0/conv3/Conv",
+                "name": "/layer4/layer4.0/conv3/Conv",
+                "operations": 2101248,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.0/conv3/Conv_/layer4/layer4.0/relu_1/Relu_output_0",
+                        "name": "/layer4/layer4.0/relu_1/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.0/conv3/Conv_onnx::Conv_636",
+                        "name": "onnx::Conv_636",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.0/conv3/Conv_onnx::Conv_637",
+                        "name": "onnx::Conv_637",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer4/layer4.0/conv3/Conv_/layer4/layer4.0/conv3/Conv_output_0",
+                        "name": "/layer4/layer4.0/conv3/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer4/layer4.0/Add",
+                "name": "/layer4/layer4.0/Add",
+                "operations": 4096,
+                "operator_type": "Add",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.0/Add_/layer4/layer4.0/conv3/Conv_output_0",
+                        "name": "/layer4/layer4.0/conv3/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.0/Add_/layer4/layer4.0/downsample/downsample.0/Conv_output_0",
+                        "name": "/layer4/layer4.0/downsample/downsample.0/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer4/layer4.0/Add_/layer4/layer4.0/Add_output_0",
+                        "name": "/layer4/layer4.0/Add_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer4/layer4.0/relu_2/Relu",
+                "name": "/layer4/layer4.0/relu_2/Relu",
+                "operations": 4096,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.0/relu_2/Relu_/layer4/layer4.0/Add_output_0",
+                        "name": "/layer4/layer4.0/Add_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer4/layer4.0/relu_2/Relu_/layer4/layer4.0/relu_2/Relu_output_0",
+                        "name": "/layer4/layer4.0/relu_2/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer4/layer4.1/conv1/Conv",
+                "name": "/layer4/layer4.1/conv1/Conv",
+                "operations": 2098176,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.1/conv1/Conv_/layer4/layer4.0/relu_2/Relu_output_0",
+                        "name": "/layer4/layer4.0/relu_2/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.1/conv1/Conv_onnx::Conv_642",
+                        "name": "onnx::Conv_642",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.1/conv1/Conv_onnx::Conv_643",
+                        "name": "onnx::Conv_643",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer4/layer4.1/conv1/Conv_/layer4/layer4.1/conv1/Conv_output_0",
+                        "name": "/layer4/layer4.1/conv1/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer4/layer4.1/relu/Relu",
+                "name": "/layer4/layer4.1/relu/Relu",
+                "operations": 1024,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.1/relu/Relu_/layer4/layer4.1/conv1/Conv_output_0",
+                        "name": "/layer4/layer4.1/conv1/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer4/layer4.1/relu/Relu_/layer4/layer4.1/relu/Relu_output_0",
+                        "name": "/layer4/layer4.1/relu/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer4/layer4.1/conv2/Conv",
+                "name": "/layer4/layer4.1/conv2/Conv",
+                "operations": 4719616,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.1/conv2/Conv_/layer4/layer4.1/relu/Relu_output_0",
+                        "name": "/layer4/layer4.1/relu/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.1/conv2/Conv_onnx::Conv_645",
+                        "name": "onnx::Conv_645",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.1/conv2/Conv_onnx::Conv_646",
+                        "name": "onnx::Conv_646",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer4/layer4.1/conv2/Conv_/layer4/layer4.1/conv2/Conv_output_0",
+                        "name": "/layer4/layer4.1/conv2/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer4/layer4.1/relu_1/Relu",
+                "name": "/layer4/layer4.1/relu_1/Relu",
+                "operations": 1024,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.1/relu_1/Relu_/layer4/layer4.1/conv2/Conv_output_0",
+                        "name": "/layer4/layer4.1/conv2/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer4/layer4.1/relu_1/Relu_/layer4/layer4.1/relu_1/Relu_output_0",
+                        "name": "/layer4/layer4.1/relu_1/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer4/layer4.1/conv3/Conv",
+                "name": "/layer4/layer4.1/conv3/Conv",
+                "operations": 2101248,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.1/conv3/Conv_/layer4/layer4.1/relu_1/Relu_output_0",
+                        "name": "/layer4/layer4.1/relu_1/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.1/conv3/Conv_onnx::Conv_648",
+                        "name": "onnx::Conv_648",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.1/conv3/Conv_onnx::Conv_649",
+                        "name": "onnx::Conv_649",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer4/layer4.1/conv3/Conv_/layer4/layer4.1/conv3/Conv_output_0",
+                        "name": "/layer4/layer4.1/conv3/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer4/layer4.1/Add",
+                "name": "/layer4/layer4.1/Add",
+                "operations": 4096,
+                "operator_type": "Add",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.1/Add_/layer4/layer4.1/conv3/Conv_output_0",
+                        "name": "/layer4/layer4.1/conv3/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.1/Add_/layer4/layer4.0/relu_2/Relu_output_0",
+                        "name": "/layer4/layer4.0/relu_2/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer4/layer4.1/Add_/layer4/layer4.1/Add_output_0",
+                        "name": "/layer4/layer4.1/Add_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer4/layer4.1/relu_2/Relu",
+                "name": "/layer4/layer4.1/relu_2/Relu",
+                "operations": 4096,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.1/relu_2/Relu_/layer4/layer4.1/Add_output_0",
+                        "name": "/layer4/layer4.1/Add_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer4/layer4.1/relu_2/Relu_/layer4/layer4.1/relu_2/Relu_output_0",
+                        "name": "/layer4/layer4.1/relu_2/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer4/layer4.2/conv1/Conv",
+                "name": "/layer4/layer4.2/conv1/Conv",
+                "operations": 2098176,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.2/conv1/Conv_/layer4/layer4.1/relu_2/Relu_output_0",
+                        "name": "/layer4/layer4.1/relu_2/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.2/conv1/Conv_onnx::Conv_651",
+                        "name": "onnx::Conv_651",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.2/conv1/Conv_onnx::Conv_652",
+                        "name": "onnx::Conv_652",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer4/layer4.2/conv1/Conv_/layer4/layer4.2/conv1/Conv_output_0",
+                        "name": "/layer4/layer4.2/conv1/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer4/layer4.2/relu/Relu",
+                "name": "/layer4/layer4.2/relu/Relu",
+                "operations": 1024,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.2/relu/Relu_/layer4/layer4.2/conv1/Conv_output_0",
+                        "name": "/layer4/layer4.2/conv1/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer4/layer4.2/relu/Relu_/layer4/layer4.2/relu/Relu_output_0",
+                        "name": "/layer4/layer4.2/relu/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer4/layer4.2/conv2/Conv",
+                "name": "/layer4/layer4.2/conv2/Conv",
+                "operations": 4719616,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.2/conv2/Conv_/layer4/layer4.2/relu/Relu_output_0",
+                        "name": "/layer4/layer4.2/relu/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.2/conv2/Conv_onnx::Conv_654",
+                        "name": "onnx::Conv_654",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.2/conv2/Conv_onnx::Conv_655",
+                        "name": "onnx::Conv_655",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer4/layer4.2/conv2/Conv_/layer4/layer4.2/conv2/Conv_output_0",
+                        "name": "/layer4/layer4.2/conv2/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer4/layer4.2/relu_1/Relu",
+                "name": "/layer4/layer4.2/relu_1/Relu",
+                "operations": 1024,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.2/relu_1/Relu_/layer4/layer4.2/conv2/Conv_output_0",
+                        "name": "/layer4/layer4.2/conv2/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer4/layer4.2/relu_1/Relu_/layer4/layer4.2/relu_1/Relu_output_0",
+                        "name": "/layer4/layer4.2/relu_1/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer4/layer4.2/conv3/Conv",
+                "name": "/layer4/layer4.2/conv3/Conv",
+                "operations": 2101248,
+                "operator_type": "Conv",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.2/conv3/Conv_/layer4/layer4.2/relu_1/Relu_output_0",
+                        "name": "/layer4/layer4.2/relu_1/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.2/conv3/Conv_onnx::Conv_657",
+                        "name": "onnx::Conv_657",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.2/conv3/Conv_onnx::Conv_658",
+                        "name": "onnx::Conv_658",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer4/layer4.2/conv3/Conv_/layer4/layer4.2/conv3/Conv_output_0",
+                        "name": "/layer4/layer4.2/conv3/Conv_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer4/layer4.2/Add",
+                "name": "/layer4/layer4.2/Add",
+                "operations": 4096,
+                "operator_type": "Add",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.2/Add_/layer4/layer4.2/conv3/Conv_output_0",
+                        "name": "/layer4/layer4.2/conv3/Conv_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.2/Add_/layer4/layer4.1/relu_2/Relu_output_0",
+                        "name": "/layer4/layer4.1/relu_2/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer4/layer4.2/Add_/layer4/layer4.2/Add_output_0",
+                        "name": "/layer4/layer4.2/Add_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/layer4/layer4.2/relu_2/Relu",
+                "name": "/layer4/layer4.2/relu_2/Relu",
+                "operations": 4096,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/layer4/layer4.2/relu_2/Relu_/layer4/layer4.2/Add_output_0",
+                        "name": "/layer4/layer4.2/Add_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/layer4/layer4.2/relu_2/Relu_/layer4/layer4.2/relu_2/Relu_output_0",
+                        "name": "/layer4/layer4.2/relu_2/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/avgpool/GlobalAveragePool",
+                "name": "/avgpool/GlobalAveragePool",
+                "operations": 20480,
+                "operator_type": "GlobalAveragePool",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/avgpool/GlobalAveragePool_/layer4/layer4.2/relu_2/Relu_output_0",
+                        "name": "/layer4/layer4.2/relu_2/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/avgpool/GlobalAveragePool_/avgpool/GlobalAveragePool_output_0",
+                        "name": "/avgpool/GlobalAveragePool_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/Flatten",
+                "name": "/Flatten",
+                "operations": 4096,
+                "operator_type": "Flatten",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/Flatten_/avgpool/GlobalAveragePool_output_0",
+                        "name": "/avgpool/GlobalAveragePool_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/Flatten_/Flatten_output_0",
+                        "name": "/Flatten_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/fc/fc.0/Gemm",
+                "name": "/fc/fc.0/Gemm",
+                "operations": 8320,
+                "operator_type": "Gemm",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/fc/fc.0/Gemm_/Flatten_output_0",
+                        "name": "/Flatten_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/fc/fc.0/Gemm_fc.0.weight",
+                        "name": "fc.0.weight",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/fc/fc.0/Gemm_fc.0.bias",
+                        "name": "fc.0.bias",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/fc/fc.0/Gemm_/fc/fc.0/Gemm_output_0",
+                        "name": "/fc/fc.0/Gemm_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/fc/fc.1/Relu",
+                "name": "/fc/fc.1/Relu",
+                "operations": 128,
+                "operator_type": "Relu",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/fc/fc.1/Relu_/fc/fc.0/Gemm_output_0",
+                        "name": "/fc/fc.0/Gemm_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/fc/fc.1/Relu_/fc/fc.1/Relu_output_0",
+                        "name": "/fc/fc.1/Relu_output_0",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            },
+            {
+                "id": "/fc/fc.2/Gemm",
+                "name": "/fc/fc.2/Gemm",
+                "operations": 220,
+                "operator_type": "Gemm",
+                "ports": [
+                    {
+                        "direction": "in",
+                        "id": "/fc/fc.2/Gemm_/fc/fc.1/Relu_output_0",
+                        "name": "/fc/fc.1/Relu_output_0",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/fc/fc.2/Gemm_fc.2.weight",
+                        "name": "fc.2.weight",
+                        "properties": []
+                    },
+                    {
+                        "direction": "in",
+                        "id": "/fc/fc.2/Gemm_fc.2.bias",
+                        "name": "fc.2.bias",
+                        "properties": []
+                    },
+                    {
+                        "direction": "out",
+                        "id": "/fc/fc.2/Gemm_output",
+                        "name": "output",
+                        "properties": []
+                    }
+                ],
+                "processor": "npu"
+            }
+        ],
+        "processors": [
+            {
+                "name": "cpu",
+                "properties": []
+            },
+            {
+                "name": "npu",
+                "properties": []
+            }
+        ],
+        "schema_version": {
+            "major": "0",
+            "minor": "0",
+            "patch": "0"
+        }
+    }
+}

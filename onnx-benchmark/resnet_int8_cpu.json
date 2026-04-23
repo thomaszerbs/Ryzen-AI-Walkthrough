@@ -1,0 +1,67 @@
+{
+    "run": {
+        "command": "performance_benchmark.py --model_path ../CNN-examples/getting_started_resnet/int8/models/resnet_quantized.onnx --execution_provider CPU --num 100 --config /scratch/thozerbs/ryzen_ai/venv/lib/python3.12/site-packages/voe-4.0-linux_x86_64/vaip_config.json",
+        "benchmark_release": 22,
+        "model": "../CNN-examples/getting_started_resnet/int8/models/resnet_quantized_BS1.onnx",
+        "execution_provider": "CPU"
+    },
+    "results": {
+        "performance": {
+            "total_throughput": 217.94671361324353,
+            "average_latency": 4.563435369742695,
+            "images_requested": 100,
+            "images_preloaded": 100,
+            "images_processed": 2200
+        },
+        "efficency perf/W": {
+            "apu_perf_pow": "N/A"
+        },
+        "energy mJ/frame": {
+            "apu": "N/A",
+            "cpu": "N/A",
+            "npu": "N/A",
+            "mem": "N/A"
+        }
+    },
+    "model": "../CNN-examples/getting_started_resnet/int8/models/resnet_quantized_BS1.onnx",
+    "vitisai": {
+        "all": 0,
+        "CPU": 0
+    },
+    "system": {
+        "frequency": {
+            "MPNPUCLK": 0,
+            "NPUHCLK": 0,
+            "FCLK": 0,
+            "LCLK": 0
+        },
+        "voltages": {
+            "CORE0": 0,
+            "CORE1": 0,
+            "CORE2": 0,
+            "CORE3": 0,
+            "CORE4": 0,
+            "CORE5": 0,
+            "CORE6": 0,
+            "CORE7": 0
+        },
+        "hw": {
+            "processor": "x86_64",
+            "num_cores": 32
+        },
+        "os": {
+            "os_version": "Linux-6.17.0-19-generic-x86_64-with-glibc2.39"
+        },
+        "resources": {
+            "CPU_usage": "3.8%",
+            "Memory": "86.64741516113281 GB",
+            "Swap_Memory": "6.297229766845703 GB"
+        },
+        "driver": {
+            "npu": "Unknown"
+        }
+    },
+    "environment": {
+        "packages": {}
+    }
+}
